@@ -1,9 +1,10 @@
-//package com.topcoder.problems.round165;
+
+package com.topcoder.problems.round165;
 //
-//import java.util.ArrayList;
-//import java.util.Collections;
-//import java.util.Comparator;
-//import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 //
 ////http://community.topcoder.com/stat?c=problem_statement&pm=1879&rd=4630
 //public class Scheduling
@@ -318,3 +319,145 @@
 //    }
 //
 //}
+
+public class Scheduling
+{
+  class Task
+  {
+      int index;
+      int time;
+      List<Task> dependentTasks;
+      int currentActiveDependencis;
+      
+      Task ( int index,
+             List<Task> list,
+             int dependencies,
+             int time)
+      {
+          this.index = index;
+          this.dependentTasks = list;
+          this.currentActiveDependencis = dependencies;
+          this.time = time;
+      }
+      
+  }
+
+    public int fastest(String[] dag)
+    {
+        Task[] tasks = parseAndTransform(dag);
+        boolean[] completed = new boolean[tasks.length];
+        int best = solve(tasks,
+                         completed,
+                         -1,
+                          0);
+        return best;
+    }
+    
+      private int solve(Task[] tasks,
+                         boolean[] completed,
+                         int currentTaskIndex,
+                         int delay)
+    {
+        if ( allTheTasksCompleted(completed) )
+        {
+            return delay;
+        }
+        
+        int best = Integer.MAX_VALUE;
+        for ( Task t : tasks)
+        {
+            if ( isEligibleToRun(t, completed))
+            {
+                if ( t.time > delay)
+                {
+                    completed[t.index] = true;
+                    best = Math.min(best, delay+ solve(tasks,
+                                                       completed,
+                                                       t.index,
+                                                       t.time - delay));
+                    completed[t.index] = false;
+                }
+                else
+                {
+                    best = Math.min(best, t.time +solve(tasks,
+                                                        completed,
+                                                        currentTaskIndex,
+                                                        delay - t.time));                 
+                }
+            }            
+        }
+        
+        if ( currentTaskIndex != -1)
+        {
+            best = Math.min(best , delay+ solve(tasks,
+                                                completed,
+                                                -1,
+                                                0));
+        }
+        return best;
+    }
+
+    private boolean isEligibleToRun(Task t, boolean[] completed)
+    {
+        if (completed[t.index])
+            return false;
+        List<Task> list = t.dependentTasks;
+        for ( Task t1 : list )
+        {
+            if ( !completed[t1.index] )
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private boolean allTheTasksCompleted(boolean[] completed)
+    {
+        for ( int i = 0 ; i < completed.length  ; i++ )
+        {
+            if ( !completed[i] )
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+    private Task[] parseAndTransform(String[] dag)
+      {
+          int index = 0;
+          Task[] retVal = new Task[dag.length];
+          for ( String str : dag )
+          {
+              String[] arr = str.split(":");
+              int time  = Integer.parseInt(arr[0]);
+              List<Task> dependencies = new ArrayList<Task>();
+              if ( arr.length > 1 )
+              {
+                  String[] dependenciesArr = arr[1].split(",");
+                  for ( int j = 0 ; j < dependenciesArr.length ; j++ )
+                  {
+                      int dependency = Integer.parseInt(dependenciesArr[j]);
+                      dependencies.add(retVal[dependency]);
+                  }
+              }
+              
+              retVal[index] = new Task(index,
+                                       dependencies,
+                                       dependencies == null ? 0 : dependencies.size(),
+                                       time);
+              index++;
+          }
+          return retVal;
+      }
+    
+    public static void main(String[] args)
+    {
+        String[] input = {"3:", "2:", "4:", "7:0,1,2"};
+        int result = new Scheduling().fastest(input);
+        System.out.println(result);
+    }
+    
+}

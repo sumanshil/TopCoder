@@ -7,6 +7,11 @@ public class BaseTrie
         public void inspect(TrieNode node);       
     }
     
+    public static BaseTrie getInstance()
+    {
+        return new BaseTrie();
+    }
+    
     static class TrieNode
     {
         char data;
@@ -31,7 +36,7 @@ public class BaseTrie
         
         public TrieNode insert(char c, NodeInsertCallback callback)
         {
-            int index = c - '0';
+            int index = c - 'a';
             if ( children[index] == null )
             {
                 children[index] = new TrieNode(c);
