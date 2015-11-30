@@ -1,7 +1,5 @@
 package com.topcoder.problems.round169;
 
-import com.sun.javafx.image.IntPixelGetter;
-
 /**
  * Created by SumanChandra on 11/8/2015.
  */
@@ -72,5 +70,19 @@ public class MineField {
                 System.out.println("Not a proper array");
             }
         }
+    }
+
+    public void booleanTest(){
+        Boolean flag = true;
+        test(flag);
+        System.out.println(flag);
+    }
+
+    private void test(Boolean flag) {
+        flag = false;
+    }
+
+    public static void main(String[] args){
+         new MineField().booleanTest();
     }
 }
