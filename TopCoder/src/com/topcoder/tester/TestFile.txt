@@ -1,186 +1,159 @@
-com.topcoder.problems.round164.UserId
-id
-	{"bjones", "bjones03", "bmjones", "old34id"}, "Bob", "", "Jones"		"bjones01"		Passed	
+com.topcoder.problems.round169.Twain
+getNewSpelling
+	1, "i fixed the chrome xerox by the cyclical church"		"i fiksed the chrome zeroks by the cyclical church"		Passed
 
 
-	{"bjones", "bjones03", "bmjones", "old34id"}, "Bob Mack", "Hertobise", "Jone's"		"bhjones"		Passed	
+	2, "i fixed the chrome xerox by the cyclical church"		"i fiksed the chrome zeroks bi the ciclical church"		Passed
 
 
-	{"bjones", "bjones03", "bmjones", "old34id"}, "Bob Mack", "Hertobise", "Jonestone"		"bjonesto"		Passed	
+	0, "this is unchanged"		"this is unchanged"		Passed
 
 
-	{"bjonesto", "bjones01", "bmjonest", "old34id"}, "BoB Mack", "Mo", "Jonestone"		"bjones02"		Passed	
+	7, "sch kn x xschrx cknnchc cyck xxceci"		"sk n z zskrks nchk sik zksesi"		Passed
 
 
-	{"bjonesto", "bjones01", "bjonesto", "old34id"}, "BoB-Mack", "Mo", "Jonestone"		"BAD DATA"		Passed	
+	7, " concoction convalescence cyclical cello "		" konkoktion konvalesense siklikal selo "		Passed
 
 
-	{"axbc", "axbc01", "axbc02", "axbc03", "axbc04", "axbc05", "axbc06", "axbc07", "axbc08", "axbc09", "axbc10"}, "Axelrod", "X", "'B Cal'm'"		"abcalm"		Passed	
+	7, ""		""		Passed
 
 
-	{"axbc", "axbc01", "axbc02", "axbc03", "axbc04", "axbc05", "axbc06", "axbc07", "axbc08", "axbc09", "axbc10"}, "A'", "XX", "BC"		"BAD DATA"		Passed	
+	7, "a sly gypsy yelled loudly by the gym yesterday"		"a sli gipsi ieled loudli bi the gim iesterdai"		Passed
 
 
-	{"axbc", "abc01", "abc02", "abc03", "abc04", "abc05", "abc06", "abc07", "abc08", "abc09", "abc10", "abc"}, "A B", "X", "'B'C"		"abc11"		Passed	
+	0, "sch kn x xschrx cknnchc cyck xxceci"		"sch kn x xschrx cknnchc cyck xxceci"		Passed
 
 
-	{"axbc", "abc01", "abc02", "abc03", "abc04", "abc05", "abc06", "abc07", "abc08", "abc09", "abc10", "abc"}, "A'p", "", "B C"		"abc11"		Passed	
+	1, "sch kn x xschrx cknnchc cyck xxceci"		"sch kn z zschrks cknnchc cyck zksceci"		Passed
 
 
-	{"axbc", "abc01", "abc02", "abc03", "abc04", "abc05", "abc06", "abc07", "abc08", "abc09", "abc10", "abc"}, "A'p", "Pernicious", "B '''C"		"apbc"		Passed	
+	2, "sch kn x xschrx cknnchc cyck xxceci"		"sch kn z zschrks cknnchc cick zksceci"		Passed
 
 
-	{"axbc", "abc01", "abc02", "abc03", "abc04", "abc05", "abc06", "abc07", "abc08", "abc09", "abc10", "abc"}, "Alvin01", "Baker", "Finch"		"BAD DATA"		Passed	
+	3, "sch kn x xschrx cknnchc cyck xxceci"		"sch kn z zschrks cknnchc sick zkssesi"		Passed
 
 
-	{"abc", "adefores"}, "Alvin", "O'Neill", "DeForest"		"aodefore"		Passed	
+	4, "sch kn x xschrx cknnchc cyck xxceci"		"sch kn z zschrks knnchc sik zkssesi"		Passed
 
 
-	{"abc", "aodefore"}, "Alvin", "O'Neill", "DeForest"		"adefores"		Passed	
+	5, "sch kn x xschrx cknnchc cyck xxceci"		"sk kn z zskrks knnchk sik zkssesi"		Passed
 
 
-	{"aabc"}, " aa", "'", " abc"		"aabc01"		Passed	
+	6, "sch kn x xschrx cknnchc cyck xxceci"		"sk n z zskrks nnchk sik zkssesi"		Passed
 
 
-	{"momorris", "mmmm", "momorr01"}, "'m m", "", "O'Morrisy"		"momorr02"		Passed	
+	6, "magic circus giraffes suffer dazzling performances"		"magik sirkus giraffes suffer dazzling performanses"		Passed
 
 
-	{}, "'m m", "J.J", "O'Morrisy"		"BAD DATA"		Passed	
+	7, "x"		"z"		Passed
 
 
-	{"axbc", "abc01", "abc03", "abc04", "abc05", "abc06", "abc07", "abc02", "abc09", "abc10", "abc"}, "A'p", "", "B C"		"abc08"		Passed	
+	7, "kn"		"n"		Passed
 
 
-	{"axbc", "abc01", "abc02", "abc03", "abc04", "abc05", "abc06", "abc07", "abc08", "abc09", "abc10", "abc"}, "A'p", " 'YXx'CX", "B C"		"aybc"		Passed	
+	7, "aabbccddeeffgghhiijjkkll"		"aabkdeefghiijkl"		Passed
 
 
-	{"axbc", "abc01", "abc02", "abc03", "abc04", "abc05", "abc06", "abc07", "abc08", "abc09", "abc10", "abc"}, "A'p", "X02", "B C"		"BAD DATA"		Passed	
+	7, "mmnnooppqqrrssttuuvvwwxxyyzz"		"mnoopqrstuuvwksksiiz"		Passed
 
 
-	{"axbc", "abc01", "abc02", "abc03", "abc04", "abc05", "abc06", "abc07", "abc08", "abc09", "abc10", "abc"}, "A'p", "", " ' B C"		"abc11"		Passed	
+	7, "the bookkeeper recalled rearranging the bookcase"		"the bookeeper rekaled rearanging the bookase"		Passed
 
 
-	{"jjames"}, "joe1", "", "james"		"BAD DATA"		Passed	
+	6, "carcass circus caucus catchy catch chance charisma"		"karkass sirkus kaukus katchi katch chanse charisma"		Passed
 
 
-	{}, " A", " B", " CCCCCCCCCC"		"BAD DATA"		Passed	
+	5, "chancellor chocolate chaotic chronological chuckle"		"chansellor chokolate chaotik kronologikal chukle"		Passed
 
 
-	{}, "foo", ".", "bar"		"BAD DATA"		Passed	
+	4, "church circa circle circuit circumstance chronicle"		"church sirca sircle sircuit sircumstanse chronicle"		Passed
 
 
-	{}, " s", " a", " a"		"BAD DATA"		Passed	
+	3, "circumcise circumference cockroach clench chicken"		"sircumsise sircumferense cockroach clench chicken"		Passed
 
 
-	{}, "''''''G", "''", "''''''M"		"BAD DATA"		Passed	
+	7, "chaos choice character charade chasm chemical"		"chaos choise charakter charade chasm chemikal"		Passed
 
 
-	{"aaa"}, " ", "aaa", "aaaa"		"BAD DATA"		Passed	
+	1, "xylophone xenon xanthum exclaim expert sioux"		"zylophone zenon zanthum eksclaim ekspert siouks"		Passed
 
 
-	{"aaaaron"}, " ", "a", " "		"BAD DATA"		Passed	
+	7, "scholar school schooner scholastic schwab"		"skolar skool skooner skolastik skwab"		Passed
 
 
-	{"bob"}, "fred", "w", ""		"BAD DATA"		Passed	
+	7, "sch"		"sk"		Passed
 
 
-	{}, "A", "", "AAAAA"		"BAD DATA"		Passed	
+	7, " chandelier tom cellocck xzz zzx cck "		" chandelier tom selok z zks k "		Passed
 
 
-	{}, "J'", "", "abcd"		"BAD DATA"		Passed	
+	7, "could my mighty knight always protect castles"		"kould mi mighti night alwais protekt kastles"		Passed
 
 
-	{}, " ", "A", " "		"BAD DATA"		Passed	
+	7, "cck xzz aaaaa"		"k z aaaaa"		Passed
 
 
-	{}, "''''''''''''' G", "'' '", " 'M' "		"BAD DATA"		Passed	
+	5, "cchh"		"kchh"		Passed
 
 
-	{}, "''s", "", "''s"		"BAD DATA"		Passed	
+	7, "abba"		"aba"		Passed
 
 
-	{}, " A", " B", " CCCCCCC"		"BAD DATA"		Passed	
+	7, "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"		"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"		Passed
 
 
-	{}, "''''G", "'' ''", "''''M"		"BAD DATA"		Passed	
+	7, " concoction convalescence cyclical cello "		" konkoktion konvalesense siklikal selo "		Passed
 
 
-	{}, "a'", "b", "cdef"		"BAD DATA"		Passed	
+	7, "cck xzz aaaaa"		"k z aaaaa"		Passed
 
 
-	{}, "a ", "asdf", "asdf"		"BAD DATA"		Passed	
+	7, "vv"		"v"		Passed
 
 
-	{"jjames"}, "o'", "", "toole"		"BAD DATA"		Passed	
+	1, "x"		"z"		Passed
 
 
-	{}, "A", "", "b"		"BAD DATA"		Passed	
+	7, "a b c d e"		"a b k d e"		Passed
 
 
-	{}, "''''G", "''", "''''M"		"BAD DATA"		Passed	
+	7, "sch kn x xschrx cknnchc cyck xxceci"		"sk n z zskrks nchk sik zksesi"		Passed
 
 
-	{"blood"}, "B", "ABRAHAM", "ONEAL"		"BAD DATA"		Passed	
+	1, "xoxox"		"zoksoks"		Passed
 
 
-	{}, " a", "", " s"		"BAD DATA"		Passed	
+	6, "kooc cooc cooc cooc cooc"		"kook kook kook kook kook"		Passed
 
 
-	{}, " a", "a", " a"		"BAD DATA"		Passed	
+	2, "i fixed the chrome xerox by the cyclical church"		"i fiksed the chrome zeroks bi the ciclical church"		Passed
 
 
-	{"bjones"}, "Bob", "' '", "Jones"		"bjones01"		Passed	
+	5, " concatenation cck"		" konkatenation k"		Passed
 
 
-	{"jwerner"}, "juergen", "", "werner"		"jwerne01"		Passed	
+	7, "sch chr zzbzzb aa bccb xx cei cb ci chr chk"		"sk kr zbzb aa bkb zks sei kb si kr chk"		Passed
 
 
-	{"jjkames"}, "o'", "", "toolt"		"BAD DATA"		Passed	
+	6, "cooc cooc cooc cooc"		"kook kook kook kook"		Passed
 
 
-	{}, "a", "b", "c"		"BAD DATA"		Passed	
+	5, "c"		"k"		Passed
 
 
-	{"aaa"}, " ", "aaa", "aaa"		"BAD DATA"		Passed	
+	1, "xenon xenon"		"zenon zenon"		Passed
 
 
-	{}, "a'''", "", "haaa"		"BAD DATA"		Passed	
+	7, " xx xx xxdxx knndsch sch schrrhc yiiyy knnsc "		" zks zks zksdksks ndsch sk skrhk iiiii nsk "		Passed
 
 
-	{}, "B'", "", "DAVIS"		"BAD DATA"		Passed	
+	7, "thsx xstt cic tess ofc knkn zzoopp xox cyci"		"thsks zst sik tes ofk nkn zoop zoks sisi"		Passed
 
 
-	{}, "b", "", "z"		"BAD DATA"		Passed	
+	7, "aaa iii eeknee"		"aaa iii eeknee"		Passed
 
 
-	{}, "m", "", "m"		"BAD DATA"		Passed	
+	1, "xfdkjf xdksax"		"zfdkjf zdksaks"		Passed
 
 
-	{"bjones", "bjones03", "bmjones", "old34id"}, "B", "", "Jones"		"BAD DATA"		Passed	
-
-
-	{"sadffasd"}, "o'", "", "toole"		"BAD DATA"		Passed	
-
-
-	{}, "''a", "", "''b"		"BAD DATA"		Passed	
-
-
-	{}, "m", "", "mm"		"BAD DATA"		Passed	
-
-
-	{}, "A", "BOB", "BOB"		"BAD DATA"		Passed	
-
-
-	{"ireally", "hope", "this", "works"}, "johnz", "rob", "azzaazz"		"jazzaazz"		Passed	
-
-
-	{"jwerner"}, " 'J '", "", "Werner"		"BAD DATA"		Passed	
-
-
-	{"aaa"}, "a", "a", "a"		"BAD DATA"		Passed	
-
-
-	{}, "A", "B", "C"		"BAD DATA"		Passed	
-
-
-	{}, "A'", "B", "C'"		"BAD DATA"		Passed				
+	7, "ch"		"ch"		Passed

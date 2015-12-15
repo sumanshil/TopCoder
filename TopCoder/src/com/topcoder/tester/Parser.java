@@ -4,19 +4,16 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Iterator;
 import java.util.function.Consumer;
 
-import com.topcoder.problems.Test;
-
 public class Parser implements Iterator<String>
 {
-    private static String fileName = "C:/Users/sshil.ORADEV/Downloads/TopCoder/src/com/topcoder/tester/TestFile.txt";
-    private static String targetFileName = "C:/Users/sshil.ORADEV/Downloads/TopCoder/src/com/topcoder/tester/TargetTestFile.txt";
+    private static String fileName = "C:\\Users\\sshil\\Downloads\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TestFile.txt";
+    private static String targetFileName = "C:\\Users\\sshil\\Downloads\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TargetTestFile.txt";
     private BufferedReader reader;
     private BufferedWriter writer;
     private String nextLine;
