@@ -3,13 +3,13 @@ package com.heap;
 /**
  * Created by sshil on 4/18/2016.
  */
-public class MinHeap{
+public class MinHeap<T extends Object>{
     private int maxSize = Integer.MAX_VALUE;
     private int currentIndex = 0;
+    private boolean isEmpty = false;
+    private MinHeapNode<T>[] arr = null;
 
-    private MinHeapNode[] arr = null;
-
-    public MinHeapNode getTop(){
+    public MinHeapNode<T> getTop(){
         return arr[1];
     }
 
@@ -21,14 +21,22 @@ public class MinHeap{
         this.maxSize = maxSize;
         arr = new MinHeapNode[maxSize+1];
         currentIndex = 1;
+        isEmpty = true;
     }
 
-    public void insert(MinHeapNode minHeapNode){
+    public boolean isEmpty(){
+        return isEmpty;
+    }
+
+    public void insert(MinHeapNode<T> minHeapNode){
         if (currentIndex <= maxSize){
             arr[currentIndex] = minHeapNode;
             minHeapNode.setHeapIndex(currentIndex);
             upHeap(currentIndex);
             currentIndex++;
+            if (isEmpty) {
+                isEmpty = false;
+            }
         }
     }
 
@@ -44,15 +52,22 @@ public class MinHeap{
         }
     }
 
-    public MinHeapNode extractMin(){
-        MinHeapNode retVal = arr[1];
+    public MinHeapNode<T> extractMin(){
+        if (isEmpty){
+            return null;
+        }
+        MinHeapNode<T> retVal = arr[1];
         if (currentIndex > 1) {
-            arr[1] = arr[--currentIndex];
+            //arr[1] = arr[--currentIndex];
+            swap(1, --currentIndex);
+            arr[currentIndex] = null;
             downHeap(1);
         } else {
             currentIndex = 1;
         }
-        //currentIndex = currentIndex-1;
+        if (currentIndex == 1){
+            isEmpty = true;
+        }
         return retVal;
     }
 
@@ -85,16 +100,16 @@ public class MinHeap{
 
     public void printContent(){
         for (int i = 1 ; i < currentIndex ; i++){
-            System.out.println("===>"+arr[i].getData());
+            System.out.println("===>"+arr[i].getData()+" ===> "+arr[i].getHeapQualifier());
         }
     }
 
     private void swap(int pos1, int pos2) {
         MinHeapNode temp = arr[pos1];
         arr[pos1] = arr[pos2];
-        arr[pos1].setHeapIndex(pos2);
+        arr[pos1].setHeapIndex(pos1);
         arr[pos2] = temp;
-        arr[pos2].setHeapIndex(pos1);
+        arr[pos2].setHeapIndex(pos2);
     }
 
 }

@@ -31,7 +31,7 @@ public class PermutationOfAString {
 	}
 
 	public static void main(String[] args) {
-		String str = "suman";
+		String str = "abc";
 		new PermutationOfAString().permute(str);
 	}
 }

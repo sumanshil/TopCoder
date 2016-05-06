@@ -3,29 +3,39 @@ package com.heap;
 /**
  * Created by sshil on 4/18/2016.
  */
-public class MinHeapNode {
-    private String data;
+public class MinHeapNode<T extends Object> {
+    private Object data;
     private int heapIndex;
     private int heapQualifier;
-    private MinHeap minHeap;
+    private MinHeap<T> minHeap;
+    private MinHeapKey<T> minHeapKey;
 
-    public MinHeapNode(MinHeap minHeap) {
+    public MinHeapNode(MinHeap<T> minHeap, MinHeapKey<T> minHeapKey) {
         this.minHeap = minHeap;
+        this.minHeapKey = minHeapKey;
     }
 
-    public String getData() {
+    public MinHeapKey<T> getMinHeapKey() {
+        return minHeapKey;
+    }
+
+    public void setMinHeapKey(MinHeapKey<T> minHeapKey) {
+        this.minHeapKey = minHeapKey;
+    }
+
+    public Object getData() {
         return data;
     }
 
-    public MinHeap getMinHeap() {
+    public MinHeap<T> getMinHeap() {
         return minHeap;
     }
 
-    public void setMinHeap(MinHeap minHeap) {
+    public void setMinHeap(MinHeap<T> minHeap) {
         this.minHeap = minHeap;
     }
 
-    public void setData(String data) {
+    public void setData(Object data) {
         this.data = data;
     }
 
