@@ -6,10 +6,24 @@ package com.geeksforgeeks.graph;
 public class Edge<T extends Object> {
     private T source;
     private T destination;
+    private int weight;
 
-    public Edge(T source, T destination){
+    public Edge(T source, T destination, int weight) {
         this.source = source;
         this.destination = destination;
+        this.weight = weight;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public Edge(T source, T destination){
+        this(source, destination, 0);
     }
 
     public T getSource() {
@@ -28,7 +42,22 @@ public class Edge<T extends Object> {
         this.destination = destination;
     }
 
+
     public String toString(){
-        return "Source ===> "+this.source.toString()+" ====> " +this.destination.toString();
+        return "Source ===> "
+            +this.source.toString()+" ====> "
+            +this.destination.toString()+"  weight "+this.getWeight();
+    }
+
+    @Override
+    public boolean equals(Object o){
+        return o != null
+            && ((Edge)o).getSource().equals(this.getSource())
+            && ((Edge)o).getDestination().equals(this.getDestination());
+    }
+
+    @Override
+    public int hashCode(){
+        return this.getSource().hashCode()*17 + this.getDestination().hashCode();
     }
 }

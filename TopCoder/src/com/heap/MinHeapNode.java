@@ -4,7 +4,7 @@ package com.heap;
  * Created by sshil on 4/18/2016.
  */
 public class MinHeapNode<T extends Object> {
-    private Object data;
+    private T data;
     private int heapIndex;
     private int heapQualifier;
     private MinHeap<T> minHeap;
@@ -23,7 +23,7 @@ public class MinHeapNode<T extends Object> {
         this.minHeapKey = minHeapKey;
     }
 
-    public Object getData() {
+    public T getData() {
         return data;
     }
 
@@ -35,7 +35,7 @@ public class MinHeapNode<T extends Object> {
         this.minHeap = minHeap;
     }
 
-    public void setData(Object data) {
+    public void setData(T data) {
         this.data = data;
     }
 

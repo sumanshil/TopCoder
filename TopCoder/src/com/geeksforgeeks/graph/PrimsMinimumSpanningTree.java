@@ -34,13 +34,16 @@ public class PrimsMinimumSpanningTree {
             if (edgeMap.containsKey(root)){
                 resultList.add(edgeMap.get(root));
             }
+            System.out.println("Current vertex "+root.getData().getData());
             Vertex<String> currentVertex = root.getMinHeapKey().getKey();
                 currentVertex
                 .getNeighbors()
                 .stream()
                 .forEach(e -> {
+                    System.out.println("Considering neighbor "+e.getData());
                     int distance = currentVertex.getNeighborDistanceMap().get(e);
                     if (minHeapWithMap.contains(new MinHeapKey<>(e)) && minHeapWithMap.get(new MinHeapKey<>(e)).getHeapQualifier() > distance){
+                        System.out.println("Neighbor "+e.getData()+" is valid. Updating in Minheap");
                         minHeapWithMap.update(new MinHeapKey<>(e), distance, false);
                         edgeMap.put(e, new Edge<>(currentVertex, e));
                     }

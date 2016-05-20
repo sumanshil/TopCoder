@@ -12,7 +12,7 @@ import static javafx.scene.input.KeyCode.T;
 /**
  * Created by sshil on 3/26/2016.
  */
-public class Vertex<T> {
+public class Vertex<T> implements Comparable<Vertex<T>>{
 	private T data;
 	private List<Vertex<T>> neighbors = new ArrayList<>();
 	private Map<Vertex<T>, Integer> neighborDistanceMap = new HashMap<>();
@@ -78,5 +78,10 @@ public class Vertex<T> {
 
 	public String toString(){
 		return this.data.toString();
+	}
+
+	@Override
+	public int compareTo(Vertex<T> o) {
+		return o.getData().equals(this.getData()) ? 0 : -1;
 	}
 }

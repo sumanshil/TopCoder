@@ -9,6 +9,7 @@ import java.util.Map;
 
 public class MinHeapWithMap<T extends  Object> {
     private Map<MinHeapKey<T>, MinHeapNode<T>> map = new HashMap<>();
+    private Map<MinHeapKey<T>, Boolean> deletionTrackingMap = new HashMap<>();
     private MinHeap<T> minHeap = null;
 
     public MinHeapWithMap(int size){
@@ -45,11 +46,14 @@ public class MinHeapWithMap<T extends  Object> {
                 minHeap.upHeap(minHeapNode.getHeapIndex());
             }
         } else if (minHeap.getTop() != null && minHeap.getTop().getHeapQualifier() < minHeapNode.getHeapQualifier()) {
-            MinHeapNode top = minHeap.extractMin();
+            MinHeapNode<T> top = minHeap.extractMin();
             top.setHeapIndex(0);
+            deletionTrackingMap.put(top.getMinHeapKey(), true);
             minHeap.insert(minHeapNode);
+            deletionTrackingMap.put(key, false);
         } else if (minHeap.isSpaceAvailable()) {
             minHeap.insert(minHeapNode);
+            deletionTrackingMap.put(key, false);
         }
 
     }
@@ -59,7 +63,7 @@ public class MinHeapWithMap<T extends  Object> {
     }
 
     public boolean contains(MinHeapKey<T> minHeapKey){
-        return map.containsKey(minHeapKey);
+        return map.containsKey(minHeapKey) && !deletionTrackingMap.get(minHeapKey);
     }
 
     private MinHeapNode<T> setUpNewNode(MinHeapKey<T> key, int update) {
@@ -84,7 +88,9 @@ public class MinHeapWithMap<T extends  Object> {
     }
 
     public MinHeapNode<T> extract(){
-        return minHeap.extractMin();
+        MinHeapNode<T> minHeapNode = minHeap.extractMin();
+        deletionTrackingMap.put(minHeapNode.getMinHeapKey(), true);
+        return minHeapNode;
     }
 
     public boolean isEmpty(){
