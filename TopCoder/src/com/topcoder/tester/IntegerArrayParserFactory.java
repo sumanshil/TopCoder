@@ -1,10 +1,18 @@
 package com.topcoder.tester;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
 public class IntegerArrayParserFactory extends ParserFactory 
 {
+	@Override
+	public void print(Object object){
+		Integer[] arr = (Integer[])object;
+		Arrays.asList(arr).stream().forEach(System.out::println);
+	}
+
+
 	@Override
 	public ParseResult parse(String input, int startIndex) 
 	{

@@ -25,7 +25,10 @@ public abstract class ParserFactory
 			return value;
 		}
 	}
-	
+	public void print(Object object){
+		System.out.println(object);
+	}
+
 	private static Map<FactoryType, ParserFactory> map = new HashMap<FactoryType, ParserFactory>(); 
 	static 
 	{

@@ -57,6 +57,10 @@ public class Vertex<T> implements Comparable<Vertex<T>>{
 		return neighborDistanceMap;
 	}
 
+	public Integer getNeighhborDistance(Vertex<T> vertex){
+		return neighborDistanceMap.get(vertex);
+	}
+
 	public void setNeighborDistanceMap(Map<Vertex<T>, Integer> neighborDistanceMap) {
 		this.neighborDistanceMap = neighborDistanceMap;
 	}

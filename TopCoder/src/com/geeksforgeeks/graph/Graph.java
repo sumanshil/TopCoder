@@ -17,6 +17,10 @@ public class Graph<T> {
 		return nodes;
 	}
 
+	public int size(){
+		return nodes.size();
+	}
+
 	public static void main(String[] args) {
 		Graph<Integer> graph = new Graph<>();
 		Vertex<Integer> vertex1 = new Vertex<>(1);
