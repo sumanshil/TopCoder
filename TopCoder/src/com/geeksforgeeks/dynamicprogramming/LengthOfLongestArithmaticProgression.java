@@ -9,6 +9,38 @@ import java.util.IntSummaryStatistics;
 //http://www.geeksforgeeks.org/length-of-the-longest-arithmatic-progression-in-a-sorted-array/
 public class LengthOfLongestArithmaticProgression {
 
+    public void dynamicProgramming(int[] arr){
+        int n = arr.length;
+        int[][] matrix = new int[n][n];
+        for ( int i = 0 ; i < n ; i++) {
+            matrix[i][n-1] =2 ;
+        }
+        int llap = 2;
+        for ( int j = n-2 ; j >= 1 ; j--){
+            int i = j-1;
+            int k = j+1;
+            while( i >= 0 && k <= n-1) {
+                if (arr[i] + arr[k] < 2 * arr[j]) {
+                    k++;
+                } else if (arr[i] + arr[k] > 2 * arr[j]) {
+                    matrix[i][j] = 2;
+                    i--;
+                } else {
+                    matrix[i][j] = matrix[j][k] + 1;
+                    llap = Math.max(llap, matrix[i][j]);
+                    i--;
+                    k++;
+                }
+            }
+            while(i >= 0){
+                matrix[i][j] = 2;
+                i--;
+            }
+        }
+        System.out.println(llap);
+    }
+
+
     public void find(int[] arr ){
         IntSummaryStatistics summaryStatistics = Arrays.stream(arr).summaryStatistics();
         int result = summaryStatistics.getMax();
@@ -31,6 +63,6 @@ public class LengthOfLongestArithmaticProgression {
 
     public static void main(String[] args) {
         int[] arr = {1, 7, 10, 13, 14, 19};
-        new LengthOfLongestArithmaticProgression().find(arr);
+        new LengthOfLongestArithmaticProgression().dynamicProgramming(arr);
     }
 }
