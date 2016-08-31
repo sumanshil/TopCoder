@@ -7,7 +7,8 @@ import java.sql.Statement;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.oracle.FacilityMapping.DSVS;
+import static com.migratioscript.FindDiff.CURRENTDSVS;
+import static com.migratioscript.FindDiff.DIFF_DSVS;
 
 /**
  * Created by sshil on 8/12/2016.
@@ -16,7 +17,7 @@ public class DsvDestination {
 
     public static void main(String[] args) {
         try {
-            String[] arr = DSVS.split(",");
+            String[] arr = CURRENTDSVS.split(",");
             Set<String> dsvs = new HashSet<>();
             int count = 0;
             for (String str : arr) {
@@ -48,6 +49,20 @@ public class DsvDestination {
                 found.add(child);
             }
             myResultSet.close();
+
+            readRecordSQL = "select wfu_message_types.distributor_id, wfu_destination.destination_uri from wfu_message_types,wfu_destination where wfu_message_types.distributor_id in ("+DIFF_DSVS+") and wfu_message_types.destination_id = wfu_destination.destination_id and wfu_message_types.action_id = 457";
+            System.out.println(readRecordSQL);
+            myResultSet = sqlStatement.executeQuery(readRecordSQL);
+            while (myResultSet.next()) {
+                //System.out.println("Record values: " + myResultSet.getString("distributor_id"));
+                String child = myResultSet.getString("DISTRIBUTOR_ID");
+                String destinationURI = myResultSet.getString("DESTINATION_URI");
+                stringBuilder.append("<ROW><DISTRIBUTOR>"+child+"</DISTRIBUTOR><DESTINATION>"+destinationURI+"</DESTINATION></ROW>\n");
+                finalCount++;
+                found.add(child);
+            }
+            myResultSet.close();
+
             stringBuilder.append("</ROWDATA>\n");
             System.out.println(stringBuilder.toString());
             System.out.println(finalCount);

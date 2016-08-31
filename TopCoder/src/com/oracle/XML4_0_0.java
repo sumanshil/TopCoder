@@ -7,7 +7,7 @@ import java.sql.Statement;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.oracle.FacilityMapping.DSVS;
+import static com.oracle.FacilityMapping.NEW_DSVS;
 
 /**
  * Created by sshil on 7/27/2016.
@@ -15,7 +15,7 @@ import static com.oracle.FacilityMapping.DSVS;
 public class XML4_0_0 {
     public static void main(String[] args) {
         try {
-            String[] arr = DSVS.split(",");
+            String[] arr = NEW_DSVS.split(",");
             Set<String> dsvs = new HashSet<>();
             for (String str : arr) {
                 dsvs.add(str);
