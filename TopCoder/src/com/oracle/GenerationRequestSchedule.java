@@ -1,5 +1,7 @@
 package com.oracle;
 
+import com.migratioscript.FindDiff;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -7,7 +9,6 @@ import java.sql.Statement;
 import java.util.HashSet;
 import java.util.Set;
 
-import static com.oracle.FacilityMapping.DSVS;
 
 /**
  * Created by sshil on 8/24/2016.
@@ -26,7 +27,7 @@ public class GenerationRequestSchedule {
     //
     public static void main(String[] args) {
         try {
-            String[] arr = DSVS.split(",");
+            String[] arr = FindDiff.CURRENTDSVS.split(",");
             Set<String> dsvs = new HashSet<>();
             for (String str : arr) {
                 dsvs.add(str);
@@ -56,7 +57,7 @@ public class GenerationRequestSchedule {
             int count = 0;
             while (myResultSet.next()) {
                 //System.out.println("Record values: " + myResultSet.getString("distributor_id"));
-                if (count == 85){
+                if (count == 75){
                     count = 0;
                     groupIndex++;
                 }
@@ -64,7 +65,31 @@ public class GenerationRequestSchedule {
                 String distributorName = myResultSet.getString("DISTRIBUTOR_NAME");
 
 
-                String str1 = "INSERT INTO wbr_batch_scheduler (jobgroup,jobtype,blocking) VALUES ('DSV_OrderReleaseGen_Group_"+groupIndex+"','job-dsv-order-request-"+distributorId+"',false);";
+                String str1 = "INSERT INTO wbr_batch_scheduler (jobgroup,jobtype,blocking) VALUES ('DSV_OrderReleaseGen_Group"+groupIndex+"','job-dsv-order-request-"+distributorId+"',false);";
+
+                String str2 = "INSERT INTO wbr_jobtype (jobtype,headers,message_domain,message_template,message_type,partner_org_id,partner_org_name,properties,tags) VALUES ('job-dsv-order-request-"+distributorId+"',null,'DEFAULTDOMAIN','DSV_TEMPLATE','DSV_GENERATION_ORDERREQUEST','"+distributorId+"','"+distributorName+"',null,null);";
+                System.out.println(str1);
+                System.out.println(str2);
+                count++;
+            }
+            myResultSet.close();
+
+            str = FindDiff.DIFF_DSVS;
+            readRecordSQL = "select * from wfu_distributor where distributor_id in (" + str + ")";
+            myResultSet = sqlStatement.executeQuery(readRecordSQL);
+            groupIndex = 1;
+            count = 0;
+            while (myResultSet.next()) {
+                //System.out.println("Record values: " + myResultSet.getString("distributor_id"));
+                if (count == 75){
+                    count = 0;
+                    groupIndex++;
+                }
+                String distributorId = myResultSet.getString("DISTRIBUTOR_ID");
+                String distributorName = myResultSet.getString("DISTRIBUTOR_NAME");
+
+
+                String str1 = "INSERT INTO wbr_batch_scheduler (jobgroup,jobtype,blocking) VALUES ('DSV_OrderReleaseGen_Group"+groupIndex+"','job-dsv-order-request-"+distributorId+"',false);";
 
                 String str2 = "INSERT INTO wbr_jobtype (jobtype,headers,message_domain,message_template,message_type,partner_org_id,partner_org_name,properties,tags) VALUES ('job-dsv-order-request-"+distributorId+"',null,'DEFAULTDOMAIN','DSV_TEMPLATE','DSV_GENERATION_ORDERREQUEST','"+distributorId+"','"+distributorName+"',null,null);";
                 System.out.println(str1);
