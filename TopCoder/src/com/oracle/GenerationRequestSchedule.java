@@ -27,7 +27,7 @@ public class GenerationRequestSchedule {
     //
     public static void main(String[] args) {
         try {
-            String[] arr = FindDiff.CURRENTDSVS.split(",");
+            String[] arr = FacilityMapping.PARENTS.split(",");
             Set<String> dsvs = new HashSet<>();
             for (String str : arr) {
                 dsvs.add(str);
@@ -57,7 +57,7 @@ public class GenerationRequestSchedule {
             int count = 0;
             while (myResultSet.next()) {
                 //System.out.println("Record values: " + myResultSet.getString("distributor_id"));
-                if (count == 75){
+                if (count == 10){
                     count = 0;
                     groupIndex++;
                 }

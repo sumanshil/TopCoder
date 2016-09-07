@@ -9,8 +9,6 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-import static com.oracle.FacilityMapping.DSV1;
-
 /**
  * Created by sshil on 8/24/2016.
  */
@@ -30,7 +28,7 @@ public class EDISequence {
     }
     public static void main(String[] args) {
         try {
-            String[] arr = DSV1.split(",");
+            String[] arr = args[0].split(",");//DSV1.split(",");
             Set<String> dsvs = new HashSet<>();
             for (String str : arr) {
                 dsvs.add(str);
