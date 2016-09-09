@@ -37,7 +37,7 @@ public class ClosestLeafToAGivenNodeInBinaryTree {
 		int rDistance = findDistanceRecursive(root.right, keyNode, distance+1);
 		if ( lDistance == 0 && rDistance > 0 ) {
 			// key node is in the right side
-			// find the min leaf node distance at the left tree
+			// inOrder the min leaf node distance at the left tree
 			int minDistance = findNearestLeafNode(root.left, 0);
 			if (minDistance + rDistance < this.minDistance) {
 				this.minDistance = minDistance+rDistance;

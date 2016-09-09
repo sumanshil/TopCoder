@@ -1,5 +1,5 @@
 package com.geeksforgeeks.pedning;
-//Given a number N, find the number of correct combination of parentheses possible.
+//Given a number N, inOrder the number of correct combination of parentheses possible.
 //
 //Input: N=2 => ()()
 //Output: 2 [(()),()()]

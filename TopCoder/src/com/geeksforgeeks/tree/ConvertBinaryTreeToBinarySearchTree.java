@@ -46,7 +46,7 @@ public class ConvertBinaryTreeToBinarySearchTree {
 				return i;
 			}
 		}
-		throw new Exception("Could not find the element");
+		throw new Exception("Could not inOrder the element");
 	}
 
 	private List<Integer> convertToInOrder(BinaryTreeNode root) {
