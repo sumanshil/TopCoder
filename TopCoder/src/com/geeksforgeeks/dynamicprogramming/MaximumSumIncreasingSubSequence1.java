@@ -6,7 +6,7 @@
 ////http://www.geeksforgeeks.org/dynamic-programming-set-14-maximum-sum-increasing-subsequence/
 //public class MaximumSumIncreasingSubSequence1 {
 //
-//    public void find(int[] arr){
+//    public void inOrder(int[] arr){
 //        int result = recursive(arr,arr.length-1);
 //        System.out.println(result);
 //    }

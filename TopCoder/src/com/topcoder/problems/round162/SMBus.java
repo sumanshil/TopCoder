@@ -99,8 +99,8 @@ public class SMBus
             // for each character in the string
         
             // compare character at same index in other elements
-            // find the highest char and store its reference
-            // find the highest time and its reference
+            // inOrder the highest char and store its reference
+            // inOrder the highest time and its reference
             // time += time + highestTime
             //  remove the element with highest char from arbitrator list
     }
