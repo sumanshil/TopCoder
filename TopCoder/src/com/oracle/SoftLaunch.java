@@ -17,8 +17,9 @@ public class SoftLaunch {
         Set<String> set2 = Arrays.stream(PARENTS.split(",")).collect(Collectors.toSet());
         set1.addAll(set2);
         set1.stream().forEach(e -> {
-            System.out.println("INSERT INTO wbr_name_value_pair (environment,name,other_name_value_pairs,value) VALUES ('DEFAULT','"+e+"-RUN_MODE',null,'live');");
-           // System.out.println("INSERT INTO wbr_name_value_pair(environment,name,other_name_value_pairs,value) VALUES ('DEFAULT','"+e+"-transport-destination-uri',{'proxy':'@transport-proxy-destination-external@'},'sftp://bedrock@ndc-vebob.walmart.com//ftpusers/staging/tmp');");
+           // System.out.println("mkdir "+e);
+            System.out.println("INSERT INTO wbr_name_value_pair (environment,name,other_name_value_pairs,value) VALUES ('DEFAULT','"+e+"-RUN_MODE',null,'false');");
+            System.out.println("INSERT INTO wbr_name_value_pair(environment,name,other_name_value_pairs,value) VALUES ('DEFAULT','"+e+"-transport-destination-uri',{'proxy':'@transport-proxy-destination-external@'},'sftp://bedrock@ndc-vibob.walmart.com:22//ftpusers/staging/B2BSOFTLUANCH/"+e+"/');");
         });
     }
 }
