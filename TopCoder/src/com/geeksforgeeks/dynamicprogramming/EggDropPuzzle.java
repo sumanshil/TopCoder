@@ -7,7 +7,7 @@ package com.geeksforgeeks.dynamicprogramming;
 public class EggDropPuzzle {
 
 	/**
-	 * Find the minimum number of trials needed to find optimal floor
+	 * Find the minimum number of trials needed to inOrder optimal floor
 	 * Case 1 : The egg breaks at nth floor. so we must go down one floor with k-1 eggs
 	 * Case 2 : The eggs does not break. We must go up with k eggs.
 	 * @param numberOfFloors
