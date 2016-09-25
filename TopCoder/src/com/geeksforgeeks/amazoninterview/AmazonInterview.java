@@ -2,7 +2,7 @@ package com.geeksforgeeks.amazoninterview;
 
 import java.util.concurrent.CountDownLatch;
 
-//4. Given two strings STR1 and STR2 .we need to find longest substring in STR1 whose all characters are taken
+//4. Given two strings STR1 and STR2 .we need to inOrder longest substring in STR1 whose all characters are taken
 //from string STR2(was asked to write code for it in optimal time)
 public class AmazonInterview {
 

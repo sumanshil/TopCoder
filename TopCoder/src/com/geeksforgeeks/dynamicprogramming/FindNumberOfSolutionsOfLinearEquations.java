@@ -37,7 +37,7 @@ public class FindNumberOfSolutionsOfLinearEquations {
     public static void main(String[] args) {
         int[] coeffs = {2, 2, 4};
         int rhs = 4;
-        //int result = new FindNumberOfSolutionsOfLinearEquations().find(coeffs,0,coeffs.length-1, rhs);
+        //int result = new FindNumberOfSolutionsOfLinearEquations().inOrder(coeffs,0,coeffs.length-1, rhs);
         int result = new FindNumberOfSolutionsOfLinearEquations().find(coeffs,0, rhs);
         System.out.println(result);
     }

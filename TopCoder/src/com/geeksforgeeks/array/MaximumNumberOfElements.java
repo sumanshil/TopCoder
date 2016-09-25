@@ -1,6 +1,6 @@
 package com.geeksforgeeks.array;
 
-// an array may contain elements that range from m to (m+n-1). We need to find out the element that occurs most
+// an array may contain elements that range from m to (m+n-1). We need to inOrder out the element that occurs most
 
 public class MaximumNumberOfElements {
     public void find(int[] arr, int m , int n){
