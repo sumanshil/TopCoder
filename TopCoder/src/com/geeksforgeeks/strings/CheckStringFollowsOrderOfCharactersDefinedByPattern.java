@@ -56,7 +56,7 @@ public class CheckStringFollowsOrderOfCharactersDefinedByPattern {
         "INSERT INTO bedrockapp.wbr_name_value_pair (environment,name,other_name_value_pairs,value) VALUES ('DEFAULT','$-transport-destination-uri',{'proxy': 'transport-proxy-destination-external'},'file:/data/ftpusers/web/mp2_bridge/$/inbound');\n" +
         "INSERT INTO bedrockapp.wbr_name_value_pair (environment,name,other_name_value_pairs,value) VALUES ('DEFAULT','$-RUN_MODE',null,'false');\n" +
         "INSERT INTO bedrockapp.wbr_scan_source_point (batch_scanner_name,partner_org_id,message_type,dirs,file_age,file_pattern,headers,message_domain,message_template,org_id,partner_org_name,properties,status,tags) VALUES ('DSV_Group','$','XML_INVENTORY_V400',['/data/ftpusers/web/mp2_bridge/$/inbound'],10000,'.*[\\p{Alpha}_]+_$_\\p{Digit}{8}_\\p{Digit}{6}_\\p{Digit}{6}\\.\\p{Alpha}+|.*s8wQtdDR\\.AS2INBOUND\\..+|.*[\\p{Alpha}_]+_$_\\p{Digit}{8}_\\p{Digit}{6}_\\p{Digit}{6}\\.\\p{Alpha}+',null,'DEFAULTDOMAIN','DSV_TEMPLATE',null,'DSV Inventory test',null,'ACTIVE',null);\n";
-    public void find(String input, String pattern){
+    public void inOrder(String input, String pattern){
 
     }
     public static void main(String[] args) {
