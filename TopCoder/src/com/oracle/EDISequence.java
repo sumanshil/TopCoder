@@ -41,7 +41,7 @@ public class EDISequence {
 
             Statement sqlStatement = myConnection.createStatement();
 
-            String readRecordSQL = "select * from wfu_sequence";
+            String readRecordSQL = "select * from wfu_sequence where distributor_id in ("+args[0]+")";
             ResultSet myResultSet = sqlStatement.executeQuery(readRecordSQL);
             while (myResultSet.next()) {
                 //System.out.println("Record values: " + myResultSet.getString("distributor_id"));
