@@ -1,93 +1,402 @@
-com.topcoder.problems.crpf_round1.RoomSummary
-generate
-{"EasyP", "MediumP", "HardP"}, {"Andrea", "Billy", "Chris", "eddy", "David", "Feliza"}, {"Andrea EasyP 220.31", "Billy EasyP 213.24", "Chris EasyP 194.24", "Chris EasyP 75.00", "Andrea MediumP 472.23", "Billy MediumP 428.34", "Andrea HardP 823.60"}, {"Chris Andrea EasyP unsuccessful", "Chris Billy EasyP unsuccessful", "Billy Andrea HardP successful"}, {"Billy MediumP"}		{"Andrea 692.54", "Billy 263.24", "David 0.00", "Feliza 0.00", "eddy 0.00", "Chris -25.00"}		Passed
+com.topcoder.dp.RepeatSubString
+minimalModify
+	"aba"		1		Passed
 
 
-	{"EasyP", "MediumP", "HardP"}, {"Andrea", "Billy", "Chris"}, {"Billy EasyP 240.31", "Billy MediumP 425.23", "Chris HardP 831.42", "Andrea EasyP 89.12"}, {"Andrea Billy EasyP unsuccessful", "Andrea Chris HardP unsuccessful"}, {}		{"Chris 831.42", "Billy 665.54", "Andrea -10.88"}		Passed
+	"adam"		1		Passed
 
 
-	{"250pointer", "500pointer", "1000pointer"}, {"Andrea", "Billy", "Chrissy", "Chris"}, {"Billy 250pointer 244.32", "Andrea 250pointer 241.42", "Andrea 500pointer 432.39", "Billy 500pointer 372.40", "Billy 250pointer 100.42"}, {"Billy Andrea 250pointer unsuccessful", "Andrea Billy 500pointer successful", "Billy Andrea 500pointer unsuccessful"}, {}		{"Andrea 723.81", "Billy 0.42", "Chris 0.00", "Chrissy 0.00"}		Passed
+	"x"		1		Passed
 
 
-	{"ProblemA", "ProblemB", "ProblemC"}, {"Sherrie", "Giuseppe", "Jane"}, {}, {}, {}		{"Giuseppe 0.00", "Jane 0.00", "Sherrie 0.00"}		Passed
+	"repeatstring"		6		Passed
 
 
-	{"ProblemA", "ProblemB", "ProblemC"}, {"Sherrie", "Giuseppe", "Jane"}, {"Jane ProblemA 198.00", "Giuseppe ProblemA 123.45", "Jane ProblemA 123.45"}, {}, {}		{"Giuseppe 123.45", "Jane 123.45", "Sherrie 0.00"}		Passed
+	"aaaaaaaaaaaaaaaaaaaa"		0		Passed
 
 
-	{"ProblemA", "ProblemB", "ProblemC"}, {"Sherrie", "Giuseppe", "Jane"}, {"Giuseppe ProblemA 123.45", "Jane ProblemA 123.45"}, {}, {"Giuseppe ProblemA", "Jane ProblemA"}		{"Giuseppe 0.00", "Jane 0.00", "Sherrie 0.00"}		Passed
+	"aabbaa"		2		Passed
 
 
-	{"ProblemA", "ProblemB", "ProblemC"}, {"Sherrie", "Giuseppe", "Jane"}, {"Giuseppe ProblemA 123.45", "Jane ProblemA 123.45", "Sherrie ProblemA 213.23"}, {"Sherrie Giuseppe ProblemA unsuccessful", "Sherrie Jane ProblemA unsuccessful"}, {"Sherrie ProblemA"}		{"Giuseppe 123.45", "Jane 123.45", "Sherrie -100.00"}		Passed
+	"ab"		1		Passed
 
 
-	{"Isak", "Cornell", "Nikos"}, {"Ernestine", "Estevan", "Tootsie", "Ingunna"}, {"Estevan Isak 140.27", "Tootsie Isak 97.63", "Tootsie Isak 96.80", "Ingunna Cornell 484.13", "Tootsie Nikos 809.80", "Ernestine Isak 248.62", "Tootsie Isak 90.44", "Ernestine Isak 95.82", "Estevan Isak 135.92"}, {"Estevan Ingunna Cornell successful", "Ingunna Estevan Isak unsuccessful", "Estevan Tootsie Isak successful"}, {}		{"Tootsie 809.80", "Estevan 235.92", "Ernestine 95.82", "Ingunna -50.00"}		Passed
+	"aa"		0		Passed
 
 
-	{"Brandyn", "Aron", "Chico"}, {"Benedikta", "Mart", "Derry", "Emilee", "Haywood", "Curcio", "Blaire", "Ester", "Lenka"}, {"Haywood Chico 439.36", "Haywood Chico 439.32", "Derry Brandyn 151.21", "Lenka Brandyn 140.29", "Mart Brandyn 217.93", "Curcio Aron 241.43", "Blaire Brandyn 135.29", "Derry Brandyn 134.43", "Ester Aron 245.38", "Curcio Brandyn 219.04", "Haywood Brandyn 116.88", "Blaire Aron 399.17", "Benedikta Chico 157.43", "Blaire Aron 396.54", "Ester Aron 241.46", "Ester Brandyn 63.20", "Lenka Aron 186.26", "Blaire Brandyn 127.08", "Mart Brandyn 214.06", "Emilee Brandyn 248.99", "Blaire Chico 854.68", "Lenka Brandyn 134.82", "Derry Brandyn 109.59", "Blaire Chico 736.68", "Lenka Brandyn 134.00", "Haywood Aron 337.56", "Haywood Brandyn 112.09", "Benedikta Brandyn 229.39", "Ester Brandyn 62.40", "Curcio Chico 700.81", "Blaire Aron 212.92", "Benedikta Aron 158.50", "Haywood Brandyn 111.81", "Curcio Aron 103.79", "Lenka Aron 77.76"}, {"Curcio Haywood Aron successful", "Ester Blaire Aron unsuccessful", "Haywood Blaire Aron unsuccessful", "Emilee Benedikta Brandyn successful", "Mart Blaire Aron unsuccessful", "Emilee Blaire Aron unsuccessful"}, {"Mart Brandyn", "Derry Brandyn", "Ester Brandyn", "Ester Aron", "Benedikta Aron", "Curcio Chico"}		{"Blaire 1076.68", "Haywood 501.13", "Curcio 372.83", "Emilee 248.99", "Lenka 211.76", "Benedikta 157.43", "Derry 0.00", "Ester -50.00", "Mart -50.00"}		Passed
+	"asjkldjlakjfwqijfoiwqjofijoiajfoisfdsf"		14		Passed
 
 
-	{"Ferdie", "Betta", "Maryellen"}, {"Nicola", "Corette", "Jean", "Javier", "Abra", "Margareta", "Berri", "Berny", "Parnell", "Pancho", "Kaylil", "Salvidor", "Thea", "Garrik", "Andree", "Kari"}, {"Jean Betta 484.03", "Abra Ferdie 176.47", "Kaylil Ferdie 191.51", "Berny Ferdie 103.39", "Thea Ferdie 121.27", "Parnell Ferdie 200.49", "Abra Ferdie 174.31", "Javier Ferdie 112.89", "Berny Ferdie 97.52", "Parnell Maryellen 503.90", "Jean Maryellen 675.41", "Pancho Maryellen 862.32", "Margareta Ferdie 103.60", "Garrik Ferdie 157.61", "Corette Ferdie 101.90", "Corette Betta 443.67", "Margareta Betta 166.90", "Kaylil Betta 440.57", "Andree Ferdie 142.05", "Berri Ferdie 143.86", "Thea Betta 207.26", "Jean Ferdie 75.52", "Kaylil Maryellen 349.46", "Jean Betta 389.70", "Salvidor Betta 416.31", "Corette Betta 286.27", "Nicola Ferdie 92.14", "Javier Ferdie 100.90", "Thea Maryellen 536.10", "Pancho Ferdie 192.74", "Javier Ferdie 96.32", "Abra Betta 84.17", "Andree Ferdie 137.17", "Andree Betta 213.88", "Jean Ferdie 73.51", "Salvidor Ferdie 68.39", "Corette Betta 283.97", "Andree Maryellen 940.98", "Garrik Ferdie 156.24", "Abra Betta 83.66", "Garrik Ferdie 122.91", "Kari Maryellen 816.14", "Margareta Ferdie 103.41", "Salvidor Maryellen 96.91", "Corette Betta 283.03", "Thea Betta 199.38", "Berny Ferdie 93.32"}, {"Salvidor Corette Betta unsuccessful", "Berny Jean Ferdie successful", "Javier Margareta Ferdie unsuccessful", "Berny Jean Maryellen successful", "Parnell Salvidor Ferdie unsuccessful", "Thea Nicola Ferdie unsuccessful", "Garrik Thea Maryellen successful", "Nicola Kaylil Betta successful"}, {"Corette Ferdie", "Andree Betta", "Margareta Ferdie", "Salvidor Maryellen", "Kari Maryellen", "Berri Ferdie", "Nicola Ferdie", "Andree Maryellen", "Andree Ferdie", "Salvidor Betta", "Javier Ferdie"}		{"Pancho 1055.06", "Parnell 654.39", "Kaylil 540.97", "Jean 389.70", "Corette 283.03", "Thea 270.65", "Abra 257.97", "Berny 193.32", "Garrik 172.91", "Margareta 166.90", "Nicola 50.00", "Salvidor 18.39", "Andree 0.00", "Berri 0.00", "Kari 0.00", "Javier -50.00"}		Passed
+	"jfjfijfoiqwjoifjoiqjwoijfoijsaf"		9		Passed
 
 
-	{"Jamison", "Merline", "Iolanthe"}, {"Bambi", "Georgeta", "Michaelina", "Aridatha", "Mil", "Halley", "Marillin", "Brnaba", "Merna", "Vassily", "Aldridge", "Casi", "Rea", "Arielle", "Pyotr"}, {"Georgeta Merline 130.57", "Merna Jamison 79.99", "Rea Merline 94.83", "Georgeta Merline 122.19", "Mil Jamison 89.31", "Michaelina Iolanthe 480.99", "Rea Jamison 219.52", "Brnaba Jamison 87.35", "Aridatha Jamison 61.84", "Bambi Jamison 168.05", "Georgeta Iolanthe 749.54", "Arielle Merline 135.93", "Arielle Iolanthe 305.55", "Brnaba Iolanthe 904.45", "Halley Jamison 199.97", "Arielle Merline 81.27", "Rea Iolanthe 906.93", "Mil Iolanthe 533.34", "Marillin Jamison 89.85", "Rea Merline 91.27", "Vassily Jamison 88.86"}, {"Pyotr Georgeta Merline successful", "Halley Merna Jamison successful", "Aldridge Arielle Iolanthe successful", "Merna Mil Jamison successful", "Rea Michaelina Iolanthe unsuccessful", "Merna Aridatha Jamison unsuccessful", "Aldridge Bambi Jamison unsuccessful", "Pyotr Halley Jamison unsuccessful"}, {"Marillin Jamison", "Mil Iolanthe"}		{"Rea 1167.72", "Brnaba 991.80", "Georgeta 749.54", "Michaelina 480.99", "Halley 249.97", "Bambi 168.05", "Vassily 88.86", "Arielle 81.27", "Aridatha 61.84", "Aldridge 0.00", "Casi 0.00", "Marillin 0.00", "Merna 0.00", "Mil 0.00", "Pyotr 0.00"}		Passed
+	"ajodiqjpwjpjdqpwijdijasjdklajfoiqwjoidqwdwq"		16		Passed
 
 
-	{"Allan", "Rosina", "Gerhard"}, {"Phillipe", "Garry", "Gabi", "Rosie"}, {"Garry Rosina 496.38", "Gabi Rosina 216.67", "Garry Gerhard 641.80", "Rosie Rosina 198.99", "Phillipe Gerhard 431.54", "Gabi Allan 162.32", "Garry Rosina 183.73", "Gabi Allan 106.63", "Rosie Allan 220.94", "Garry Allan 183.51"}, {"Gabi Garry Rosina successful", "Rosie Gabi Allan unsuccessful", "Rosie Garry Gerhard unsuccessful"}, {"Gabi Rosina", "Garry Allan"}		{"Garry 641.80", "Phillipe 431.54", "Rosie 319.93", "Gabi 156.63"}		Passed
+	"abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedc"		24		Passed
 
 
-	{"Ninette", "Kaia", "Pet"}, {"Fielding", "Serena", "Gill", "Broderick", "Gloriana", "Doro", "Brandi", "Giulio", "Jeff", "Glynda", "Hardy", "Maximilian", "Emalee", "Albertina"}, {"Albertina Pet 492.05", "Fielding Ninette 189.11", "Broderick Pet 454.03", "Hardy Pet 548.21", "Hardy Ninette 64.43", "Serena Kaia 275.28", "Hardy Kaia 187.00", "Broderick Kaia 497.87", "Serena Ninette 165.89", "Jeff Ninette 204.26", "Jeff Kaia 170.36", "Hardy Pet 460.92", "Doro Pet 739.21", "Brandi Kaia 161.66", "Hardy Ninette 62.10", "Serena Ninette 157.40", "Fielding Kaia 111.96", "Gill Ninette 112.13", "Gloriana Ninette 123.70", "Jeff Ninette 203.55", "Albertina Ninette 181.28", "Glynda Kaia 325.71", "Emalee Pet 341.38", "Serena Kaia 155.40", "Albertina Ninette 122.26", "Emalee Kaia 317.25", "Fielding Ninette 166.45", "Jeff Pet 773.39", "Glynda Pet 276.03", "Serena Pet 775.42", "Fielding Pet 751.74", "Gill Ninette 108.68", "Hardy Ninette 60.00", "Doro Ninette 89.19", "Glynda Ninette 135.28", "Albertina Ninette 78.19", "Maximilian Ninette 151.23", "Brandi Ninette 106.39", "Maximilian Kaia 499.88", "Fielding Pet 286.80", "Hardy Ninette 60.00", "Albertina Kaia 499.51"}, {"Albertina Maximilian Kaia unsuccessful"}, {"Serena Kaia", "Emalee Kaia", "Fielding Pet", "Fielding Kaia", "Fielding Ninette", "Serena Pet", "Brandi Kaia", "Doro Pet", "Doro Ninette", "Hardy Kaia"}		{"Jeff 1147.30", "Albertina 1019.75", "Broderick 951.90", "Glynda 737.02", "Maximilian 651.11", "Hardy 520.92", "Emalee 341.38", "Serena 157.40", "Gloriana 123.70", "Gill 108.68", "Brandi 106.39", "Doro 0.00", "Fielding 0.00", "Giulio 0.00"}		Passed
+	"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"		0		Passed
 
 
-	{"Holt", "Josie", "Ally"}, {"Jaimie", "Michel", "Drusie", "Rebeca", "Caterina", "Siffre", "Arron", "Odele", "Maudie", "Tommie", "Kathye", "Ravi", "Kain"}, {"Ravi Josie 451.00", "Caterina Holt 154.16", "Jaimie Holt 205.44", "Michel Holt 98.26", "Rebeca Holt 117.94", "Rebeca Holt 95.46", "Drusie Holt 230.62", "Odele Holt 188.42", "Ravi Josie 98.07", "Kain Josie 148.69"}, {"Siffre Rebeca Holt successful", "Caterina Jaimie Holt unsuccessful", "Ravi Jaimie Holt successful", "Arron Caterina Holt successful", "Siffre Michel Holt successful", "Siffre Kain Josie successful", "Siffre Odele Holt successful", "Rebeca Drusie Holt unsuccessful"}, {"Ravi Josie", "Drusie Holt"}		{"Siffre 200.00", "Arron 50.00", "Ravi 50.00", "Drusie 0.00", "Jaimie 0.00", "Kain 0.00", "Kathye 0.00", "Maudie 0.00", "Michel 0.00", "Odele 0.00", "Tommie 0.00", "Caterina -50.00", "Rebeca -50.00"}		Passed
+	"htkaocdcabcbmyaeqcgcfolac"		10		Passed
 
 
-	{"Temple", "Jocelyne", "Saxon"}, {"Celia", "Maxim", "Annadiane", "Gretel", "Nedi", "Elaine", "Shaun", "Jed", "Anabella", "Laurens"}, {"Jed Temple 104.97", "Laurens Temple 151.28", "Laurens Temple 149.74", "Maxim Jocelyne 447.88", "Celia Temple 111.40", "Nedi Temple 63.25", "Gretel Temple 196.94", "Annadiane Jocelyne 181.91", "Gretel Temple 143.20", "Nedi Saxon 671.42", "Annadiane Jocelyne 178.13", "Nedi Jocelyne 390.87", "Elaine Saxon 477.35", "Annadiane Temple 185.48", "Shaun Temple 215.30", "Celia Jocelyne 430.51", "Annadiane Temple 105.89"}, {"Nedi Celia Temple successful", "Gretel Annadiane Temple successful", "Annadiane Shaun Temple unsuccessful", "Maxim Nedi Saxon successful"}, {"Nedi Temple", "Jed Temple", "Shaun Temple", "Nedi Jocelyne", "Elaine Saxon"}		{"Maxim 497.88", "Celia 430.51", "Gretel 193.20", "Laurens 149.74", "Annadiane 128.13", "Nedi 50.00", "Anabella 0.00", "Elaine 0.00", "Jed 0.00", "Shaun 0.00"}		Passed
+	"ojhrqpffkcgfboaifhalcaebixaksaecanhfknfcccdg"		20		Passed
 
 
-	{"Oneida", "Terri", "Heida"}, {"Crosby", "Ellissa"}, {"Ellissa Oneida 69.78", "Ellissa Oneida 65.18", "Crosby Terri 328.39", "Crosby Oneida 229.86", "Crosby Terri 177.67"}, {"Ellissa Crosby Terri successful"}, {"Crosby Oneida"}		{"Ellissa 115.18", "Crosby 0.00"}		Passed
+	"gfdleabfcelbb"		5		Passed
 
 
-	{"Row", "Aymer", "Wernher"}, {"Sandra", "Yorker", "Emeline", "Rozella", "Stanwood", "Obadias", "Loleta", "Sean"}, {"Rozella Aymer 292.42", "Emeline Row 221.61", "Stanwood Row 181.69", "Rozella Row 231.35", "Rozella Row 81.80", "Sandra Row 239.00", "Sandra Wernher 789.96", "Loleta Row 161.14", "Obadias Aymer 64.16", "Stanwood Aymer 216.25", "Emeline Row 165.02", "Obadias Row 89.49", "Loleta Aymer 312.35", "Sandra Aymer 257.99", "Sean Aymer 455.02", "Stanwood Wernher 677.99", "Sandra Row 180.13", "Stanwood Aymer 210.28", "Yorker Row 224.30", "Emeline Wernher 154.07", "Rozella Aymer 234.95", "Yorker Row 139.67", "Loleta Row 120.29", "Sean Row 66.31", "Rozella Row 70.07", "Yorker Row 116.62", "Yorker Aymer 200.96", "Sean Aymer 261.10", "Rozella Row 67.56", "Sandra Wernher 789.58"}, {"Yorker Emeline Row unsuccessful", "Obadias Yorker Aymer unsuccessful", "Sandra Loleta Aymer successful", "Rozella Emeline Row unsuccessful"}, {"Obadias Aymer", "Yorker Aymer", "Rozella Row", "Stanwood Aymer", "Sandra Wernher", "Loleta Row"}		{"Stanwood 859.68", "Sandra 488.12", "Sean 327.41", "Emeline 319.09", "Rozella 184.95", "Yorker 66.62", "Obadias 39.49", "Loleta 0.00"}		Passed
+	"bfla"		2		Passed
 
 
-	{"Perri", "Duky", "Britt"}, {"Golda", "Winona"}, {}, {}, {}		{"Golda 0.00", "Winona 0.00"}		Passed
+	"ffkcgdlfjwapbaahmgjadqefdbhaajjjaipnblmdi"		17		Passed
 
 
-	{"Greer", "Jason", "Ricoriki"}, {"Bryn", "Arlan", "Edmon", "Bryna", "Philippe", "Montgomery", "Jonah", "Reidar", "Monte", "Natividad", "Wait", "Lowe"}, {"Philippe Greer 150.43", "Philippe Greer 149.43", "Jonah Greer 218.75", "Wait Jason 185.56", "Wait Greer 128.85", "Arlan Greer 110.71", "Lowe Greer 123.24", "Bryna Greer 213.67", "Bryn Greer 75.30", "Arlan Greer 105.71", "Natividad Greer 82.07", "Edmon Jason 108.78", "Arlan Greer 101.75", "Philippe Greer 70.69", "Philippe Greer 66.07", "Natividad Greer 81.82", "Natividad Jason 148.25", "Edmon Jason 104.91", "Monte Jason 219.99", "Philippe Greer 65.42", "Montgomery Greer 169.98"}, {"Philippe Arlan Greer successful", "Montgomery Natividad Greer unsuccessful", "Bryna Jonah Greer successful", "Montgomery Wait Jason unsuccessful"}, {"Lowe Greer", "Bryn Greer", "Wait Jason"}		{"Bryna 263.67", "Natividad 230.07", "Monte 219.99", "Wait 128.85", "Philippe 115.42", "Edmon 104.91", "Montgomery 69.98", "Arlan 0.00", "Bryn 0.00", "Jonah 0.00", "Lowe 0.00", "Reidar 0.00"}		Passed
+	"fci"		2		Passed
 
 
-	{"Patricia", "Otha", "Cassandre"}, {"Jacynth", "Aleksandr", "Pippy"}, {"Jacynth Otha 256.57", "Aleksandr Otha 214.63", "Pippy Patricia 139.25", "Aleksandr Patricia 117.09", "Aleksandr Patricia 109.81", "Jacynth Otha 253.20", "Aleksandr Cassandre 143.03", "Pippy Otha 441.07"}, {}, {"Pippy Patricia", "Aleksandr Cassandre", "Aleksandr Patricia"}		{"Pippy 441.07", "Jacynth 253.20", "Aleksandr 214.63"}		Passed
+	"ccdlhbafntfbpfhhafkbgrdacqcgsmoammngqfbabgncaam"		19		Passed
 
 
-	{"Gery", "Ollie", "Benny"}, {"Zack", "Viviana", "Wenona", "Gerladina", "Leodora", "Astrix", "Portie", "Oneida", "Norris"}, {"Viviana Ollie 373.58", "Oneida Gery 64.08", "Zack Gery 192.30", "Oneida Ollie 200.51", "Norris Gery 194.92", "Portie Benny 467.80", "Wenona Ollie 239.49", "Norris Gery 123.28", "Wenona Gery 233.87", "Portie Gery 211.38", "Portie Ollie 394.58", "Gerladina Ollie 161.46", "Norris Gery 61.74", "Wenona Gery 174.14", "Leodora Gery 246.56", "Norris Gery 60.00", "Viviana Ollie 240.55", "Norris Gery 60.00", "Wenona Ollie 230.50", "Astrix Gery 133.02"}, {"Oneida Portie Benny successful", "Zack Leodora Gery unsuccessful", "Wenona Oneida Gery successful", "Viviana Zack Gery successful"}, {"Leodora Gery", "Portie Ollie", "Viviana Ollie"}		{"Wenona 454.64", "Oneida 250.51", "Portie 211.38", "Gerladina 161.46", "Astrix 133.02", "Norris 60.00", "Viviana 50.00", "Leodora 0.00", "Zack -50.00"}		Passed
+	"sahvebmvberdefauftaglmlele"		11		Passed
 
 
-	{"Candra", "Dale", "Ferdie"}, {"Phebe", "Edith", "Merci", "Michaella", "Reggy", "Godfry", "Hayden", "Betteann", "Sloan", "Ximenes", "Si", "Janetta", "Graeme", "Dulcia", "Dex", "Teddy", "Goddard", "Myrna", "Walt", "Thaddeus"}, {"Dulcia Candra 167.54", "Sloan Candra 143.60", "Betteann Ferdie 761.24", "Ximenes Ferdie 619.02", "Michaella Dale 116.06", "Myrna Dale 415.34", "Goddard Candra 100.46", "Si Candra 156.69", "Godfry Candra 201.57", "Dulcia Candra 126.58", "Godfry Candra 154.83", "Thaddeus Dale 259.86"}, {"Graeme Sloan Candra successful", "Graeme Dulcia Candra unsuccessful", "Dulcia Betteann Ferdie successful", "Graeme Thaddeus Dale unsuccessful", "Phebe Myrna Dale successful", "Ximenes Goddard Candra unsuccessful", "Si Thaddeus Dale unsuccessful", "Reggy Thaddeus Dale successful", "Betteann Goddard Candra unsuccessful", "Godfry Goddard Candra unsuccessful", "Dulcia Godfry Candra successful", "Myrna Ximenes Ferdie successful"}, {"Dulcia Candra", "Si Candra"}		{"Michaella 116.06", "Goddard 100.46", "Dulcia 100.00", "Myrna 50.00", "Phebe 50.00", "Reggy 50.00", "Dex 0.00", "Edith 0.00", "Hayden 0.00", "Janetta 0.00", "Merci 0.00", "Sloan 0.00", "Teddy 0.00", "Thaddeus 0.00", "Walt 0.00", "Betteann -50.00", "Godfry -50.00", "Graeme -50.00", "Si -50.00", "Ximenes -50.00"}		Passed
+	"cp"		1		Passed
 
 
-	{"Verne", "Morrie", "Lucky"}, {"Van", "Smitty", "Toni", "Deloris", "Genna", "Joycelin", "Ileane", "Margaretta", "Rod", "Katha", "Arabela", "Evelin", "Raquela", "Rycca", "Jedd", "Kiley", "Hanni"}, {"Deloris Lucky 776.16", "Van Verne 232.96", "Hanni Verne 149.05", "Kiley Verne 201.96", "Arabela Verne 238.75", "Joycelin Morrie 250.53", "Kiley Morrie 319.25", "Arabela Lucky 477.72", "Raquela Verne 115.76", "Deloris Verne 84.26", "Raquela Verne 109.54", "Hanni Morrie 123.32", "Deloris Verne 81.50", "Deloris Verne 79.83", "Toni Verne 242.29", "Evelin Lucky 968.04", "Kiley Verne 199.60", "Genna Morrie 283.49", "Kiley Morrie 87.36", "Genna Verne 111.51", "Ileane Verne 188.54", "Toni Morrie 192.20", "Kiley Morrie 83.70", "Evelin Verne 165.01", "Joycelin Verne 200.42", "Van Morrie 465.12", "Joycelin Morrie 245.45", "Genna Verne 86.65", "Joycelin Morrie 238.78", "Jedd Verne 206.30", "Joycelin Morrie 229.59", "Toni Verne 65.29", "Genna Verne 82.59", "Rod Morrie 116.52", "Smitty Lucky 927.32", "Van Verne 198.36", "Arabela Verne 140.12", "Rod Verne 97.62", "Rycca Lucky 281.32", "Smitty Verne 151.65", "Kiley Lucky 920.58", "Katha Morrie 170.27", "Joycelin Morrie 223.47", "Genna Morrie 283.41", "Rod Morrie 113.42", "Raquela Morrie 323.97", "Evelin Verne 161.26", "Margaretta Morrie 293.67", "Jedd Verne 123.23", "Smitty Verne 114.77"}, {"Van Margaretta Morrie unsuccessful", "Katha Hanni Morrie successful", "Deloris Margaretta Morrie successful", "Smitty Raquela Morrie unsuccessful", "Genna Van Morrie successful", "Rycca Kiley Lucky successful", "Toni Rod Verne unsuccessful", "Margaretta Toni Morrie unsuccessful", "Toni Arabela Lucky unsuccessful", "Margaretta Evelin Lucky successful", "Ileane Genna Verne successful", "Van Deloris Lucky successful", "Deloris Van Verne successful"}, {"Ileane Verne", "Joycelin Morrie", "Smitty Lucky", "Arabela Lucky", "Katha Morrie", "Kiley Verne", "Evelin Verne"}		{"Raquela 433.51", "Genna 333.41", "Rycca 331.32", "Rod 211.04", "Joycelin 200.42", "Deloris 179.83", "Toni 157.49", "Hanni 149.05", "Arabela 140.12", "Jedd 123.23", "Kiley 83.70", "Smitty 64.77", "Ileane 50.00", "Katha 50.00", "Evelin 0.00", "Margaretta 0.00", "Van 0.00"}		Passed
+	"abatjadqdaaaidgcfsepjmla"		11		Passed
 
 
-	{"Alysa", "Sonja", "Werner"}, {"Kyle", "Bonnie", "Eberhard", "Gus", "Korie"}, {"Korie Alysa 121.63", "Gus Werner 999.53", "Korie Sonja 192.81", "Gus Alysa 223.08", "Bonnie Sonja 149.74", "Eberhard Alysa 204.28", "Kyle Alysa 198.22", "Eberhard Alysa 200.73", "Kyle Alysa 128.38", "Kyle Alysa 84.24", "Korie Alysa 116.48", "Kyle Werner 769.08", "Korie Alysa 110.78", "Bonnie Sonja 148.91", "Kyle Sonja 273.47", "Eberhard Alysa 193.17", "Eberhard Alysa 190.66"}, {"Kyle Gus Werner unsuccessful", "Kyle Eberhard Alysa unsuccessful"}, {"Korie Sonja", "Kyle Alysa"}		{"Gus 1222.61", "Kyle 942.55", "Eberhard 190.66", "Bonnie 148.91", "Korie 110.78"}		Passed
+	"pkafkbeabccfjejkdgkaatcedaocgmecaapakfvbfgefr"		20		Passed
 
 
-	{"Evelina", "Danielle", "Ludovico"}, {"Dominik", "Padraig", "Celestia", "Ingra", "Noelle", "Baudoin", "Lizabeth", "Fonz", "Mil", "Dalston", "Georgia", "Celinka", "Davine", "Vanna", "Elayne", "Rustie", "Sutherlan", "Westbrooke", "Ellary", "Josias"}, {"Dalston Evelina 84.69", "Josias Danielle 189.89", "Georgia Danielle 118.51", "Celinka Evelina 114.08", "Celestia Ludovico 962.06", "Mil Evelina 150.85", "Mil Evelina 150.05", "Celinka Evelina 98.00", "Dalston Evelina 83.67", "Lizabeth Danielle 321.20", "Dalston Ludovico 903.23", "Dominik Danielle 497.32", "Elayne Danielle 282.90", "Celestia Evelina 103.75", "Celestia Danielle 241.79", "Dominik Evelina 133.00", "Dominik Evelina 128.58", "Noelle Evelina 83.00", "Celinka Evelina 95.85", "Fonz Danielle 190.94", "Elayne Evelina 100.88", "Elayne Evelina 94.62", "Vanna Danielle 241.28", "Mil Evelina 89.89", "Celinka Danielle 381.49", "Ellary Evelina 101.59", "Davine Evelina 137.23", "Josias Evelina 74.29", "Westbrooke Ludovico 158.16", "Ingra Evelina 241.46", "Sutherlan Danielle 171.83", "Vanna Ludovico 308.27", "Davine Danielle 147.37", "Vanna Danielle 234.23", "Mil Danielle 370.92", "Ellary Danielle 71.40", "Baudoin Danielle 211.31", "Georgia Ludovico 223.92", "Rustie Ludovico 611.86", "Davine Evelina 67.79", "Westbrooke Ludovico 152.03", "Baudoin Danielle 62.13", "Lizabeth Danielle 164.37", "Sutherlan Danielle 137.52"}, {"Fonz Dominik Evelina unsuccessful", "Josias Mil Evelina unsuccessful", "Baudoin Ellary Danielle unsuccessful"}, {"Ingra Evelina", "Noelle Evelina", "Celinka Evelina", "Westbrooke Ludovico", "Lizabeth Danielle", "Ellary Danielle", "Dalston Evelina", "Celestia Danielle", "Georgia Danielle", "Georgia Ludovico"}		{"Celestia 1065.81", "Dalston 903.23", "Dominik 625.90", "Rustie 611.86", "Vanna 542.50", "Mil 460.81", "Celinka 381.49", "Elayne 377.52", "Davine 215.16", "Josias 214.18", "Fonz 140.94", "Sutherlan 137.52", "Ellary 101.59", "Baudoin 12.13", "Georgia 0.00", "Ingra 0.00", "Lizabeth 0.00", "Noelle 0.00", "Padraig 0.00", "Westbrooke 0.00"}		Passed
+	"em"		1		Passed
 
 
-	{"Gris", "Tymon", "Mab"}, {"Agosto", "Gilburt", "Darda", "Vivienne", "Alon", "Rena", "Shelli", "Garry", "Donn", "Opal", "Lula", "Stuart", "Orel", "Vivyanne", "Tye", "Patrick", "Tremain", "Seth", "Xylina"}, {"Vivyanne Tymon 186.24", "Tye Gris 164.33", "Gilburt Mab 137.31", "Rena Gris 168.49", "Darda Gris 135.10", "Darda Tymon 409.36", "Gilburt Mab 135.47", "Donn Gris 70.04", "Agosto Gris 136.77"}, {"Tye Agosto Gris unsuccessful", "Darda Agosto Gris successful", "Stuart Darda Gris successful", "Patrick Vivyanne Tymon successful", "Tye Donn Gris successful", "Donn Darda Tymon successful", "Gilburt Tye Gris unsuccessful", "Donn Tye Gris unsuccessful", "Shelli Gilburt Mab unsuccessful", "Shelli Tye Gris successful", "Tremain Gilburt Mab successful", "Orel Rena Gris successful"}, {}		{"Darda 50.00", "Orel 50.00", "Patrick 50.00", "Stuart 50.00", "Tremain 50.00", "Agosto 0.00", "Alon 0.00", "Donn 0.00", "Garry 0.00", "Lula 0.00", "Opal 0.00", "Rena 0.00", "Seth 0.00", "Shelli 0.00", "Tye 0.00", "Vivienne 0.00", "Vivyanne 0.00", "Xylina 0.00", "Gilburt -50.00"}		Passed
+	"haachhaddendmffiqafksllbibqjad"		14		Passed
 
 
-	{"Cher", "Ambrose", "Marc"}, {"Ripley", "Edvard"}, {"Ripley Cher 89.18", "Ripley Cher 69.71", "Edvard Marc 324.55", "Edvard Ambrose 79.79", "Ripley Cher 68.33", "Edvard Marc 322.80"}, {"Ripley Edvard Marc unsuccessful"}, {"Edvard Ambrose", "Ripley Cher"}		{"Edvard 322.80", "Ripley -50.00"}		Passed
+	"dwhpaaafdpicbpplbbaediemokddtiaf"		16		Passed
 
 
-	{"EasyP", "MediumP", "HardP"}, {"Andrea", "Billy", "Chris", "eddy", "David", "Feliza"}, {"Andrea EasyP 220.31", "Billy EasyP 213.24", "Chris EasyP 194.24", "Chris EasyP 99.95", "Andrea MediumP 472.23", "Billy MediumP 428.34", "Andrea HardP 823.60"}, {"Chris Andrea EasyP unsuccessful", "Chris Billy EasyP unsuccessful", "Billy Andrea HardP successful"}, {"Billy MediumP"}		{"Andrea 692.54", "Billy 263.24", "David 0.00", "Feliza 0.00", "eddy 0.00", "Chris -0.05"}		Passed
+	"cgaeloadefbgicomgjealbdnedpavggdcaagfpocedfaja"		19		Passed
 
 
-	{"P", "Q", "R"}, {"A", "B", "C"}, {"A P 99.99", "B P 99.99", "C P 99.99"}, {"A B P unsuccessful", "A C P unsuccessful"}, {}		{"B 99.99", "C 99.99", "A -0.01"}		Passed
+	"emogarpc"		4		Passed
 
 
-	{"A", "B", "C"}, {"A"}, {"A A 100.01"}, {}, {}		{"A 100.01"}		Passed
+	"incgadp"		4		Passed
 
 
-	{"x", "y", "z"}, {"a", "b", "c"}, {"a x 100.02", "b y 100.00", "c y 100.00"}, {"a b y unsuccessful", "a c y unsuccessful"}, {}		{"b 100.00", "c 100.00", "a 0.02"}		Passed
+	"dgcbauoaaxigdaarojjgbarkcpcaoaf"		14		Passed
+
+
+	"hdqnbefvefgiaddbhdbffbqajagadnbkofd"		14		Passed
+
+
+	"rsafqzdpdikbfbcghlebcmaiabcgqeaih"		16		Passed
+
+
+	"cbvpgogbpapnfbohhogcaalbhfbani"		13		Passed
+
+
+	"fhnbhjcthbhjnjahdegcpcblbkadwepcralkhbdjtbfm"		20		Passed
+
+
+	"bclbeabbbbegbfoejiaqedawbddbnadrzjgqtbaxbi"		19		Passed
+
+
+	"edacdhehlbeuddd"		7		Passed
+
+
+	"enpcjbfmmbqgagdc"		8		Passed
+
+
+	"aauldbacaaabdeaamrk"		7		Passed
+
+
+	"osaciffkqr"		5		Passed
+
+
+	"mgcdagbelaaupauoci"		8		Passed
+
+
+	"aeiillabeada"		5		Passed
+
+
+	"cddab"		3		Passed
+
+
+	"abadecivdqctbfjcibmjbgbjhcgmderac"		15		Passed
+
+
+	"addbbkfcajfhdpm"		7		Passed
+
+
+	"ccmibcnkccdodcchuhoefkc"		10		Passed
+
+
+	"ggigachtomjggadceabiubhjdeoedamkanhcjbk"		18		Passed
+
+
+	"ebgslgdgjhogcpgdpluhkabcgcdibhangka"		16		Passed
+
+
+	"jcgbd"		3		Passed
+
+
+	"allojpbggakabaihc"		8		Passed
+
+
+	"gqcgadsahcadatjqlbdacabcpvdfm"		11		Passed
+
+
+	"fkkxbsbadbbeaigkbbfcfdioagq"		11		Passed
+
+
+	"boafkugpjbdaqiidibajadgaedsgdaqchagjcadli"		17		Passed
+
+
+	"aonabghcgbdfabrbatcjaaaabhkcgjbsawbbkcefcbibgcnici"		20		Passed
+
+
+	"bhttbaybedfiehrokjtagkfvcgdfbefrafbaamhcaadbvo"		21		Passed
+
+
+	"bdf"		2		Passed
+
+
+	"kibbchlifmcbijpebpynoeajca"		12		Passed
+
+
+	"anlgfocrfmgfbaddbbecbcfceaskskkialdaamadqlgreg"		22		Passed
+
+
+	"redcodcabhlipwakdbjkc"		10		Passed
+
+
+	"bgmcyrckffaecdfgbjsgdafclnibdeaabbbmfabaqa"		18		Passed
+
+
+	"baimfhkleehgletgdiejakdbaenbcb"		13		Passed
+
+
+	"eddeaaifaahmddqudxhohoteidbbvjrhcercqeaghdrkec"		20		Passed
+
+
+	"ijlobijiapcmsgfkbedidctgdbcfqecaeuc"		17		Passed
+
+
+	"bibhtlgfaacck"		7		Passed
+
+
+	"pdhmmccaafirpbenasrfbjh"		11		Passed
+
+
+	"gbaaegbjcdifdaeobcyanoabfo"		12		Passed
+
+
+	"dqfbifgp"		4		Passed
+
+
+	"aggbsbqa"		4		Passed
+
+
+	"bgkjdifjkxad"		5		Passed
+
+
+	"hapbcpcdnkmbcfadptbeafbgindcdagekgaok"		16		Passed
+
+
+	"adibggggbbbcacaigedaaakaaegnabaefhjqbbcabdadaiadel"		18		Passed
+
+
+	"cfqoqgjj"		4		Passed
+
+
+	"jnh"		2		Passed
+
+
+	"aaabbbaaaccc"		3		Passed
+
+
+	"qxwerytyuiopasdfabqwertyuiopasdxfax"		4		Passed
+
+
+	"espritabrtcadabrfoobaraxzspiritbrabadbracadfoobaz"		13		Passed
+
+
+	"abcdefdef"		3		Passed
+
+
+	"oremipsumdolorsitametconsecteturadipisicingelitsed"		21		Passed
+
+
+	"abcdefghiabefghi"		2		Passed
+
+
+	"ababaababacc"		2		Passed
+
+
+	"hniofeulhrswzbgtlzidlglzzbgtlzidlglzhniofeulhrsw"		22		Passed
+
+
+	"abczab"		2		Passed
+
+
+	"abcdefgabcd"		3		Passed
+
+
+	"abcdbcda"		2		Passed
+
+
+	"aaaxaaaxst"		2		Passed
+
+
+	"aacbxdefaaxdef"		2		Passed
+
+
+	"jksdhfjkhasdfjasjdfjsakhdfljkasdfjsadfhlkasdfjhsfa"		14		Passed
+
+
+	"rabcabcabcabcabcabcabcabcabcabcabcdabcabcacbbcad"		5		Passed
+
+
+	"abcdeabc"		2		Passed
+
+
+	"bacdbcd"		1		Passed
+
+
+	"aaaaaaaab"		1		Passed
+
+
+	"aabcdefghibcdefghi"		2		Passed
+
+
+	"abcdebcdef"		2		Passed
+
+
+	"xxabab"		2		Passed
+
+
+	"aabbccaabb"		2		Passed
+
+
+	"zzelrpzosohruicpvaxouohjkjzsbjzzelrpzosohruicpvaxo"		10		Passed
+
+
+	"abcabcxxx"		3		Passed
+
+
+	"abcdefkldjflkhjwrtokvcbmrkhishihkajdhgiowrejthruew"		22		Passed
+
+
+	"tabcabc"		1		Passed
+
+
+	"abcdeabcdefg"		2		Passed
+
+
+	"abaaaaaaa"		1		Passed
+
+
+	"cdaacd"		2		Passed
+
+
+	"abxyzxyz"		2		Passed
+
+
+	"rcgyghdecjwezirvcebbw"		9		Passed
+
+
+	"qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcv"		3		Passed
+
+
+	"abcdefiiabhdefgg"		3		Passed
+
+
+	"bhsodlbhsodlbhsodlzbeildhmpdhempdhempdhezcqa"		19		Passed
+
+
+	"aabcbaabb"		1		Passed
+
+
+	"jqfsilzibkhslzifegjyojdmtlheswlensyv"		16		Passed
+
+
+	"unmnmk"		2		Passed
+
+
+	"abcdefgheabcdekfgh"		2		Passed
+
+
+	"abb"		1		Passed
+
+
+	"abcdabzzzcd"		3		Passed
+
+
+	"abcdbcdx"		2		Passed
+
+
+	"shlfrossmluzkrpmdkkiqsilgbskptqelec"		16		Passed
+
+
+	"abcabcxy"		2		Passed
+
+
+	"abcdefghzzzzijklmnopxxxxabcdefghyyijklmnop"		8		Passed
+
+
+	"abcdeabde"		1		Passed
+
+
+	"qwertzuiopasdfgqwertzuiopmnbvcxylkjhmnbvcxylkjhmnb"		25		Passed
+
+
+	"abcdefgabcefg"		1		Passed
+
+
+	"abcdefghijklmnopqrstuvwxyzyxjskdhfhshdfkjakallfhsj"		24		Passed
+
+
+	"abc"		2		Passed
+
+
+	"bbadcbcdca"		3		Passed
+
+
+	"abcddeabcde"		1		Passed
+
+
+	"abcdbcde"		2		Passed
+
+
+	"abcdefabcgdef"		1		Passed
+
+
+	"xyabcdeabcdez"		3		Passed
+
+
+	"kabcddefpgbhijkeearlmknxopqraqbcdfejfrghijklmnopqr"		12		Passed
+
+
+	"aaaaabbbbbaaaaabbbbbaaaaabbbbbaaaaabbbbbaaaaabbbbb"		10		Passed
+
+
+	"bizynypwdgnpchxxrhbbhhkss"		13		Passed
+
+
+	"abcdefghiklmonoqrstuaajlajdkfalsjdlafllajfldalfla"		20		Passed
+
+
+	"illtghischallgengesucceedillthischallengesucgceed"		3		Passed
+
+
+	"aaaaaaaaaaaaaaaaaaaaaaaaazzzzzzzzzzzzzzzzzzzzzzzza"		24		Passed
+
+
+	"xyabcdefghijklmnopqrstuvwabcdefghijklmnopqrstuvwz"		3		Passed
