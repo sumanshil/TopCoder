@@ -69,8 +69,8 @@ public class WildCardMatching {
     }
 
     public static void main(String[] args) {
-        String input = "xyz";
-        String regex = "x?y*z";
+        String input = "baaabab";
+        String regex = "a*ab";
         new WildCardMatching().dp(input, regex);
     }
 }
