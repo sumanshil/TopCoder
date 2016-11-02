@@ -12,9 +12,12 @@ import java.util.function.Consumer;
 
 public class Parser implements Iterator<String>
 {
-    private static String fileName = "C:\\Users\\sshil\\Downloads\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TestFile.txt";
-    private static String targetFileName = "C:\\Users\\sshil\\Downloads\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TargetTestFile.txt";
-    private BufferedReader reader;
+//    private static String fileName = "C:\\Users\\sshil\\Downloads\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TestFile.txt";
+//    private static String targetFileName = "C:\\Users\\sshil\\Downloads\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TargetTestFile.txt";
+    private static String fileName = "/Users/sshil/misc/TopCoder/TopCoder/src/com/topcoder/tester/TestFile.txt";
+	private static String targetFileName = "/Users/sshil/misc/TopCoder/TopCoder/src/com/topcoder/tester/TargetTestFile.txt";
+
+	private BufferedReader reader;
     private BufferedWriter writer;
     private String nextLine;
     public final static String INPUT_SEPARATOR = "$";    
