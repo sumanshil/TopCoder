@@ -37,7 +37,7 @@ public class StringWithAdditiveSequence {
                 int number = Integer.parseInt(subStr);
                 list.add(number);
                 boolean res = recursive(index+len, str);
-                if (res == true){
+                if (res){
                     return true;
                 } else {
                    list.remove(list.size()-1);
