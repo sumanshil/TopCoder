@@ -1,402 +1,156 @@
-com.topcoder.dp.RepeatSubString
-minimalModify
-	"aba"		1		Passed
+com.topcoder.problems.round171.CrossCountry
+scoreMeet
+2, "AABBABBABBA"		"AB"		Passed
 
 
-	"adam"		1		Passed
+	3, "CCCBBBBBAAACC"		"BC"		Passed
 
 
-	"x"		1		Passed
+	4, "ABDCBADBDCCDBCDBCAAAC"		"BDCA"		Passed
 
 
-	"repeatstring"		6		Passed
+	10, "BDHCEAJBIDBCCHGCBDJEBAAHEGAGGADHGIECJEHAEBDADJCDHG"		"BCDAHEG"		Passed
 
 
-	"aaaaaaaaaaaaaaaaaaaa"		0		Passed
+	5, "AAAABBBBCCCCDDDDEEEEEE"		"E"		Passed
 
 
-	"aabbaa"		2		Passed
+	3, "ABCABCABCABC"		""		Passed
 
 
-	"ab"		1		Passed
+	10, "AAAAAAABBBBBBBCCCCCCCDDDDDDDEEEEEEEFFFFFFFGGGGGGGH"		"ABCDEFG"		Passed
 
 
-	"aa"		0		Passed
+	10, "AAAAABBBBBCCCCCDDDDDEEEEEGGGGGHHHHHIIIIIJJJJJ"		"ABCDEGHIJ"		Passed
 
 
-	"asjkldjlakjfwqijfoiwqjofijoiajfoisfdsf"		14		Passed
+	10, "ABCDEFGHIJJIHGFEDCBAABCDEFGHIJJIHGFEDCBAJIHGFEDCBA"		"JIHGFEDCBA"		Passed
 
 
-	"jfjfijfoiqwjoifjoiqjwoijfoijsaf"		9		Passed
+	5, "ACEBEDCBEECECCAAABD"		"EC"		Passed
 
 
-	"ajodiqjpwjpjdqpwijdijasjdklajfoiqwjoidqwdwq"		16		Passed
+	7, "DEGGCFBGFBBGDEADEEGFCFCFECBGBEG"		"GEFB"		Passed
 
 
-	"abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedc"		24		Passed
+	7, "EEEBGBGEDEAFGFFAFACGBCDEACFAEFDFC"		"EFA"		Passed
 
 
-	"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"		0		Passed
+	7, "FBBDEAABFAFFDFCGFGGEDCECEBECGFDDCGADA"		"FAEDGC"		Passed
 
 
-	"htkaocdcabcbmyaeqcgcfolac"		10		Passed
+	7, "EEEBGBGEDEAFGFFAFACGBCDEACFAEFDFC"		"EFA"		Passed
 
 
-	"ojhrqpffkcgfboaifhalcaebixaksaecanhfknfcccdg"		20		Passed
+	5, "CAEEBDCDDADADBEEACCADCDA"		"DAC"		Passed
 
 
-	"gfdleabfcelbb"		5		Passed
+	10, "HGJGDAHIBIFCHABIDIBGHIHADABCJADAFCJIDCHIFCJAJGJCBG"		"HIADBGCJ"		Passed
 
 
-	"bfla"		2		Passed
+	7, "BGFCBCCCDCCAEBEAGBCGEAGBDGFGB"		"CBG"		Passed
 
 
-	"ffkcgdlfjwapbaahmgjadqefdbhaajjjaipnblmdi"		17		Passed
+	6, "FEBADADADADEDCBEBEDCFEDCABE"		"DAE"		Passed
 
 
-	"fci"		2		Passed
+	7, "FDEBAAGDBGBBCGBDFBCGDBADGGDCEEGFACDFACF"		"BDGAFC"		Passed
 
 
-	"ccdlhbafntfbpfhhafkbgrdacqcgsmoammngqfbabgncaam"		19		Passed
+	5, "DEABACBCCCACDADCCBDEEAEAEBBADD"		"CADBE"		Passed
 
 
-	"sahvebmvberdefauftaglmlele"		11		Passed
+	9, "IGIFHGBDFGFEDDABDFBEIDHDDEGAHBEHBAGGHAGFBICECHIABF"		"DGFBIHEA"		Passed
 
 
-	"cp"		1		Passed
+	3, "BABCAABABAB"		"AB"		Passed
 
 
-	"abatjadqdaaaidgcfsepjmla"		11		Passed
+	3, "ABACBBABABA"		"AB"		Passed
 
 
-	"pkafkbeabccfjejkdgkaatcedaocgmecaapakfvbfgefr"		20		Passed
+	2, "AABBABBABBA"		"AB"		Passed
 
 
-	"em"		1		Passed
+	3, "BABCAABABAB"		"AB"		Passed
 
 
-	"haachhaddendmffiqafksllbibqjad"		14		Passed
+	3, "ABACBCBABABABA"		"BA"		Passed
 
 
-	"dwhpaaafdpicbpplbbaediemokddtiaf"		16		Passed
+	4, "ABDCBADBDCCDBCDBCAAAC"		"BDCA"		Passed
 
 
-	"cgaeloadefbgicomgjealbdnedpavggdcaagfpocedfaja"		19		Passed
+	3, "ACBBAABBABABA"		"BA"		Passed
 
 
-	"emogarpc"		4		Passed
+	3, "ABBABAACBBAB"		"BA"		Passed
 
 
-	"incgadp"		4		Passed
+	3, "ABABABBABCAB"		"BA"		Passed
 
 
-	"dgcbauoaaxigdaarojjgbarkcpcaoaf"		14		Passed
+	3, "ABABABABBCCCABACC"		"BAC"		Passed
 
 
-	"hdqnbefvefgiaddbhdbffbqajagadnbkofd"		14		Passed
+	5, "ABABABABBCDEABA"		"BA"		Passed
 
 
-	"rsafqzdpdikbfbcghlebcmaiabcgqeaih"		16		Passed
+	3, "ABCABCABCABC"		""		Passed
 
 
-	"cbvpgogbpapnfbohhogcaalbhfbani"		13		Passed
+	3, "ABBAABBCAABCBCCCC"		"BAC"		Passed
 
 
-	"fhnbhjcthbhjnjahdegcpcblbkadwepcralkhbdjtbfm"		20		Passed
+	7, "ABBAABBCAABABACCDDCDCDEEDEE"		"ABCD"		Passed
 
 
-	"bclbeabbbbegbfoejiaqedawbddbnadrzjgqtbaxbi"		19		Passed
+	10, "ABCDEFGHIJJJJABDCJHIDEHHJABEDFFBBCGGGJ"		"JB"		Passed
 
 
-	"edacdhehlbeuddd"		7		Passed
+	3, "BABCAABABABAB"		"AB"		Passed
 
 
-	"enpcjbfmmbqgagdc"		8		Passed
+	3, "BABCAABABABBA"		"BA"		Passed
 
 
-	"aauldbacaaabdeaamrk"		7		Passed
+	3, "BAACBBAABCBABA"		"BA"		Passed
 
 
-	"osaciffkqr"		5		Passed
+	2, "ABABABBABBAB"		"BA"		Passed
 
 
-	"mgcdagbelaaupauoci"		8		Passed
+	3, "ABABABABBCCCAB"		"BA"		Passed
 
 
-	"aeiillabeada"		5		Passed
+	6, "ABACBBABABABBDEDFEEDEDEDEE"		"BAED"		Passed
 
 
-	"cddab"		3		Passed
+	3, "ABBAABBCAABBA"		"BA"		Passed
 
 
-	"abadecivdqctbfjcibmjbgbjhcgmderac"		15		Passed
+	3, "BABCAABABABB"		"BA"		Passed
 
 
-	"addbbkfcajfhdpm"		7		Passed
+	4, "AABBCCDDDDD"		"D"		Passed
 
 
-	"ccmibcnkccdodcchuhoefkc"		10		Passed
+	3, "ABBAABABCBCAB"		"BA"		Passed
 
 
-	"ggigachtomjggadceabiubhjdeoedamkanhcjbk"		18		Passed
+	3, "ABBABAACBBAA"		"AB"		Passed
 
 
-	"ebgslgdgjhogcpgdpluhkabcgcdibhangka"		16		Passed
+	3, "BAABAABCBBCCCCAB"		"BAC"		Passed
 
 
-	"jcgbd"		3		Passed
+	3, "BABCAABABABAAB"		"AB"		Passed
 
 
-	"allojpbggakabaihc"		8		Passed
+	3, "AAAAABBBBBCCCCAA"		"AB"		Passed
 
 
-	"gqcgadsahcadatjqlbdacabcpvdfm"		11		Passed
+	2, "ABBAABBAABB"		"AB"		Passed
 
 
-	"fkkxbsbadbbeaigkbbfcfdioagq"		11		Passed
-
-
-	"boafkugpjbdaqiidibajadgaedsgdaqchagjcadli"		17		Passed
-
-
-	"aonabghcgbdfabrbatcjaaaabhkcgjbsawbbkcefcbibgcnici"		20		Passed
-
-
-	"bhttbaybedfiehrokjtagkfvcgdfbefrafbaamhcaadbvo"		21		Passed
-
-
-	"bdf"		2		Passed
-
-
-	"kibbchlifmcbijpebpynoeajca"		12		Passed
-
-
-	"anlgfocrfmgfbaddbbecbcfceaskskkialdaamadqlgreg"		22		Passed
-
-
-	"redcodcabhlipwakdbjkc"		10		Passed
-
-
-	"bgmcyrckffaecdfgbjsgdafclnibdeaabbbmfabaqa"		18		Passed
-
-
-	"baimfhkleehgletgdiejakdbaenbcb"		13		Passed
-
-
-	"eddeaaifaahmddqudxhohoteidbbvjrhcercqeaghdrkec"		20		Passed
-
-
-	"ijlobijiapcmsgfkbedidctgdbcfqecaeuc"		17		Passed
-
-
-	"bibhtlgfaacck"		7		Passed
-
-
-	"pdhmmccaafirpbenasrfbjh"		11		Passed
-
-
-	"gbaaegbjcdifdaeobcyanoabfo"		12		Passed
-
-
-	"dqfbifgp"		4		Passed
-
-
-	"aggbsbqa"		4		Passed
-
-
-	"bgkjdifjkxad"		5		Passed
-
-
-	"hapbcpcdnkmbcfadptbeafbgindcdagekgaok"		16		Passed
-
-
-	"adibggggbbbcacaigedaaakaaegnabaefhjqbbcabdadaiadel"		18		Passed
-
-
-	"cfqoqgjj"		4		Passed
-
-
-	"jnh"		2		Passed
-
-
-	"aaabbbaaaccc"		3		Passed
-
-
-	"qxwerytyuiopasdfabqwertyuiopasdxfax"		4		Passed
-
-
-	"espritabrtcadabrfoobaraxzspiritbrabadbracadfoobaz"		13		Passed
-
-
-	"abcdefdef"		3		Passed
-
-
-	"oremipsumdolorsitametconsecteturadipisicingelitsed"		21		Passed
-
-
-	"abcdefghiabefghi"		2		Passed
-
-
-	"ababaababacc"		2		Passed
-
-
-	"hniofeulhrswzbgtlzidlglzzbgtlzidlglzhniofeulhrsw"		22		Passed
-
-
-	"abczab"		2		Passed
-
-
-	"abcdefgabcd"		3		Passed
-
-
-	"abcdbcda"		2		Passed
-
-
-	"aaaxaaaxst"		2		Passed
-
-
-	"aacbxdefaaxdef"		2		Passed
-
-
-	"jksdhfjkhasdfjasjdfjsakhdfljkasdfjsadfhlkasdfjhsfa"		14		Passed
-
-
-	"rabcabcabcabcabcabcabcabcabcabcabcdabcabcacbbcad"		5		Passed
-
-
-	"abcdeabc"		2		Passed
-
-
-	"bacdbcd"		1		Passed
-
-
-	"aaaaaaaab"		1		Passed
-
-
-	"aabcdefghibcdefghi"		2		Passed
-
-
-	"abcdebcdef"		2		Passed
-
-
-	"xxabab"		2		Passed
-
-
-	"aabbccaabb"		2		Passed
-
-
-	"zzelrpzosohruicpvaxouohjkjzsbjzzelrpzosohruicpvaxo"		10		Passed
-
-
-	"abcabcxxx"		3		Passed
-
-
-	"abcdefkldjflkhjwrtokvcbmrkhishihkajdhgiowrejthruew"		22		Passed
-
-
-	"tabcabc"		1		Passed
-
-
-	"abcdeabcdefg"		2		Passed
-
-
-	"abaaaaaaa"		1		Passed
-
-
-	"cdaacd"		2		Passed
-
-
-	"abxyzxyz"		2		Passed
-
-
-	"rcgyghdecjwezirvcebbw"		9		Passed
-
-
-	"qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcv"		3		Passed
-
-
-	"abcdefiiabhdefgg"		3		Passed
-
-
-	"bhsodlbhsodlbhsodlzbeildhmpdhempdhempdhezcqa"		19		Passed
-
-
-	"aabcbaabb"		1		Passed
-
-
-	"jqfsilzibkhslzifegjyojdmtlheswlensyv"		16		Passed
-
-
-	"unmnmk"		2		Passed
-
-
-	"abcdefgheabcdekfgh"		2		Passed
-
-
-	"abb"		1		Passed
-
-
-	"abcdabzzzcd"		3		Passed
-
-
-	"abcdbcdx"		2		Passed
-
-
-	"shlfrossmluzkrpmdkkiqsilgbskptqelec"		16		Passed
-
-
-	"abcabcxy"		2		Passed
-
-
-	"abcdefghzzzzijklmnopxxxxabcdefghyyijklmnop"		8		Passed
-
-
-	"abcdeabde"		1		Passed
-
-
-	"qwertzuiopasdfgqwertzuiopmnbvcxylkjhmnbvcxylkjhmnb"		25		Passed
-
-
-	"abcdefgabcefg"		1		Passed
-
-
-	"abcdefghijklmnopqrstuvwxyzyxjskdhfhshdfkjakallfhsj"		24		Passed
-
-
-	"abc"		2		Passed
-
-
-	"bbadcbcdca"		3		Passed
-
-
-	"abcddeabcde"		1		Passed
-
-
-	"abcdbcde"		2		Passed
-
-
-	"abcdefabcgdef"		1		Passed
-
-
-	"xyabcdeabcdez"		3		Passed
-
-
-	"kabcddefpgbhijkeearlmknxopqraqbcdfejfrghijklmnopqr"		12		Passed
-
-
-	"aaaaabbbbbaaaaabbbbbaaaaabbbbbaaaaabbbbbaaaaabbbbb"		10		Passed
-
-
-	"bizynypwdgnpchxxrhbbhhkss"		13		Passed
-
-
-	"abcdefghiklmonoqrstuaajlajdkfalsjdlafllajfldalfla"		20		Passed
-
-
-	"illtghischallgengesucceedillthischallengesucgceed"		3		Passed
-
-
-	"aaaaaaaaaaaaaaaaaaaaaaaaazzzzzzzzzzzzzzzzzzzzzzzza"		24		Passed
-
-
-	"xyabcdefghijklmnopqrstuvwabcdefghijklmnopqrstuvwz"		3		Passed
+	3, "ABBAABABBCAABB"		"AB"		Passed
