@@ -35,7 +35,7 @@ public class CountNumberOfPathsWithAtmostKTurns {
             return;
         }
         if (currentX == finishX && currentY == finishY) {
-            if (currentTurnCount == totalTurnsAllowed) {
+            if (currentTurnCount <= totalTurnsAllowed) {
                 result++;
             }
             return;
@@ -52,29 +52,32 @@ public class CountNumberOfPathsWithAtmostKTurns {
                 int newY = currentY + j;
 
                 if (isValidPosition(newX, newY)) {
+                    boolean isRowMove = false;
+                    boolean isColMove = false;
+                    boolean increaseCount = false;
                     if ( (i == 0)) {
                         if (colWiseMove) {
-                            currentTurnCount++;
+                            increaseCount = true;
                         }
-                        colWiseMove = false;
-                        rowWiseMove = true;
+                        isColMove = false;
+                        isRowMove = true;
                     } else if ( j == 0) {
                         if(rowWiseMove) {
-                            currentTurnCount++;
+                            increaseCount = true;
                         }
-                        colWiseMove = true;
-                        rowWiseMove = false;
+                        isColMove = true;
+                        isRowMove = false;
                     }
                     visited[newX][newY] = true;
                     checkRecursive(newX,
                                    newY,
                                    finishX,
                                    finishY,
-                                   rowWiseMove,
-                                   colWiseMove,
-                                   currentTurnCount,
+                                   isRowMove,
+                                   isColMove,
+                                   increaseCount ? currentTurnCount+1 : currentTurnCount,
                                    totalTurnsAllowed);
-                    visited[newX][newX] = false;
+                    visited[newX][newY] = false;
                 }
             }
         }
