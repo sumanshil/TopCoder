@@ -1,5 +1,7 @@
 package com.geeksforgeeks.tree;
 
+import static org.hamcrest.CoreMatchers.instanceOf;
+
 /**
  * Created by sshil on 1/27/2016.
  */
@@ -49,4 +51,21 @@ public class BinaryTreeNode {
 	public String toString(){
 		return data+"";
 	}
+	
+	@Override
+	public int hashCode(){
+		return data;
+	}
+	
+	@Override
+	public boolean equals(Object other){
+		if (other == null){
+			return false;
+		}
+		if (other instanceof BinaryTreeNode){
+			return false;
+		}
+		return this.getData() == ((BinaryTreeNode)other).data;
+	}
+	
 }
