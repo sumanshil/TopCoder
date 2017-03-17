@@ -71,7 +71,8 @@ public class Vertex<T> implements Comparable<Vertex<T>>{
 
 	@Override
 	public int hashCode(){
-		return T.hashCode();
+		//return T.hashCode();
+		return -1;
 	}
 
 	@Override
