@@ -7,7 +7,7 @@ public class PalindromPairInArrayOfStrings {
 			for (int j = i +1 ; j < arr.length ; j++) {
 				String str = arr[i] + arr[j];
 				if (isPalindrome (str)){
-					System.out.println("Pair found : "+ arr[i]+" "+ arr[j]);
+					System.out.println("Pair found : "+ arr[i]+" : "+ arr[j]);
 				}
 			}
 		}
@@ -20,12 +20,16 @@ public class PalindromPairInArrayOfStrings {
 			if (str.charAt(i) != str.charAt(j)) {
 				return false;
 			}
+			i++;
+			j--;
 		}
 		return true;
 	}
 
 	public static void main(String[] args) {
-		
+		String[] str ={"abc", "xyxcba", "geekst", "or",
+                "keeg", "bc"};
+		new PalindromPairInArrayOfStrings().find(str);
 	}
 
 }
