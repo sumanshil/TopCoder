@@ -1,6 +1,5 @@
 package com.geeksforgeeks.tree;
 
-import static org.hamcrest.CoreMatchers.instanceOf;
 
 /**
  * Created by sshil on 1/27/2016.
