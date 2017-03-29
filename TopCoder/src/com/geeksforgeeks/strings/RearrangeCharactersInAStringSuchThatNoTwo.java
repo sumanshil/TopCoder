@@ -97,7 +97,7 @@ public class RearrangeCharactersInAStringSuchThatNoTwo {
 	}
 	
 	public static void main(String[] args) {
-		String str = "aaabc";
+		String str = "aaaabc";
 		Map<String, Integer> map = new HashMap<>();
 		for ( int i = 0 ; i < str.length() ; i++ ) {
 			String s = str.charAt(i)+"";
