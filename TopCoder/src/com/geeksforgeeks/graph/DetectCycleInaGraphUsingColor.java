@@ -44,7 +44,7 @@ public class DetectCycleInaGraphUsingColor {
 	
 	
 	private boolean cycleUtil(GraphVertex root) {
-		if (greySet.contains(root) || blackSet.contains(root)) {
+		if (greySet.contains(root)) {
 			return true;
 		}
 		
@@ -52,7 +52,7 @@ public class DetectCycleInaGraphUsingColor {
 		greySet.add(root);
 		
 		for (GraphVertex neighbor : root.neighbor) {
-			if (whiteSet.contains(neighbor) && cycleUtil(neighbor)){
+			if (cycleUtil(neighbor)){
 				return true;
 			}
 		}
