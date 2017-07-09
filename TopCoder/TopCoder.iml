@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="false">
+  <component name="FacetManager">
+    <facet type="Python" name="Python">
+      <configuration sdkName="Python 2.7.13 (~/anaconda/bin/python)" />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/bin" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -17,5 +22,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Python 2.7.13 (~/anaconda/bin/python) interpreter library" level="application" />
   </component>
 </module>
