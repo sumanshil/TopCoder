@@ -12,8 +12,8 @@ import java.util.function.Consumer;
 
 public class Parser implements Iterator<String>
 {
-    private static String fileName = "C:\\Users\\SumanChandra\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TestFile.txt";
-    private static String targetFileName = "C:\\Users\\SumanChandra\\TopCoder\\TopCoder\\src\\com\\topcoder\\tester\\TargetTestFile.txt";
+    private static String fileName = "/Users/sshil/Downloads/code/TopCoder/TopCoder/src/com/topcoder/tester/TestFile.txt";
+    private static String targetFileName = "/Users/sshil/Downloads/code/TopCoder/TopCoder/src/com/topcoder/tester/TargetTestFile.txt";
 //    private static String fileName = "/Users/sshil/misc/TopCoder/TopCoder/src/com/topcoder/tester/TestFile.txt";
 //	private static String targetFileName = "/Users/sshil/misc/TopCoder/TopCoder/src/com/topcoder/tester/TargetTestFile.txt";
 
