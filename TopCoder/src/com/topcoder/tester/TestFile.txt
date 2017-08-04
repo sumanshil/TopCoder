@@ -1,237 +1,168 @@
-com.topcoder.problems.round173.WordForm
-getSequence
-"WHEREABOUTS"		"CVCVCVC"		Passed
+com.topcoder.problems.round173.TreasureHunt
+findTreasure
+{"..OOOO..", ".OOOO...", "OOXOOOOO", "OOOOOOO.", ".OOOO...", "..OOO..."}, {"W 3", "S 1", "E 2"}		{3, 2}		Passed
 
 
-	"yoghurt"		"CVCVC"		Passed
+	{".......", ".OOOOO.", ".OOOOO.", ".OOXOO.", ".OOOOO.", ".OOOOO.", "......."}, {"N 1"}		{3, 4}		Passed
 
 
-	"YipPy"		"CVCV"		Passed
+	{"OOOOOOOOOOO.", "OX..........", "OOOOOOOOOOO."}, {"W 2"}		{1, 0}		Passed
 
 
-	"AyYyEYye"		"VCVCVCV"		Passed
+	{"....OO.", "..OOXOO", "OOOO...", ".OOOOOO", "...OOOO", ".OOOOO.", "..OOO.."}, {"N 1", "E 1", "N 4"}		{3, 1}		Passed
 
 
-	"y"		"C"		Passed
+	{"X"}, {"N 1", "E 1", "S 1", "W 1"}		{}		Passed
 
 
-	"YggggggggggggggggggggggGGgggGGggg"		"C"		Passed
+	{".................O..", "..OO.......OOOOO.O..", "..OOO..OOO.OOOOOOOO.", "..OOOOOOOOOOOOOOOOO.", "..OOOOOOOOOOOOOOOOO.", "...OOOOOOOOOOOOOOOO.", "OO.OOOOOOOXOOOOOO...", ".OOOOOOO..OOOOOOOO..", "OOOOOOOOO..OOOOOOOO.", "OOOOOOOOO..OOOOOOO..", ".OOOOOOOOO..........", "OOOOOOOOOOOOOOOOOO..", "..OOOOOOOOOOOOOOO...", "OOOOOOOOOOOOOOOOO...", ".OOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOO..", "..OOOOOOOOOOOOOOOOO.", "OOOOO.OOOOOO..OOO...", "O..OO.OOOO.....OOO..", "O......O.OO......OO."}, {"N 2", "E 3", "N 4", "E 2", "S 1", "W 2", "E 9", "E 2", "N 3", "W 5", "N 1", "W 6", "N 6", "S 1", "S 1", "E 7"}		{10, 6}		Passed
 
 
-	"aeiouaoeuaoeuoauoeuoEOAuouOAEuoEUOAUEOUAoEUO"		"V"		Passed
+	{"OXO."}, {"W 2"}		{0, 0}		Passed
 
 
-	"ayya"		"VCV"		Passed
+	{".XOO"}, {"W 3"}		{}		Passed
 
 
-	"ayYya"		"VCVCV"		Passed
+	{"X.OO", "O..O", "OOOO"}, {"W 1"}		{2, 0}		Passed
 
 
-	"dyyyZYUYgzYY"		"CVCVCVCVC"		Passed
+	{"O.O.O.X.O.O", "O.O.O.O.O.O", "O.O.O.O.O.O", "O.O.O.O.O.O", "OOOOOOOOOOO"}, {"E 2", "E 2", "E 2", "E 2", "E 2"}		{10, 4}		Passed
 
 
-	"oAuwAUOtAIfA"		"VCVCVCV"		Passed
+	{"OOOOOOO.OOOOOO.O", "...O.O..O....OOO", ".OOO.OXOOO.O.O..", ".O.........O.O.O", ".O.OOO.OOOOO.OOO", ".O.O.O.O.O.....O", ".OOO.OOO.OOOOO.."}, {"N 1", "E 1", "S 1"}		{}		Passed
 
 
-	"ObyNKiboYEXsYYAyAelCgoTljImYnYuhkPyRCOj"		"VCVCVCVCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.X", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", "OO.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"}, {"E 1", "N 1", "S 1", "W 1"}		{48, 49}		Passed
 
 
-	"yyyhYYYUYYYYFyYuYyYIYYCycyyYaYyGYyTeYpaYbY"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCV"		Passed
+	{".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.X", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", "OO.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"}, {"N 1", "E 1", "S 1", "W 1"}		{0, 49}		Passed
 
 
-	"YYIyYiYAyeyAYyEyayoUYYFyYyyYyYyYyYY"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{"OOOOOXOOOO"}, {"E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9"}		{0, 0}		Passed
 
 
-	"yAqSjuZCQuNPYmXTIiyORwyYoyupliOUAaiYAYi"		"CVCVCVCVCVCVCVCVCVCVCVCV"		Passed
+	{"..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................X...............................", "..................O...............................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", ".................................................."}, {"S 1"}		{18, 23}		Passed
 
 
-	"tGPtHmqRUVmZyYnNRvWXZjhjyyrFFfoPTpTyQcZtABazQYZnqY"		"CVCVCVCVCVCVCVCVCV"		Passed
+	{".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......O.........................O................", ".......OOOOOOOOOOOXOOOOOOOOOOOOOOO................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................O...............................", "..................OOOOOOOOOOOOOOOOO...............", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", "..................................................", ".................................................."}, {"W 9", "W 7", "N 6", "N 6"}		{18, 22}		Passed
 
 
-	"uOOOY"		"VC"		Passed
+	{"OOXOOOO"}, {"W 2"}		{2, 0}		Passed
 
 
-	"YEyyIyyyUyYAYYyuyEyeyYuyYYyi"		"CVCVCVCVCVCVCVCVCVCVCVCV"		Passed
+	{"...........O............................", "..........OOOO..........................", "..........OOO.....O....O................", "...........OO....OOOOO.OO...............", ".........OOO...OOOOOOO.OOOO....O........", ".........OOOO...OOOOOO.OOOOOOOOO........", "...........O..OOOOOOOOOOOOOOOOOOO.......", "..........OOOOOOOOOOOOOOOOOOOOOO........", ".......OOOOOOOOOOOOOOOOOOOO.O..O........", "........OOOOOOOOOOOOOOOOOO..............", "......OOO.OOOOOOOOXOOOOOOOOO............", "...........OOOOOOOOOOOOOOOOO.OO.........", "...........OOOOOOOOOOOOOOOOOOOOO........", "............OOOOOOOOOOOOOOOOOOOO........", "...........OOOOOOOOOOOOOOOOOOOOOO.......", "............OOOOOOOOOOOOOOOOOOOOO.......", ".............OOOOOOOOOOOOOOOOOOO........", "...........OOOOOOOOOOOOOOOOOOOOO........", "..........OOOOOOOOOOOOOOOOOOOOO.........", "..........OOOOOOOOOOOOOOOOOOOOO.........", "..........OOOOOOOOOOOOOOOOOOOOOOO.......", "...........OOOOOOOOOOOOOOOOOOOOO........", "............OOOOOOOOOOOOO.O.OOO.........", ".............OOOOOOOOOOOO...OOOO........", ".............OOOOOOOOOO...OOO.O.........", "..............OOOOOOO.....O...OOO.......", ".............OOOO.........OO..O.O.......", "...............O...........O....O......."}, {"N 4", "E 2", "S 1", "W 3", "N 2", "W 1", "E 1", "N 3", "S 2", "W 1", "N 3", "W 1", "S 4"}		{22, 16}		Passed
 
 
-	"mvIiOJanymuofPIpypkXBojhyIYyoobanfEP"		"CVCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{"...", "OOX"}, {"E 1", "N 1", "S 1", "E 1"}		{}		Passed
 
 
-	"yOUPnOUuo"		"CVCV"		Passed
+	{"OOX"}, {"E 1", "N 1", "S 1", "E 1"}		{}		Passed
 
 
-	"oidOOvoiJUoAIOPEaooIoEuQougaaauEoSeoEeeIoIZtEYaYum"		"VCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{"..O.OOOOO", "..OOO...O", "..O.....O", "O.O.....X", "OOO......"}, {"S 1", "E 2", "N 1"}		{4, 0}		Passed
 
 
-	"AaAeEiqYOUUYUjUi"		"VCVCVCV"		Passed
+	{".O.O.O.O.O.O.O.O.O.O.O.O.X.O.O.O.O.O.O.O.O.O.O.O..", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", ".O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", "OO.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O.O", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"}, {"S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "N 1", "S 1", "E 1"}		{24, 49}		Passed
 
 
-	"YYYYbYyYYYyaAyay"		"CVCVCVCVCVCVCVC"		Passed
+	{"OO", "X.", "OO"}, {"W 1"}		{0, 0}		Passed
 
 
-	"YYYYYYyyYYyyyy"		"CVCVCVCVCVCVCV"		Passed
+	{"OXO", "O.O"}, {"N 1"}		{0, 0}		Passed
 
 
-	"TQZnEJhWYYfpeaYikgCjRhUPkbXytyzVyHAZPuo"		"CVCVCVCVCVCVCVCVCVCV"		Passed
+	{"OO", ".X", "OO"}, {"E 1"}		{1, 0}		Passed
 
 
-	"eUeIYOYEsiYyeiI"		"VCVCVCVCV"		Passed
+	{"O.O", "OXO"}, {"S 1"}		{0, 1}		Passed
 
 
-	"el"		"VC"		Passed
+	{"OOOOO", "OXOOO", "OOOOO", ".O.O."}, {"N 1"}		{0, 1}		Passed
 
 
-	"U"		"V"		Passed
+	{"XOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO"}, {"W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9", "W 9", "E 9"}		{9, 0}		Passed
 
 
-	"lsYwR"		"CVC"		Passed
+	{"OOOOO", "OOX.O", "OOO.O"}, {"N 1", "W 2"}		{2, 0}		Passed
 
 
-	"YgIwHUT"		"CVCVC"		Passed
+	{"OX"}, {"E 1"}		{1, 0}		Passed
 
 
-	"IO"		"V"		Passed
+	{"O", "O", "X"}, {"N 1", "S 1"}		{0, 2}		Passed
 
 
-	"yYnyXuYUhEIyPRR"		"CVCVCVCVCVC"		Passed
+	{"OOOOX", "O....", "OOOOO"}, {"N 2"}		{0, 0}		Passed
 
 
-	"eaaouyieUyIIUOYiUao"		"VCVCVCV"		Passed
+	{"OOO", "OXO", "OOO"}, {"N 1"}		{1, 1}		Passed
 
 
-	"eyAgOYeAgiyYyEQiAqUOIyUxCEUUOuyY"		"VCVCVCVCVCVCVCVCVCVCVCV"		Passed
+	{".......", ".OOOOO.", ".OOOOO.", ".OOXOO.", ".OOOOO.", ".OOOOO.", "......."}, {"N 1"}		{3, 4}		Passed
 
 
-	"seyYIyEYyiYoYyYyHYyj"		"CVCVCVCVCVCVCVCVC"		Passed
+	{"OOOOO", "OOOOO", "OOXOO", "OOOOO", "OOOOO"}, {"N 1"}		{2, 3}		Passed
 
 
-	"xMDLcmmKRNOlJHZLfwNtRdVcprilGcQghwXZsgRKMiuC"		"CVCVCVC"		Passed
+	{"OOO", "OOO", "OOX"}, {"E 2"}		{2, 2}		Passed
 
 
-	"YgIoYy"		"CVCV"		Passed
+	{"O", "X", "O"}, {"N 1", "S 1"}		{0, 1}		Passed
 
 
-	"iAIUOEeyIOaYuyOaUaaYioYaEA"		"VCVCVCVCVCV"		Passed
+	{".OOO", "OOOO", "OOXO", "OOOO"}, {"E 1", "S 1"}		{2, 1}		Passed
 
 
-	"yYeyuYEUUYYYoYUyYYyeAyOYOiAOyYeYIoYoyx"		"CVCVCVCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{"OX"}, {"W 1", "E 1"}		{1, 0}		Passed
 
 
-	"IxA"		"VCV"		Passed
+	{".OOO", "OX.O", "...."}, {"W 2"}		{1, 0}		Passed
 
 
-	"uAYaI"		"VCV"		Passed
+	{"OX"}, {"E 9"}		{}		Passed
 
 
-	"tyYyYYyrYnyYEoEyIAYYYY"		"CVCVCVCVCVCVCVCVCV"		Passed
+	{".X.", "OOO", ".O."}, {"N 1"}		{1, 1}		Passed
 
 
-	"AyfyYAOoYYaYazuCEYuyyOyyuoYIyyayyYNy"		"VCVCVCVCVCVCVCVCVCVCVCVCVCV"		Passed
+	{".....", ".XOO.", ".OOO.", ".OOO.", "....."}, {"S 1", "E 1", "N 1", "W 1"}		{1, 1}		Passed
 
 
-	"uouEyXOfKodaIEyuAY"		"VCVCVCVCVC"		Passed
+	{".OO", "OOX", "OOO"}, {"E 1"}		{2, 0}		Passed
 
 
-	"yhMyyYYYYYyyfYYYyyYyyYYYYdpypYyYYyYMyyYyyYyyyyyYYq"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{".O.", "OOO", "OXO"}, {"S 1"}		{1, 1}		Passed
 
 
-	"aYYYyQYQcUUiDHIjjyHoxaYyyOY"		"VCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{"O.X", "OOO"}, {"E 2"}		{2, 1}		Passed
 
 
-	"MYYnoOYYaOSDyuLeUIonaEEuEuAN"		"CVCVCVCVCVCVC"		Passed
+	{".O.", "OOX", ".O."}, {"E 1"}		{1, 1}		Passed
 
 
-	"yIYAeYEYDyaYiEuayyyyYBuYeYUkYAYeYYuyyy"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{"OO.", "OXO", ".OO"}, {"E 1", "S 1"}		{1, 1}		Passed
 
 
-	"YuvYyYYYDayuAnYyOYOOIUNTyIyYYYiIyYSyyaYYpyEyyyiYYY"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{".OOO", "OOXO", "OOOO"}, {"E 1"}		{2, 0}		Passed
 
 
-	"EAeokCaEPYIuOieeoOYfaiiYIyaea"		"VCVCVCVCVCV"		Passed
+	{"X.O", "OOO"}, {"E 2", "S 1"}		{}		Passed
 
 
-	"NantaYuXByYjxRpishgYYosqEgoYOZoIOEEeMiuqaDIo"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCV"		Passed
+	{"OXO", "OOO", "OOO"}, {"S 1", "N 1"}		{1, 0}		Passed
 
 
-	"UYyYyYYoYzyeYJzyYzYYyYeYwYyYy"		"VCVCVCVCVCVCVCVCVCVCVC"		Passed
+	{".OO", "OOO", "OXO"}, {"S 1"}		{1, 1}		Passed
 
 
-	"yEqywf"		"CVCVC"		Passed
+	{"..", "XO"}, {"E 1", "W 1"}		{0, 1}		Passed
 
 
-	"uauOO"		"V"		Passed
+	{"OXO", "OOO", ".O.", ".O."}, {"N 1"}		{0, 0}		Passed
 
 
-	"YYoLOsuyeRc"		"CVCVCVCVC"		Passed
+	{"..OOOOOOOOOOOOOO", "..OOOOOOOOOOOOOO", "..OOOOOOOOOOOOOO", "..OOOOOOOOOOOOOO", "..OOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOO", "OOOOOOOOOOOOOOOO", "OOOOOOOOOOOOXOOO"}, {"W 1", "E 1", "S 1"}		{15, 11}		Passed
 
 
-	"yoeeUiYAaYyyuIIEEuyYAYOoYoeouOuOYIYaOyo"		"CVCVCVCVCVCVCVCVCVCV"		Passed
-
-
-	"ASyxyyeoJyyYWyYNYYeYYyUyYeyYueyyyyYYyYyypyYYYO"		"VCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCV"		Passed
-
-
-	"TyHyFYkcYaLPyYmeZGyidyDyUYYfcoNyYjyOzOYYYyF"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVC"		Passed
-
-
-	"BYxfGYNvySYYyltByyqrPYdlx"		"CVCVCVCVCVCVCVC"		Passed
-
-
-	"YYYYYyyyyyYYYYYyyyyyYYYYYyyyyyYYYYYyyyyyYYYYYyyyyy"		"CVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCVCV"		Passed
-
-
-	"yC"		"C"		Passed
-
-
-	"yC"		"C"		Passed
-
-
-	"a"		"V"		Passed
-
-
-	"aaaaaaaaaaaa"		"V"		Passed
-
-
-	"yyo"		"CV"		Passed
-
-
-	"dYeYddYeeyYYYyyYaoopopo"		"CVCVCVCVCVCVCVCV"		Passed
-
-
-	"y"		"C"		Passed
-
-
-	"aAaA"		"V"		Passed
-
-
-	"toy"		"CVC"		Passed
-
-
-	"RRRRRRRR"		"C"		Passed
-
-
-	"YipPy"		"CVCV"		Passed
-
-
-	"YeeeYyYeeYeyEYghihiEeeIhYyy"		"CVCVCVCVCVCVCVCVCV"		Passed
-
-
-	"aeiou"		"V"		Passed
-
-
-	"AyYyEYye"		"VCVCVCV"		Passed
-
-
-	"ICE"		"VCV"		Passed
-
-
-	"AYYYYYYYYYYYYYYYYYYYY"		"VCVCVCVCVCVCVCVCVCVCV"		Passed
-
-
-	"AY"		"VC"		Passed
-
-
-	"yyyyyyy"		"CVCVCVC"		Passed
-
-
-	"BEBA"		"CVCV"		Passed
+	{"..........", "......O...", "...O.OO...", "...OOOO...", "...OXOO...", "...OOOO...", "...O.O....", ".........."}, {"S 4"}		{6, 5}		Passed
