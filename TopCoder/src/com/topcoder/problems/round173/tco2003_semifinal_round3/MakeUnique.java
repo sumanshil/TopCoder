@@ -1,16 +1,11 @@
 package com.topcoder.problems.round173.tco2003_semifinal_round3;
 
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.LinkedHashSet;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Set;
 
 //https://community.topcoder.com/stat?c=problem_statement&pm=1905&rd=4708
 public class MakeUnique {
 
-    static Set<String> currentSet = new HashSet<>();
     static String result;
     int maxLength = Integer.MAX_VALUE;
     int uniqueCharacters = 0;
@@ -70,7 +65,7 @@ public class MakeUnique {
                 continue;
             }
 
-            if (lastValue != Integer.MIN_VALUE && arr[i] - 'A' > lastValue) {
+            if (arr[i] - 'A' > lastValue) {
                 lastValue = arr[i] - 'A';
             } else {
                 return false;
