@@ -10,6 +10,7 @@ public class MakeUnique {
     int maxLength = Integer.MAX_VALUE;
     int uniqueCharacters = 0;
     private static final char EMPTY_CHAR = '.';
+
     public void find (String str){
         char[] arr = str.toCharArray();
         Set<String> strings = new HashSet<>();
@@ -100,9 +101,88 @@ public class MakeUnique {
         return true;
     }
 
+    public void findIterative(String str) {
+        int appears[] = new int[26];
+
+        for ( int i = 0 ; i < str.length() ; i++) {
+            appears[str.charAt(i)-'A']++;
+        }
+
+        int la = 0;
+        for ( int i = 0 ; i < appears.length ; i++) {
+            if (appears[i] > 0){
+                la = i + 'A';
+            }
+        }
+
+
+        int lastIndex = 0;
+
+        int k = 0;
+        boolean used[];
+        String result ="";
+        int best = Integer.MAX_VALUE;
+        while (lastIndex < str.length()) {
+            int ls = la;
+            while (lastIndex < str.length() && str.charAt(lastIndex) != ls ){
+                lastIndex++;
+            }
+
+            if (lastIndex >= str.length()){
+                break;
+            }
+            k = lastIndex;
+
+            used = new boolean[str.length()];
+            used[k] = true;
+            int j = lastIndex-1;
+            boolean failed = false;
+            while (true){
+                ls--;
+                while (ls >= 'A' && appears[ls -'A'] == 0){
+                    ls--;
+                }
+
+                if (ls < 'A'){
+                    break;
+                }
+
+                while (j >= 0 && (int)str.charAt(j) != ls) {
+                    j--;
+                }
+
+                if (j < 0){
+                    failed = true;
+                    break;
+                }
+                used[j] = true;
+            }
+            if (!failed) {
+                StringBuilder stringBuilder = new StringBuilder();
+                int f = -1;
+                for ( int i = 0 ; i < used.length ; i++) {
+                    if (used[i]){
+                        if (f == -1){
+                           f = i;
+                        }
+                        stringBuilder.append(str.charAt(i));
+                    } else {
+                        stringBuilder.append('.');
+                    }
+                }
+                if (best > k-f) {
+                    best = k - f;
+                    result = stringBuilder.toString();
+                }
+            }
+            lastIndex++;
+        }
+        System.out.println(result);
+    }
+
     public static void main(String[] args) {
-        String str = "DDCCADAABACCCDCAABCCACDCCDCCDD";
-        new MakeUnique().find(str);
+        String str = "CABDEAFDEGSDABCDEADFGSEFBGS";
+        new MakeUnique().findIterative(str);
         //System.out.println(".".compareTo("A"));
     }
 }
