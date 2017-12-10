@@ -8,7 +8,7 @@ import java.util.List;
 public class ArticulationPointOfAGraph {
 
     static class Graph {
-        private int numberOfVertices;
+         int numberOfVertices;
         private List<Integer> adjacency[];
         private int low[];
         private boolean visited[];
@@ -29,6 +29,10 @@ public class ArticulationPointOfAGraph {
             this.articulationPoints = new boolean[numberOfVertices];
             this.discoveryTime = new int[numberOfVertices];
             Arrays.fill(parent, -1);
+        }
+
+        public List<Integer>[] getAdjacencyList(){
+            return adjacency;
         }
 
         public void addEdge( int u, int w){
