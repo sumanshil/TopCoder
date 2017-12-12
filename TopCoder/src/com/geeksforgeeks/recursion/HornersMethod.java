@@ -10,8 +10,7 @@ public class HornersMethod
 	
 	public int recursiveUtil(int[] poly, int x, int count, int start)
 	{
-		if ( count == 0)
-		{
+		if ( count == 0) {
 			return poly[start];
 		}
 		
