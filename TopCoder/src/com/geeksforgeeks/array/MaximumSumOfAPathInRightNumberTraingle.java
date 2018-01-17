@@ -10,7 +10,7 @@ public class MaximumSumOfAPathInRightNumberTraingle {
     };
 
 
-    public void find (){
+    public void find () {
         int dp[][] = new int[matrix.length][matrix[0].length];
         dp[0][0] = matrix[0][0];
 
