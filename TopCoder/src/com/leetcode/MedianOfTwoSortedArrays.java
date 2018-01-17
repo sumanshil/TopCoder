@@ -1,4 +1,4 @@
-package com.leetcode.array;
+package com.leetcode;
 
 //https://leetcode.com/problems/median-of-two-sorted-arrays/tabs/description
 public class MedianOfTwoSortedArrays {
