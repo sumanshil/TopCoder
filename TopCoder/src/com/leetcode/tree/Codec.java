@@ -64,7 +64,21 @@ public class Codec {
         }
         return -1;
     }
-
+    private static String dnsStr ="{\n"
+                           + "    \"dns\": {\n"
+                           + "        \"data\": [\n"
+                           + "            \"Server:\",\n"
+                           + "            \"127.0.0.1\",\n"
+                           + "            \"Address:\",\n"
+                           + "            \"127.0.0.1#53\",\n"
+                           + "            \"Non-authoritative answer:\",\n"
+                           + "            \"Name:\",\n"
+                           + "            \"sc2-rdops-vm07-dhcp-250-102.eng.vmware.com\",\n"
+                           + "            \"Address: 10.192.250.102\"\n"
+                           + "        ],\n"
+                           + "        \"resolved_address\": \"10.192.250.102\",\n"
+                           + "        \"status\": \"SUCCESS\"\n"
+                           + "    }\n";
     public static void main(String[] args) {
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);
@@ -72,5 +86,6 @@ public class Codec {
         Codec codec = new Codec();
         TreeNode treeNode = codec.deserialize(codec.serialize(root));
         System.out.println(treeNode);
+        System.out.println(dnsStr);
     }
 }
