@@ -2,1035 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140ec11d-3f08-4d29-9a92-144f7b40093d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JumpGame.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycomp/rule/Customer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycomp/rule/CustomerService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycomp/rule/HamcrestTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycomp/rule/NameNotFoundException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/mycomp/rule/RuleTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/com/apas/ZigZagString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/careercup/amazon/BlockingStackTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/careercup/amazon/BuildTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/careercup/amazon/CompletableFutureTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/careercup/amazon/FindSentence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/careercup/amazon/MyThread.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/careercup/amazon/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/careercup/amazon/TreeTraversalInSpiralForm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/DiningPhilosphersProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/FairLock.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/MultiplexInputStream.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/OrderedExecutor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/OrderedExecutor1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/OrderedExecutor2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/OrderedExecutor3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/PhaserExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/PhaserExample1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/PhilosopherThread.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/PrintEvenAndOddInSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/PrintMatrixConcurrently.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/PrintOddAndEven.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/ThreadLocalExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadpool/Future.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadpool/FutureImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadpool/MainApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadpool/PoolableThread.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadpool/Task.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadpool/ThreadPool.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadwarningsystem/DeadlockThreadTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadwarningsystem/ThreadWarningSystem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/concurrency/threadwarningsystem/TooManyThreadsTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dailyprogramming/matrix/ColorMaze.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dailyprogramming/matrix/SpiralMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dp/Arrfix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dp/Clicountingd2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dp/KPalindrom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dp/WildCardMatching.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dzone/AbstractVending.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dzone/CandyVending.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dzone/DrinkVending.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dzone/Ivending.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dzone/VendingManager.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/dzone/VendingService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/forkAndJoin/ComposableResult.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/forkAndJoin/ComputationActivityBridge.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/forkAndJoin/DecomposableInput.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/forkAndJoin/ForkAndJoinProcessor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/forkAndJoin/ForkAndJoinTaskPrototype.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/forkAndJoin/GenericRecursiveTask.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/forkAndJoin/GenericSplitProcessor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/AVLTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/AVLTree1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/BTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/BTreeNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/BinaryHeap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/BinaryHeapNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/EulerTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/ImplementAPhoneDirectory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/Iterator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/PatternSearchingUsingTrieSuffixes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/PrintTrieContent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/RangeSumSegmentTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/SortingOfWordsUsingTrie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/SumSegmentTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/TernarySearchTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/TernarySearchTree1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/TreeNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/Trie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/Trie1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/advanced/TrieNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/amazoninterview/AmazonInterview.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/amazoninterview/FindClusterOfOnes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/AllPossibleCombinationsOfArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/AnagramSubStringSearch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/BackTrackingToFindAllSubsets.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/BucketSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/ConnectNRopesWithMinimumCost.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/CountPairsFromTwoSortedArraysWhoseSumIsEqualToX.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/CountPossiblePathsBetweenSourceAndDestination.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/CountSubArraysWithEqualNumberOfZerosAndOnes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/CountWays.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/CountWaysToExpressANumberAsSumOfPowers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/DeleteArrayElementSmallerThanNext.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/EvaluatingAnExpression.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/ExcelColumnNameGivenNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FIndTripletsWhoseSumIsZero.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindAnElementInSortedAndRotatedArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindDuplicate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindElementNByKTimes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindHeightFromParentTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindHeightOfBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindLargestContiguousArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindMinDistanceBetweenTwoNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindNextGreaterNumberWithSameDigits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindNumberOfPairsXyYx.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindPossibleWordPhoneDigits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindSubArrayWithZeroSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindSumOfNElements.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindTheClosestPairFromTwoSortedArrays.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindTheMaximumRepeatingNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindTheSubArrayWithSumClosestToZero.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindThreeNosWithMaximumProduct.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindingMinimumInRotatedArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/GenerateAllUniquePartitions.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/GivenAnArrayFindIfTheStringsCanBeChained.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/GivenSortedDictionaryFindPrecedenceOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/HappyNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/InterpretaionOfAnArrayOfDigits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/IterativeHeapSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/KStackInSingleArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LargestSubArrayOfSizeK.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LargestSumContiguousArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LargestSumContinuousSubArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LargetsArrayWithEqualZerosAndOnes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LengthOfLongestBitonicSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LongestCommonSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LongestIncreasingSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/LongestSubSegmentOfOnesByChangingAtmostKZeros.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaxRecursive.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaximumDifferenceBetweenTwoElements.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaximumJumpToReachEnd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaximumNumberOfElements.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaximumProductSubArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaximumSubArraySum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaximumSumOfAPathInRightNumberTraingle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MaximumSumPathInTwoArrays.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MergeAnArrayOfSizeMN.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MergeOverlappingIntervals.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MergeOverlappingIntervals1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MergeSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MoveAllNegativeElementsAtEndInOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MoveAllZerosAtEnd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MoveAllZerosToTheEndOfArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/MoveVeElementsToEnd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/NumberOfJumpsForAThiefToCrossTheWall.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/NumberOfSubArraysWithGivenProduct.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/NumberOfSubArraysWithGivenProduct1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/OptimizedReadingList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PartitionAnArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PoivotedBinarySearch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PowerSet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PrintAllIncreasingSequences.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PrintAllPossibleCombination.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PrintAllPossibleCombinations.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PrintAllSubArrayWithZeroSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PrintAllSubSequencOfAString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PrintDisctinctNonNegativeIntegers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/PrintIncreasingSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/RearrangeArrayInAlternatingPosAndNegItems.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/RearrangePositiveAndNegativeNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/RearrangePositiveAndNegativeNumbersMix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/RecursiveSolutionToCountSubStrings.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/RemobeBAndACFromString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/Sample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/SearchAnAlomostSortedArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/SeggregateZerosAndOnes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/SmallestSubArrayWithAllOccurrencesOfAMostFrequestElement.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/SortArrayAccordingToOrderDefinedByAnotherArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/SortKSortedArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/StableMarriage.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/StockBuyAndSell.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/StringCombination.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/SuffixArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/SumOfProductOfAllElementsOfSubArraysOfSizeK.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/ThridLargestElementInArrayOfDistinctElements.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/UglyNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/array/VisitPetrolPump.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/AllPermutationOfAString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/AllPossiblePermutationOfAString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/CheckIfAStringIsSumString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/CheckIfAStringIsSumStringIterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/CombinationalSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/CombinationalSumIterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/CombinationsEveryElementAppearTwice.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/CombonationalSumIterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/EightQueenProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/RateInMaze.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/RateInMaze1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/backtracking/TugOfWar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/AddTwoBitStrings.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/AddTwoNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/BinaryRepresentationOfANumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/CheckIfTwoNumbersHaveOppositeSign.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/CountSetBitsEfficient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/FindTwoNonRepeating.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/FindingMinAndMax.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/IsMultipleOf3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/NextHigherNumberWithSameBits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/NextOfPower2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/ReveseBits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/SetTheRightMostUnsetBit.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/SwapAllOddBitsAndEvenBits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/SwapBitsinAGivenNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/bitmagic/SwapIthAndJthBits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/AssemblyLineScheduling.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/BinominalCoefficient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/BitMaskingAndDynamicProgramming.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/BoxStackingProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/BuildingBridges.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/BuildingBridges1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/ClimbNthStair.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/ClusteringAnArraySuchThatSumOfSquaresIsMinimum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CoinChange.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CoinChange1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CoinChange2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CoinChange3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CoinChangeRecursion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CoinPath.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountAllSubSequences.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountNumberOfWaysToReachAGivenScoreInAGame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountNumberOfways.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountOfNDigitNumbersWhoseSumOfDigits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountOfPalidromicSubStringInAnIndex.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountStringsAdjacentCharsDifferentOne.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountTheNumberOfSquares.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountTotalNumberOfNDigitNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CountingPairs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CuttingARod.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CuttingARod1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CuttingARod3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CuttingRod.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/CuttingRod2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/DelannoyNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/DiceThrow.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/DiceThrow1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/EditDistance.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/EggDropPuzzle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FIndAllDistinctSubSetsOfAGivenSet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FIndNumberOfTimesStringOccursAsASubSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindIfStringISKPalindrom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindLengthOfLongestConsecutivePathFromAGivenCharacter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindLengthOfSubSequenceOfOneString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindLongestBitonicSubSequenceTwoArrays.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindMaximumPossibleStolenValues.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindMinimumNumberOfCoins.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindNumberOfSolutionsOfLinearEquations.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FindTheLongestPathInMatrixWithGivenConstraints.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FloydWarshall.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/FloydWarshallAlgortithm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/HighEffortVsLowEffortProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/KnapSackProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/KnapSackProblem2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/KnapSackProblem4.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/KnapSackProblem5.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/KnapSackRecursion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/KnapsackProblem1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/KnapsackProblem3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LargestAreaRectangularSubMAtrixWithEqualNumberOfOnesAndZeros.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LargestRectangularSubMatrixWhoseSumIsZero.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LargestSumContiguousArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LargestSumContiguousArray1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LengthOfLongestArithmaticProgression.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LengthOfLongestBalancedSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LengthOfLongestBalancedSubsequence1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LengthOfLongestPalindromicSubStringWithoutRepeatingChars.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LengthOfLongestSubstringWithoutRepeatingCharacters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LengthOfTheLongestSubStringWithoutRepeatingCharacters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestBalancedSubSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestBitonicSubSequence2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestBitonicSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestBitonicSubsequence1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestCommonAnagramSubSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestCommonSubSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestCommonSubSequence1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestCommonSubSequence3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestCommonSubSequenceWithAtmostK.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestCommonSubSequence_1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestCommonSubSequence_2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestIncreaingSubSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestIncreasingPathInMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestIncreasingSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestIncreasingSubsequence1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestPalidromicSubString1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestPalindromicSubSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestPalindromicSubSequence1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestPalindromicSubSequence2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestRepeatedSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestRepeatedSubsequence1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestSubStringWithoutRepeatingCharacters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/LongestZigZagSubSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MatrixChainMultiplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MatrixChainMultiplicationRecursive.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaxNumberOfPeopleForWeight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaxSumRectangleIn2DMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaxSumRectangleIn2DMatrix1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaxWeightOfTransformation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumArrjArrIArrIArrKSuchThatijkl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumLengthChainOfPairs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumLengthSnakeSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumNumberOfCoins.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumProductCutting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumProductOfIncreasingSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumProfitBySellingStockMaxtwoTimes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumShareBySellingAtleastKTimes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumSizeSquareSubMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumSizeSquareSubMatrix1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumSizeSubsetWithGivenSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumSumIncreasingSubSequence1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumSumIncreasingSubsequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MaximumZerosAndOnes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinCostPath.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinCostPath1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinCostPath2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinCostToMakeTwoStringsIdentical.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinNumberOfJumpsToReachEnd2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimukTimeToFinishTask.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumCellsRequiredToReachDestination.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumInitialPointsToReachDestination.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumJumpsToReachEndOfBuilding.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumNumberOfChangesToMakePalindrom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumNumberOfDeletionToMakeAStringPalindrom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumNumberOfJumps.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumNumberOfJumpsToReachEnd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumNumberOfJumpsToReachEnd1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumNumberOfJumpsToReachEnd2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/MinimumSumSubMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/NonDecreasingSubSequenceOFSizeKWithMiniumSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/NumberOfNGEsOnTheRight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/NumberOfNGEsRight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/NumberOfPathsWithExactlyKCoins.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/NumberOfPathsWithExactlyKCoins1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PaintersPartitionProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PaintingFenceAlgo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PaitningFenceAlgorithm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PalindromicPartitioning.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PalindromicPartitioning1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/Parition.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PartitionProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PartitionProblem1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PartitioningProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/PerfectSumProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/RegularExpressionMathcing.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/RemoveAnArrayElementToMaximizeTheSUmOfProducts.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/RodCutting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/SmallestSumContiguousArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/StringDiffUtil.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/SubSetSumProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/SubnetSumProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/TextJustification.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/TotalNumberOfNonDecreasingNumbersWithNDigits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/UnboundedKnapsack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/WildCardMatching.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/WordBreakProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/dynamicprogramming/ZigZag.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/externalsort/ExternalSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/ArticulationPointOfAGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/ArticulationPointOfAGraph1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/ArticulationPointOfGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/BiPatriteGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/CheckIfPathExistsInAGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/CloneADirectedGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/CycleOfLengthNInAnUndirectedGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DetectCycleInAGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DetectCycleInAGraph1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DetectCycleInAnUnDirectedGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DetectCycleInaGraphUsingColor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DetectCyleUsingUnionFindAlgo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DiameterOfAnUndirectedGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DijkstrasAlgo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DisjointSet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DisjointSetLeaderSelectionStrategy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DisjointSetNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DisjointSetTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/DistanceBetweenTwoNodesInAGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/Edge.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/FindNumberOfIslands.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/FloydWarshall.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/FloydWarshallAlgorithm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/FloydWarshallAlgorithm1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/Graph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/GraphUnionPathCompressionAndRaking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/HamiltonianCycle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/IterativeDepthFirstSearch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/IterativeDepthFirstSearch1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/KruskalsAlgoForMinimumSpanningTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/MinimumNumberOfEdgesBetweenTwoVertices.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/MinimumSpanningTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/MotherVertex.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/PrimsMinimumSpanningTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/RootsOfATreeWhichGivesMinimumHeight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/ShortestPathUsingTopologicalSorting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/SnakeAndLadderProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/StronglyConnectedComponent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/TopologicalSortOfAGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/TopologicalSorting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/graph/Vertex.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/greedy/JobSequencingProblemGreedy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/hash/CuckooHashing.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/DeleteNNodesAfterMNodes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/FindPairInSortedLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/GivenLinkedListOfLineSegmentsRemoveMiddlePoints.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/LinkedListNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/MergeKSortedLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/MergeKSortedLinkedList1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/MergeLinkedListAtAlternatePosition.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/MergeLinkedListsAtAlternatePos.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/MergeTwoSortedLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/MultiIterator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/ReArrangeLinkedListToMakeOddAndEvenTogether.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/ReverseALinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/ReverseFirstKElementsInLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/ReverseLinkedListInGroup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/ReverseNodesInKGroup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/RotateLinkedListBlockWise.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/RotateLinkedListBlockWiseRecursive.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/SwapKthNodeFromBeginningAndEnd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/SwapKthNodeFromBeginningWithKFromEnd.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/linkedlist/SwapPairwiseNodes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/Boogle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/CountNumberOfPathsWithAtmostKTurns.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/FindAllOccurrencesOfAGivenWordInMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/FindMaximumCostWithTwoTraversals.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/FindWordInMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/GivenMatrixOfOAndXReplaceOWithX.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/LargestConnectedOnesInMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/LongestPossibleRouteWithHurdles.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/MatrixRotation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/MatrixRotation1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/MaximumSquareSubMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/PrintAllPossiblePaths.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/PrintAlternateXsAndZeros.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/PrintGivenMatrixInZigZagForm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/PrintKthElementInSpiralFormOfMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/PrintSpiralMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/SearchAWordIn2DGridOfCharacters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/SnakeAndLadder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/SubMatrixSumQueries.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/matrix/SubRectangularSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/pedning/ParenthesisProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/rangeminimumquery/RangeSumDecomposition.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/rangeminimumquery/SimpleSolution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/rangeminimumquery/SparseTableDecomposition.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/rangeminimumquery/SquareRootDecomposition.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/rangeminimumquery/SquareRootDecompositionTechnique.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/CheckIfListIsAscending.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/HornersMethod.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/MAkeAllCombinationsOfSizeK.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/MobileNumericKeyPadProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/PrintAllCombinations.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/PrintAllSequencesOfGivenLength.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/ProductOfTwoNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/RecursivelyRemoveAllAdjacentDuplicates.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/RemovAllDuplicates.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/recursion/SodukuSolversDescription.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/segmenttree/SegmentTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/slidingwindow/MinimumSwapsRequiredToGroupsAllOnesTogether.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/stack/SortStackUsingTemporaryStack.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CheckForSubString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CheckGivenSetForGivenSetOfGrammarRules.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CheckGivenStringSumString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CheckIfFirstStringIsSubSequenceOfSecond.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CheckStringFollowsOrderOfCharactersDefinedByPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/ConvertJsonToMap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CountAllPalindromicSubString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CountPossibleSequenceOfDigitSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CountSubStringWithFirstAndLastCharacter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/CountWaysToSpellANumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/DecodeAStringRecursivelyEncodedAsCount.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/ExcelSheet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/FindAllStringThatMatchesSpecificPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/FindKthCharacterOfDecryptedString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/FindPatternWithoutRegularExpression.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/FindStringWithPossibleSpaces.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/FindStringsFormedCharactersMappedDigitNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/GenerateAllBinaryStringsFromGivenPattern.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/KMPAlgo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/KMPAlgorithm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/KMPAlgorithm1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/KMPAlgorithm2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/KMPAlgorithm3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/KnuthMorrisPratAlgo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/LongestCommonSubsequenceWithPermutationAllowed.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/LongestValidParenthesis.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/PalindromPairInArrayOfStrings.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/PatternSearching.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/PermutationOfAString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/PrintAllPossibleStrings.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/PrintAllWaysToBreakAStringInBracketForm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/PrintAllWordsMatchingCamelCaseDisctionary.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/PrintConcatenationOfZigZagStringOfNRows.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/RearrangeCharactersInAStringSuchThatNoTwo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/RunLengthEncodingIterator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/SearchSubStringAnagram.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/SplitStringIntoSubStrings.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/StringWithAdditiveSequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/UkkonensSuffixTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/strings/WildCardPatternMatching.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/AVLTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/AddAllGreaterValues.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/BaseBinarySearchTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/BinaryTreeNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/BottomViewOfBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/BuildTreeFromInorderLevelOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/BuildTreeFromLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CalculateDepthOfBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckAnEdgeDivideABinaryTreeInTwoHalves.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckBinaryTreeContainsSubStringSerialized.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckForHeightBalancedTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfBinaryTreeContainsSubTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfGivenArrayCanRepresentPreOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfLeafAreOnSameLevel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfLeafTraversalIsSame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfLeftAndRightTreesAreMirror.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfRemovingAnEdgeCanHalve.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfRemovingAnEdgeCanHalveEfficient.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckIfTwoNodesAreOnSamePath.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckMirrorInNaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckSumOfCoveredAndUncoveredBinaryTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckSumOfCoveredAndUncoveredNodes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CheckTwoNodesInBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ClosestLeafToAGivenNodeInBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ConstructABSTFromPostOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ConstructAncestorMatrixFromAGivenBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ConvertABinaryTreeToCircularDoubyLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ConvertBSTToMinHeap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ConvertBinaryTreeToBinarySearchTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CountTheNumberOfTurns.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/CreateBinaryTreeFromLevelOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/DeepestLeftLeafNodeInBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/DensityOfBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/DiagonalSumOfABinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/DiagonalTraversalOfBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/DoubleTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ExtractLeavesToDLL.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindAllPossibleBinaryTreesWithGivenInOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindClosestLeafNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindCountOfSingleSubtrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindDeepestOddLevelLeafNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindDepthOfDeepestOddLevelNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindDistanceBetweenTwoKeys.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindMaxRepeating.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindMaximumPathSumBetweenTwoLeaves.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindMultiplicationOfDataOfTreeOfSameLevel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindNearestLeaf.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindRootOfTheTreeWhereChildrenIdSumForEveryNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindShortestDistanceBetweenTwoNodes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindSumOfAllLeftLeafNodes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindSumOfAllRightLeavesInABinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FindTheLargestSubTreeWithIdenticalLeftAndRightSubTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/FlipBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/GetMaxWidthOfTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/GreatTreeToListProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/InOrderNonRecursive.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/InOrderTreeTraversalWithoutRecursion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/InorderPredecessorSuccessor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/IntervalTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/IntervalTreeUsingBST.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/IterativePreorderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/LevelOrderTraversalInSpiralForm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/MaximumDifferenceBetweenNodeAndAncestor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/MaximumIncreasingConsecutivePathLength.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/MaximumWidthOfATree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/MergeTwoBinaryNodesByDoingNodeSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/NaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/NaryTreeLocking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/NaryTreeMirror.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/NaryTreeNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/NaryTreeTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PassInformationInATree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PetrolPump.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PostOrderIterativeTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PreOrderTraversalIterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PreOrdertraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintAllAncestorsOfANode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintAllNodesAtDistanceKFromAGivenNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintAllNodesAtKDistanceFromLeaf.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintAllNodesWithKLeaves.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintAllRootToLeafIterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintAllRootToLeafPathsWithRelativePositions.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintBinaryTreeInVerticalOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintBinaryTreeSpecificLevelOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintLeftMostAndRightMostNodes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintNodesAtKDistanceFromANode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintNodesAtKDistanceFromRoot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintNodesInTopViewBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintRootToLeafWithoutRecursion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/PrintVerticalTreeGfG.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/RemoveNodesFromPathWithLessThanKDistance.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ReplaceEveryElementWithLeastGreaterElementOnRight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ReverseAlternateLevelInPerfectTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ReverseDNSLookup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ReverseLevelOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/SegmentTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/SerializeAndDesrializeNaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/Solution.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/SubTreeWithSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/SuffixTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/SumOfLeafNodesAtMinimumLevel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/SumTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/SymmetricTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/Test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ThreadedBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ThreadedBinaryTree1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ThreadedBinaryTree2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ThreadedBinaryTreeNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/TransforBSTtoGreatSumTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/TreeLCAUsingRMQEulerTour.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/VerticalSumInATreeSpaceOptimized.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/VerticalSumOfABinaryTreeSpaceOptimized.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/VerticalSumOfATree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/ZigZagTreeTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/niary/DiameterOfANiaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/niary/LowestCommonAncestorInBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/tree/niary/NiaryTreeNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/trie/BaseTrie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/trie/LongestCommonSubStringUsingTrie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/trie/PalidromPairInArrayOfStringUsingTrie.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/trie/TrieDelete.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/google/Question.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/BearAndSteadyGene.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/CheckForSortedString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/CheckForSubString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/CheckIfAnagramIsPalindrom.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/NTowersMinFloors.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/PatternMatchesExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/dp/MandragoraForest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/dp/PartitionProblem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/hackerrank/dp/TheMaxSubArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/heap/MinHeap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/heap/MinHeapKey.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/heap/MinHeapNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/heap/MinHeapWithMap.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/Developer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/FlatMapTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/OptionalTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/exceptionInStream/HandleException.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/groupby/Item.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/groupby/Java8Example1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/groupby/Java8Example2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/groupby/Java8Example3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/groupby/Person.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/java8/groupby/PersonGroupByExample.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/MedianOfTwoSortedArrays.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/String/AvailableTagList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/String/FindSubStringWithDistictChars.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/String/LongestSubStringWithoutRepeatingCharacters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/ArrayPairSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/FindAllDisappearedNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/FourSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/MaxArea.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/MaxAreaOfIsland.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/MaxConsecutiveOnes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/MedianOfTwoSortedArrays.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/MoveZeros.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/OneBitAndTwoBit.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/ReshapeTheMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/SerachInsertPosition.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/ThreeSumClosest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/array/leetcode/ToeplitzMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/linkedlist/AddTwoNumbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/AddOneRowToTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/AverageOfLevelsInBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/BinaryLevelOrderTraversal2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/BinaryTreeDeepCopy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/BinaryTreeInOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/BinaryTreeLevelOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/BinaryTreeUsingBFS.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/Codec.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/ConstructStringFromBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/ConvertBSTToGreaterTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/CreateBSTFromSortedArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/CreateBinaryTreeFromInorderAndPostorder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/CreateBinaryTreeFromPreorderAndInOrderTraversalIterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/CreateTreeFromInorderAndPreOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/CreatebinaryTreeFromPreOrderAndInOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/DeleteANodeInBST.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/DiameterOfABinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/FindBottomLeftTreeValue.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/FindDuplicateSubTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/FindLargestValueInEachTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/FindTilt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/FlattenBinaryTreeToLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/HouseRobber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/InOrderTraversal.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/LongestUnivaluePath.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/MaximumBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/MaximumWidthOfBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/MergeTwoBinaryTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/MinDepthOfBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/MostFrequestSubTreeSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/PathSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/PathSum2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/PopulateNextRightPointer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/PopulatingNextPointer2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/PrintBinaryTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/RecoverBinarySearchTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/RedundantConnection.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/RedundantConnection2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/SameTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/SerializeAndDeseiarlize.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/SerializeAndDeserializeIterative.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/SubTreeOfAnotherTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/SumOfLeftLeaves.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/SymmetricTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/TreeNode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/TrimABinarySearchTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/TwoElementSumInBST.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/UniqueBinarySerachTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/UniqueBinarySerachTrees1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/leetcode/tree/ValidateBinarySearchTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/mathematical/FindAllCombinationsThatAddsUptoGivenNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/migratioscript/FindDiff.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/DistributorGroupMapping.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/DistributorInfo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/DsvDestination.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/EDIGeneration.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/EDISequence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/FacilityMapping.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/GenerationRequestSchedule.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/LocalDirectoryForSoftLaunch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/SoftLaunch.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/oracle/XML4_0_0.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/staxParser/Parser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/staxParser/ValidatorRule.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/stresstest/GenerateOrderRequest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/dp/BearFair.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/dp/FindCorrectItem.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/dp/RepeatStringEasy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/dp/RepeatSubString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/ArrangeGivenNumbersToFormBiggestNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/BinarySearchTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/BubbleSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/CheckForPair.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/DOM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/Finances.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/FindAPairInBST.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/FindSumOfDigits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/MergeTwoSortedListInReverseOrder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/StringDup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/SwapOddBitsWithEvenBits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/Syntax.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/geeksforgeeks/WordFilter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Bases.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Camper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Combination.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/CommonChar.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/DigitArith.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/FindWordInMatrix.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/FindingMaxRecursively.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/IntSplit.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/HowEasy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/Prerequisites.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/SquareDigits.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/finalcomp/NTicTacToe.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/finalcomp/Networking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/finalcomp/UserListSorter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/round2/EndOfContest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/round2/FSM.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/round2/TCMLParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/round3/BitChecker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/round3/BitCheckerTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/round3/Clock.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/round3/Parachuter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/semifinalA/ChessCover.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/semifinalA/MatchMaker.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/semifinalA/Tothello.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/semifinalC/ArgParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Invitational2001/semifinalC/Checkers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/KHeavyPath.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/LetterSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/ModEncoder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Obstacles.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/ObstaclesTopCoder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Partitions.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/PegJump.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/PegJump1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Population.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Repeating.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Runners.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Series.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Shipping.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/SpellingCorrector.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/SpellingCorrector1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/StockCalc.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/StringCompressor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/StringParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/StringTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Test.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/TriTravel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/Vigenere.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/WellOrdered.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/arista/DoublyLinkedList.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/crpf_charity_challenge_1/AustrianLotto.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/crpf_round1/CongruenceLock.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/crpf_round1/RoomSummary.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/dp/SubtreeSum.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round10/MagicSeries.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round10/Punnet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round11/Barricades.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round11/Combiner.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round11/Derivatives.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round13/Array.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round13/GoodWord.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round13/WordFinder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round13/WordFinderTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round14/Hands.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round14/Inheritance.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round14/Regex.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round144/BinaryCode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round144/Lottery.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round145/Bonuses.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round145/DitherCounter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round145/HillHikeIncomplete.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round145/VendingMachine.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round146/MasterBrain.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round146/MasterBrainTry.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round146/RectangularGrid.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round146/Roundabout.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round146/Roundabout1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round146/TestPermutation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round147/CCipher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round147/Dragons.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round147/PeopleCircle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round148/CeyCaps.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round148/CircleGame.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round148/MNS.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round149/BigBurger.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round149/FormatAmt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round149/GForce.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round149/MessageMess.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round149/Pricing.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round15/MagicNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round15/NucleotideShift.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round150/BrickByBrick.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round150/StripePainter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round150/WidgetRepairs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round151/BirthDay.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round151/Gauss.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round151/MergeSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round151/PrefixCode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round152/LeaguePicks.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round152/ProblemWriting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round152/QuiningTopCoder.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round153/Collision.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round153/GasStation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round153/Inventory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round153/PickTeam.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round153/PickTeamTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round154/CheatCode.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round154/Regex.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round154/SuperRot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round155/BenfordsLaw.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round155/PaternityTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round155/Quipu.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round155/QuipuReader.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round155/RedBlackTree.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round156/AllPermutationOfArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round156/BombSweeper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round156/DiskSpace.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round156/PathFinding.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round156/SmartElevator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round156/WordParts.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round156/aa.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round157/GuessTheNumber.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round157/Table.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round158/BaseMystery.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round158/Gems.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round158/StampPads.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round159/FryingHamburgers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round159/PointsOnAxis.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round159/Sets.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round159/StreetParking.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round159/ThePriceIsRight.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round16/BasePerm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round16/InverseModulus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round160/Iditarod.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round160/IditarodTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round160/PermutaionOfAString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round160/Permutation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round160/Quilting.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round160/Substitute.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round161/CardCount.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round161/IsHomomorphism.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round161/PermutationValues.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round161/StringTrain.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round161/TennisRallies.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round162/JarBox.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round162/PaperFold.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round162/PermutationCounter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round162/SMBus.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round163/CalendarRecycle.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round163/Inchworm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round163/Pool.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round163/Rochambo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round164/DesertWind.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round164/Justifier.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round164/PartySeats.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round164/Permutation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round164/UserId.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round164/WhatSort.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round164/WhatSortTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round165/BritishCoins.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round165/LongestEvenLengthSubString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round165/ParellelSpeedup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round165/Scheduling.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round165/SchedulingTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round165/TryRecursion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round166/BinaryCardinality.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round166/CircleBugs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round166/CircleBugsTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round166/MissingLetters.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round166/Workshop.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/Animation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/AnimationTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/BitmapToGraph.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/BitmapToGraphTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/Inserter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/LetterFreq.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/MandelBrot.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round167/Rooms.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round169/FairWorkload.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round169/GoldMine.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round169/MineField.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round169/Swimmers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round169/Twain.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round169/tco2003onlineround3/WaterPressure.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round169/tcoonlineround4/Jewelry.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round17/AlienInvasion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round17/Rot13.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round17/WordCalculator.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round17/WordCalculatorTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round170/CityLink.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round170/Poetry.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round170/RecurrenceRelation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round171/CrossCountry.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round171/RPG.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round171/ResistorCombinations.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round171/ResistorComination1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round171/TextEditor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round171/UndergroundVault.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/BadClock.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/Fifteen.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/Fifteen1.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/Fifteen2.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/Fifteen3.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/Fifteen4.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/PermutationOfAString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round172/SkipRope.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/TreasureHunt.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/WordForm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/tco2003_semifinal_round1/ImmutableTrees.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/tco2003_semifinal_round1/ImmutableTreesTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/tco2003_semifinal_round1/NestedTags.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/tco2003_semifinal_round1/T9Input.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/tco2003_semifinal_round2/RepeatedSubstrings.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round173/tco2003_semifinal_round3/MakeUnique.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round18/AlienInvasion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round20/Reps.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round20/RepsTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round20/Sentence.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round22/Spell.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round22/ThreeCentCoin.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round22/ZBox.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round24/FriendlyIntParser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round26/CalcBusinessDay.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round26/CompareSubstring.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round26/SecretOffer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round26/SecretOfferTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round28/Baseball.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round28/Numbers.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round28/Roots.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round30/MuseumTour.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round30/Spiral.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round30/SpiralTC.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round30/TwoBoxes.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round33/NeuralNet.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round33/WhaleWatcher.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round34/BillOfMaterials.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round34/HoldCost.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round34/MRP.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round39/TimeDelay.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round39/TruthTable.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round724/GravityPuzzleEasy" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round724/GravityPuzzleEasy.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round727/OnlySanta.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/round727/PS" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/srm731/RingLex.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/sun/nese/Chooser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/tco17round1b/WaterAndOxygen.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/tco2003onlineround2/Calculate.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/tco2003onlineround2/Carbon14.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/AlienTakeover.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/AllPermutationOfArray.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/AllPermutationOfString.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/Dice.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/DigitArrange.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/Expressions.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/FlightConection.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/Profit.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/problems/wed091013/StringPermutation.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/ActualAndExpectedResultData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/ClassUtils.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/DummyClass.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/ExecuteTestData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/IntegerArrayParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/IntegerParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/LongParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/NumberParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/ParallelTestExecutor.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/ParseResult.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/Parser.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/ParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/StringArrayParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/StringParserFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/TargetTestFile.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/TestExecutorUsingExecuteService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/TestFile.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/TopCoderTestParseResult.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/TopCoderTester.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/TopCoderTesterBackup.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/TopCoderTesterConcurrent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/junit/ClassUtilsTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/tester/junit/ParserFactoryTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/threadpool/ExecuteInPipelineThread.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/threadpool/PipedData.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/topcoder/threadpool/ThreadPool.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/util/Conversion.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/util/CreateHostInfo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/util/Pojo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/vmware/DeleteVirtualWire.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TopCoder.iml" afterPath="$PROJECT_DIR$/TopCoder.iml" />
+      <change beforePath="$PROJECT_DIR$/bin/lib/junit-4.12.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/array/FirstMissingPositive.java" afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FirstMissingPositive.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/graph/DisjointSetNode.java" afterPath="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/graph/DisjointSetNode.java" />
     </list>
     <ignored path="TopCoder.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/Spring4MVCHelloWorldDemo/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1067,48 +58,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CompletableFutureTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrency/completablefuture/CompletableFutureTest.java">
+      <file leaf-file-name="ArrayPairSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ArrayPairSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToeplitzMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ToeplitzMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HamcrestTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/mycomp/rule/HamcrestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindLargestDInArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/array/FindLargestDInArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstMissingPositive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/array/FirstMissingPositive.java">
+      <file leaf-file-name="MaxAreaOfIsland.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/MaxAreaOfIsland.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="FindAllDisappearedNumber.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FindAllDisappearedNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="176">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="27" selection-end-column="22" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="MedianOfTwoSortedArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/MedianOfTwoSortedArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstMissingPositive.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FirstMissingPositive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JumpGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/IntConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeSumClosest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSumClosest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -1146,16 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/UniqueBinarySerachTrees.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/UniqueBinarySerachTrees1.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/ValidateBinarySearchTrees.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/InOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/RecoverBinarySerachTree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/Codec.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/BinaryTreeUsingBFS.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/RecoverBinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/SameTree.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/tree/SymmetricTree.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/tree/BinaryTreeLevelOrderTraversal.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/String/FindSubStringWithDistictChars.java" />
         <option value="$PROJECT_DIR$/src/com/leetcode/String/AvailableTagList.java" />
@@ -1196,7 +235,17 @@
         <option value="$PROJECT_DIR$/src/com/concurrency/completablefuture/CompletableFutureTest.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindLargestDInArray.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/array/FirstMissingPositive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/concurrency/completablefuture/CompletableFutureTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/graph/DisjointSetNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/Customer.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/NameNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/CustomerService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/RuleTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/HamcrestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/array/FirstMissingPositive.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JumpGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FirstMissingPositive.java" />
       </list>
     </option>
   </component>
@@ -1231,6 +280,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1271,7 +323,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrency" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
@@ -1280,47 +332,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="topcoder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1334,6 +353,11 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sshil/Downloads/code/TopCoder/TopCoder/src/com/leetcode/tree/RecoverBinarySearchTree.java" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mycomp.rule" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -1346,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindLargestDInArray">
+  <component name="RunManager" selected="Application.JumpGame">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -1354,71 +378,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="CompletableFutureTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.concurrency.completablefuture.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.concurrency.completablefuture.CompletableFutureTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TopCoder" />
-      <envs />
-    </configuration>
-    <configuration name="DeleteArrayElementSmallerThanNext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.geeksforgeeks.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.geeksforgeeks.array.DeleteArrayElementSmallerThanNext" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TopCoder" />
-      <envs />
-    </configuration>
-    <configuration name="FindLargestDInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.geeksforgeeks.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.geeksforgeeks.array.FindLargestDInArray" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TopCoder" />
-      <envs />
-    </configuration>
-    <configuration name="OneBitAndTwoBit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.leetcode.array.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.OneBitAndTwoBit" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.FirstMissingPositive" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1430,14 +397,14 @@
       <module name="TopCoder" />
       <envs />
     </configuration>
-    <configuration name="SmallestGreaterElementsInWholeArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="JumpGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.geeksforgeeks.array.*" />
+          <option name="PATTERN" value="com.leetcode.array.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.geeksforgeeks.array.SmallestGreaterElementsInWholeArray" />
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.JumpGame" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -1470,6 +437,81 @@
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration name="HamcrestTest.hasSizeOf3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mycomp.rule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TopCoder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mycomp.rule" />
+      <option name="MAIN_CLASS_NAME" value="com.mycomp.rule.HamcrestTest" />
+      <option name="METHOD_NAME" value="hasSizeOf3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RuleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mycomp.rule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TopCoder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mycomp.rule" />
+      <option name="MAIN_CLASS_NAME" value="com.mycomp.rule.RuleTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="RuleTest.testDivisionWithException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mycomp.rule.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TopCoder" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.mycomp.rule" />
+      <option name="MAIN_CLASS_NAME" value="com.mycomp.rule.RuleTest" />
+      <option name="METHOD_NAME" value="testDivisionWithException" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -1977,19 +1019,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.OneBitAndTwoBit" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DeleteArrayElementSmallerThanNext" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SmallestGreaterElementsInWholeArray" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CompletableFutureTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.FindLargestDInArray" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.RuleTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.RuleTest.testDivisionWithException" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HamcrestTest.hasSizeOf3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.FirstMissingPositive" />
+      <item index="4" class="java.lang.String" itemvalue="Application.JumpGame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.FindLargestDInArray" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CompletableFutureTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SmallestGreaterElementsInWholeArray" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DeleteArrayElementSmallerThanNext" />
-        <item index="4" class="java.lang.String" itemvalue="Application.OneBitAndTwoBit" />
+        <item index="0" class="java.lang.String" itemvalue="Application.JumpGame" />
+        <item index="1" class="java.lang.String" itemvalue="Application.FirstMissingPositive" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HamcrestTest.hasSizeOf3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RuleTest.testDivisionWithException" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RuleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -2101,7 +1143,9 @@
       <workItem from="1520449976100" duration="3060000" />
       <workItem from="1520871635630" duration="15774000" />
       <workItem from="1521576776474" duration="15002000" />
-      <workItem from="1522274674433" duration="6059000" />
+      <workItem from="1522274674433" duration="15162000" />
+      <workItem from="1522719070717" duration="824000" />
+      <workItem from="1522772503850" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1482533604954</created>
@@ -2397,11 +1441,39 @@
       <option name="project" value="LOCAL" />
       <updated>1522197755393</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="add file">
+      <created>1522528497797</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1522528497797</updated>
+    </task>
+    <task id="LOCAL-00044" summary="add file">
+      <created>1522528903204</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1522528903204</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="HamcrestTest_hasSizeOf3 - 2018.03.31 at 14h 16m 00s.xml">
+      <configuration name="HamcrestTest.hasSizeOf3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleTest - 2018.03.31 at 13h 57m 34s.xml">
+      <configuration name="RuleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleTest - 2018.03.31 at 13h 57m 43s.xml">
+      <configuration name="RuleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RuleTest_testDivisionWithException - 2018.03.31 at 13h 57m 56s.xml">
+      <configuration name="RuleTest.testDivisionWithException" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="690697000" />
+    <option name="totallyTimeSpent" value="700645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2413,7 +1485,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -2430,12 +1502,11 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36235294" sideWeight="0.48055556" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39320388" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24117647" sideWeight="0.48055556" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19882353" sideWeight="0.48055556" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2449,6 +1520,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39294118" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -2457,6 +1529,48 @@
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24941176" sideWeight="0.51944447" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36235294" sideWeight="0.48055556" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39294118" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24117647" sideWeight="0.48055556" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18125" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35416666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -4179,8 +3293,14 @@
           <properties />
           <option name="timeStamp" value="436" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JumpGame.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="440" />
+      <option name="time" value="454" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -4212,107 +3332,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/oracle/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/CreateBinaryTreeFromPreorderAndInOrderTraversalIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/CreateTreeFromInorderAndPreOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/FindSubStringWithDistictChars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/CreatebinaryTreeFromPreOrderAndInOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/careercup/amazon/BlockingStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2662">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/careercup/amazon/BuildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/careercup/amazon/FindSentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dailyprogramming/matrix/ColorMaze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzone/AbstractVending.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/dzone/CandyVending.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/CreateBinaryTreeFromInorderAndPostorder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="62" lean-forward="false" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/PrintBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/BinaryLevelOrderTraversal2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/CreateBSTFromSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -4457,14 +3476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSumClosest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/topcoder/problems/srm731/RingLex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4498,22 +3509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ArrayPairSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ToeplitzMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ReshapeTheMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
@@ -4526,15 +3521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="18" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/MaxAreaOfIsland.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4546,21 +3532,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FindAllDisappearedNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="27" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/OneBitAndTwoBit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4582,41 +3557,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrency/completablefuture/CompletableFutureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/array/FindLargestDInArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/array/FirstMissingPositive.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/concurrency/completablefuture/CompletableFutureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/heap/MinHeapKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hackerrank/dp/MandragoraForest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="32" column="27" lean-forward="false" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycomp/rule/NameNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="53" lean-forward="false" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar!/org/hamcrest/Matchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="539" column="33" lean-forward="false" selection-start-line="539" selection-start-column="33" selection-end-line="539" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0-sources.jar!/org/hamcrest/Matcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycomp/rule/RuleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="29" column="57" lean-forward="false" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycomp/rule/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycomp/rule/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/graph/DisjointSetNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="404">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0-sources.jar!/org/hamcrest/Matchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="198" column="35" lean-forward="false" selection-start-line="198" selection-start-column="35" selection-end-line="198" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/mycomp/rule/HamcrestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/MaxAreaOfIsland.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ToeplitzMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FindAllDisappearedNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/MedianOfTwoSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ArrayPairSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/IntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="44" column="53" lean-forward="false" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JumpGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FirstMissingPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
