@@ -3,7 +3,7 @@ def findPair(listX, listY, targetSum):
     indexY = len(listY)-1;
     while indexX < len(listX) and indexY >= 0:
         if listX[indexX] + listY[indexY] == targetSum:
-            print "target sum found with %d and %d " %(listX[indexX],listY[indexY])
+            print ("target sum found with %d and %d " %(listX[indexX],listY[indexY]))
             indexX = indexX + 1
             indexY = indexY - 1
         elif  listX[indexX] + listY[indexY] < targetSum:
