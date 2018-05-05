@@ -11,6 +11,10 @@ def plusOne(digits):
 
     return ret
 
+def plusOne1(digits):
+
+    return [int(i) for i in str(int(''.join(map(str,digits)))+1)]
+
 digits = [1,2,3]
-result = plusOne(digits)
+result = plusOne1(digits)
 print (result)
