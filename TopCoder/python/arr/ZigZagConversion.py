@@ -1,5 +1,3 @@
-#https://leetcode.com/problems/zigzag-conversion/description/
-
 def zigzagprint (s, numRows):
     if len(s) <= numRows:
         return s
@@ -22,11 +20,11 @@ def zigzagprint (s, numRows):
             iteration = 0
             while j < len(s):
                 retVal += s[j]
-                if iteration % 2 == 0 :
+                if iteration % 2 == 0:
                     j = j + nextEvenGap
                 else:
                     j = j + nextOddGap
-                iteration = iteration +1
+                iteration = iteration + 1
 
         startIndex=startIndex+1
         nextEndIndex=nextEndIndex-1
