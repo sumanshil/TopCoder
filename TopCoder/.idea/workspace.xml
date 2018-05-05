@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140ec11d-3f08-4d29-9a92-144f7b40093d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/arr/LongestPalindrom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/PrefixMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/LongestPalindromicSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/PrefixSumArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/ZigZagConversion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/arr/PlusOne.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/arr/PlusOne.py" afterDir="false" />
     </list>
     <ignored path="TopCoder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,6 +28,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TopCoder$PlusOne.coverage" NAME="PlusOne Coverage Results" MODIFIED="1525310219704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$ZigZagConversion.coverage" NAME="ZigZagConversion Coverage Results" MODIFIED="1525546373321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$PrefixMatrix.coverage" NAME="PrefixMatrix Coverage Results" MODIFIED="1525537882204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$PrintGivenMatrixInZigZagForm.coverage" NAME="PrintGivenMatrixInZigZagForm Coverage Results" MODIFIED="1501086361189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.geeksforgeeks.matrix.*</FILTER>
@@ -74,13 +72,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrefixMatrix.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrefixMatrix.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python/arr/PrefixMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZigZagConversion.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZigZagConversion.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/arr/ZigZagConversion.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="PrefixSumArray.java" pinned="false" current-in-tab="false">
@@ -157,8 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/leetcode/array/leetcode/FindAllDisappearedNumber.java" />
-        <option value="$PROJECT_DIR$/src/com/leetcode/array/leetcode/OneBitAndTwoBit.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/array/DeleteArrayElementSmallerThanNext.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/array/SmallestGreaterElementsInWholeArray.java" />
         <option value="$PROJECT_DIR$/src/com/concurrency/completablefuture/CompletableFutureTest.java" />
@@ -208,6 +218,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/LongestPalindromicSubstring.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/PrefixSumArray.java" />
         <option value="$PROJECT_DIR$/python/arr/PrefixMatrix.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion.java" />
+        <option value="$PROJECT_DIR$/python/arr/ZigZagConversion.py" />
       </list>
     </option>
   </component>
@@ -295,7 +307,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
@@ -344,23 +356,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PrefixMatrix">
+  <component name="RunManager" selected="Python.ZigZagConversion">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="LongestPalindromicSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.LongestPalindromicSubstring" />
-      <module name="TopCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.array.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.PlusOne" />
       <module name="TopCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -388,6 +389,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.array.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.String.ZigZagConversion" />
+      <module name="TopCoder" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leetcode.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,25 +489,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="PlusOne" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TopCoder" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/arr" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/arr/PlusOne.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="PrefixMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TopCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -510,6 +503,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/arr/PrefixMatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="ZigZagConversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TopCoder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/arr" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/arr/ZigZagConversion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -951,19 +963,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UniquePaths" />
-      <item itemvalue="Application.PlusOne" />
-      <item itemvalue="Python.PlusOne" />
       <item itemvalue="Application.LongestPalindromicSubstring" />
       <item itemvalue="Application.PrefixSumArray" />
       <item itemvalue="Python.PrefixMatrix" />
+      <item itemvalue="Application.ZigZagConversion" />
+      <item itemvalue="Python.ZigZagConversion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ZigZagConversion" />
+        <item itemvalue="Application.ZigZagConversion" />
         <item itemvalue="Python.PrefixMatrix" />
         <item itemvalue="Application.PrefixSumArray" />
         <item itemvalue="Application.LongestPalindromicSubstring" />
-        <item itemvalue="Python.PlusOne" />
-        <item itemvalue="Application.PlusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -1078,7 +1090,7 @@
       <workItem from="1524234569238" duration="2823000" />
       <workItem from="1525276773539" duration="6653000" />
       <workItem from="1525394042558" duration="522000" />
-      <workItem from="1525535750593" duration="1115000" />
+      <workItem from="1525535750593" duration="7047000" />
     </task>
     <task id="LOCAL-00001" summary="add file">
       <created>1482533604954</created>
@@ -1416,7 +1428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525310094842</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add file">
+      <created>1525538118564</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1525538118564</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1434,7 +1453,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="737462000" />
+    <option name="totallyTimeSpent" value="743394000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1447,6 +1466,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="4" />
       <window_info anchor="right" id="Palette" order="6" />
@@ -1461,13 +1481,13 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48055556" weight="0.29798657" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.48055556" visible="true" weight="0.3773585" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.39294118" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="12" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.48055556" visible="true" weight="0.26650944" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48055556" weight="0.26650944" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.32942554" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="12" />
@@ -1491,47 +1511,47 @@
       <window_info anchor="right" id="Data View" order="13" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.32941177" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="9" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
       <window_info anchor="right" id="Designer" order="8" />
       <window_info anchor="right" id="PlantUML" order="4" />
       <window_info anchor="right" id="Palette" order="6" />
+      <window_info anchor="right" id="Properties" order="10" />
+      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.32941177" />
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.48055556" visible="true" weight="0.2671141" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48055556" weight="0.26650944" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="1" side_tool="true" weight="0.18125" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="right" id="Properties" order="10" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Docker" order="1" />
+      <window_info anchor="bottom" id="Docker" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="12" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
-      <window_info anchor="bottom" id="CheckStyle" order="11" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.51944447" side_tool="true" weight="0.24941176" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51944447" side_tool="true" weight="0.24941176" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.39294118" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Data View" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32942554" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="7" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32941177" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27152777" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32941177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27152777" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="9" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="TODO" order="7" />
       <window_info id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32942554" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="right" id="Coverage" order="1" side_tool="true" weight="0.18125" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.48055556" weight="0.29798657" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" sideWeight="0.48055556" visible="true" weight="0.2971698" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3321,8 +3341,19 @@
           <properties />
           <option name="timeStamp" value="465" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/arr/ZigZagConversion.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="466" />
+      <option name="time" value="468" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -3359,20 +3390,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python/arr/CalculateMinPath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/LongestPalindromicSubstring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0-sources.jar!/org/hamcrest/Matchers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="263">
@@ -3722,6 +3739,16 @@
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/ZigZagConversion.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
