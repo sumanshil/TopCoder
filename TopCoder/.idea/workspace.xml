@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="140ec11d-3f08-4d29-9a92-144f7b40093d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/arr/FlippingAnImage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/FlippingAnImageWithClass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/TransposeOfAMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex40.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex40a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex44.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/myStuff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/csvtutorial/CsvDictReader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/csvtutorial/CsvWriter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/csvtutorial/ReadCsv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/csvtutorial/items.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/csvtutorial/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/csvtutorial/numbers.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/csvtutorial/values.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/JewelsAndStones.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/ToLowerCase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/ntree/MaximumHeightOfTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/projects/skeleton/NAME/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/projects/skeleton/NAME/game.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/projects/skeleton/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/restapi/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/restapi/rest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go/func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go/model.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go/model/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go/mutability.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go/timegreetings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/dynamicprogramming/PrintLongestIncreasingConsecutiveSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/String/ToLowerCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FlippingAnImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JewelsAndStones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/queue/CircularQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vmware/ComponentStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TopCoder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TopCoder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java" afterDir="false" />
     </list>
     <ignored path="TopCoder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -411,6 +373,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sshil/Downloads/code/TopCoder/TopCoder/src/com/leetcode/tree/RecoverBinarySearchTree.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -877,14 +840,7 @@
       <workItem from="1535682917061" duration="872000" />
       <workItem from="1535703790494" duration="8935000" />
       <workItem from="1536300639589" duration="1927000" />
-      <workItem from="1536596410122" duration="1323000" />
-    </task>
-    <task id="LOCAL-00004" summary="add file">
-      <created>1491096853743</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1491096853743</updated>
+      <workItem from="1536596410122" duration="1584000" />
     </task>
     <task id="LOCAL-00005" summary="add file">
       <created>1498077473396</created>
@@ -1222,7 +1178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525742751832</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add file">
+      <created>1536598696117</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1536598696119</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1240,7 +1203,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="860725000" />
+    <option name="totallyTimeSpent" value="860986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
