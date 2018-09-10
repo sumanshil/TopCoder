@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$USER_HOME$/ss/ss-backend/services/src/main/java/com/vmware/skyscraper/sddc/SddcProvisioningServiceImpl.java" line="1305" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="140ec11d-3f08-4d29-9a92-144f7b40093d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/FindMaxHeightAtEachNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/FlippingAnImage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/FlippingAnImageWithClass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/TransposeOfAMatrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex40a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/ex44.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/lpthw3/myStuff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/csvtutorial/CsvDictReader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/csvtutorial/CsvWriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/csvtutorial/ReadCsv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/csvtutorial/items.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/csvtutorial/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/csvtutorial/numbers.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/csvtutorial/values.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/misc/JewelsAndStones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/misc/ToLowerCase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/ntree/MaximumHeightOfTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/projects/skeleton/NAME/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/projects/skeleton/NAME/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/projects/skeleton/setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/restapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/restapi/rest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go/func.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go/model/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go/mutability.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/go/timegreetings.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/dynamicprogramming/PrintLongestIncreasingConsecutiveSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/String/ToLowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FlippingAnImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JewelsAndStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/queue/CircularQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vmware/ComponentStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TopCoder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TopCoder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java" afterDir="false" />
     </list>
     <ignored path="TopCoder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,30 +61,44 @@
   <component name="CheckStyle-IDEA-workspace">
     <option name="configuration">
       <map>
-        <entry key="last-active-plugin-version" value="5.18.6" />
+        <entry key="last-active-plugin-version" value="5.21.0" />
       </map>
     </option>
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TopCoder$PlusOne.coverage" NAME="PlusOne Coverage Results" MODIFIED="1525310219704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
-    <SUITE FILE_PATH="coverage/TopCoder$ZigZagConversion.coverage" NAME="ZigZagConversion Coverage Results" MODIFIED="1525546373321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$TransposeOfAMatrix.coverage" NAME="TransposeOfAMatrix Coverage Results" MODIFIED="1531710897020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$ZigZagCOnversion1.coverage" NAME="ZigZagCOnversion1 Coverage Results" MODIFIED="1525562765931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$ReadCsv.coverage" NAME="ReadCsv Coverage Results" MODIFIED="1526054889694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/csvtutorial" />
+    <SUITE FILE_PATH="coverage/TopCoder$ex40.coverage" NAME="ex40 Coverage Results" MODIFIED="1526003997917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr/lpthw3" />
+    <SUITE FILE_PATH="coverage/TopCoder$FlippingAnImage.coverage" NAME="FlippingAnImage Coverage Results" MODIFIED="1531706289528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$rest.coverage" NAME="rest Coverage Results" MODIFIED="1536186765770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/restapi" />
     <SUITE FILE_PATH="coverage/TopCoder$PrefixMatrix.coverage" NAME="PrefixMatrix Coverage Results" MODIFIED="1525537882204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$PrintGivenMatrixInZigZagForm.coverage" NAME="PrintGivenMatrixInZigZagForm Coverage Results" MODIFIED="1501086361189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.geeksforgeeks.matrix.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TopCoder$CountPairsFromTwoSortedArraysWhoseSumIsEqualToX.coverage" NAME="CountPairsFromTwoSortedArraysWhoseSumIsEqualToX Coverage Results" MODIFIED="1524271081473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$SortStackUsingTemporaryStack.coverage" NAME="SortStackUsingTemporaryStack Coverage Results" MODIFIED="1524234680469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$ex40a.coverage" NAME="ex40a Coverage Results" MODIFIED="1526003474757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr/lpthw3" />
+    <SUITE FILE_PATH="coverage/TopCoder$JewelsAndStones.coverage" NAME="JewelsAndStones Coverage Results" MODIFIED="1534024451813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$RingLex.coverage" NAME="RingLex Coverage Results" MODIFIED="1521304344013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.topcoder.problems.srm731.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TopCoder$ex39.coverage" NAME="ex39 Coverage Results" MODIFIED="1525971342342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr/lpthw3" />
+    <SUITE FILE_PATH="coverage/TopCoder$MaximumHeightOfTree.coverage" NAME="MaximumHeightOfTree Coverage Results" MODIFIED="1525846354125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ntree" />
+    <SUITE FILE_PATH="coverage/TopCoder$MakeUnique.coverage" NAME="MakeUnique Coverage Results" MODIFIED="1509412565502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.topcoder.problems.round173.tco2003_semifinal_round3.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TopCoder$PlusOne.coverage" NAME="PlusOne Coverage Results" MODIFIED="1525310219704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$ZigZagConversion.coverage" NAME="ZigZagConversion Coverage Results" MODIFIED="1525546373321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$CsvDictReader.coverage" NAME="CsvDictReader Coverage Results" MODIFIED="1526055383963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/csvtutorial" />
+    <SUITE FILE_PATH="coverage/TopCoder$CountPairsFromTwoSortedArraysWhoseSumIsEqualToX.coverage" NAME="CountPairsFromTwoSortedArraysWhoseSumIsEqualToX Coverage Results" MODIFIED="1524271081473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$items.coverage" NAME="items Coverage Results" MODIFIED="1526054974271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/csvtutorial" />
+    <SUITE FILE_PATH="coverage/TopCoder$FlippingAnImageWithClass.coverage" NAME="FlippingAnImageWithClass Coverage Results" MODIFIED="1531707934587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$CalculateMinPath.coverage" NAME="CalculateMinPath Coverage Results" MODIFIED="1524271600131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$CheckMirrorInNaryTree.coverage" NAME="CheckMirrorInNaryTree Coverage Results" MODIFIED="1502134291938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.geeksforgeeks.tree.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/TopCoder$RingLex.coverage" NAME="RingLex Coverage Results" MODIFIED="1521304344013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.topcoder.problems.srm731.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/TopCoder$MakeUnique.coverage" NAME="MakeUnique Coverage Results" MODIFIED="1509412565502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.topcoder.problems.round173.tco2003_semifinal_round3.*</FILTER>
-    </SUITE>
+    <SUITE FILE_PATH="coverage/TopCoder$ToLowerCase.coverage" NAME="ToLowerCase Coverage Results" MODIFIED="1536597491521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$CsvWriter.coverage" NAME="CsvWriter Coverage Results" MODIFIED="1526055606323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/csvtutorial" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
@@ -54,17 +108,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DiameterOfANiaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/DiameterOfANiaryTree.java">
+      <file leaf-file-name="rest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/restapi/rest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="22">
+              <caret line="167" selection-start-line="167" selection-end-line="167" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LowestCommonAncestorInBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/LowestCommonAncestorInBinaryTree.java">
+      <file leaf-file-name="JewelsAndStones.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/misc/JewelsAndStones.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToLowerCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/ToLowerCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="19" selection-start-line="7" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlippingAnImage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/arr/FlippingAnImage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="36" selection-start-line="27" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlippingAnImageWithClass.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python/arr/FlippingAnImageWithClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="454">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ToLowerCase.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/python/misc/ToLowerCase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/go/test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding>
+                <element signature="e#14#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/go/model.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -72,16 +186,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindMaxHeightAtEachNode.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/FindMaxHeightAtEachNode.java">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/go/model/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="func.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/go/func.go">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -90,23 +206,47 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Python Script" />
+        <option value="Go File" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
-  <component name="FindBugs-IDEA-Workspace">
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
-  </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System</find>
+      <find>Base64</find>
+      <find>esx-1</find>
+      <find>password</find>
+      <find>vc</find>
+      <find>nsx_</find>
+      <find>esx_host</find>
+      <find>vc_ip</find>
+      <find>esx-2</find>
+      <find>vmc.loc</find>
+      <find>vmc.lo</find>
+      <find>getCspToken</find>
+      <find>hostname</find>
+      <find>vmc.local</find>
+      <find>vmc.loca</find>
+      <find>nsx</find>
+      <find>nsxt</find>
+      <find>esx_ami</find>
+      <find>admin</find>
+      <find>key_mater</find>
+      <find>key_material</find>
+      <find>&quot;</find>
+    </findStrings>
     <replaceStrings>
       <replace />
+      <replace>'</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/com/geeksforgeeks/matrix</dir>
       <dir>$PROJECT_DIR$/src/com/leetcode/tree</dir>
     </dirStrings>
   </component>
+  <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -114,44 +254,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/geeksforgeeks/array/FindLargestDInArray.java" />
-        <option value="$PROJECT_DIR$/src/com/geeksforgeeks/array/FirstMissingPositive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/concurrency/completablefuture/CompletableFutureTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/graph/DisjointSetNode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/Customer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/NameNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/CustomerService.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/RuleTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/mycomp/rule/HamcrestTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/array/FirstMissingPositive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JumpGame.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FirstMissingPositive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/SpiralMatrix2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UniquePaths.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UniquePaths2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/BeforeExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/After.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/AfterExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/Around.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/AroundExample.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/lambda/Closure.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/lambda/MethodHandleTryOut.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/Before.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/Employee.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/GenericValidationResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/GenericValidation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/Validation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/EmployeeValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/Java8Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/ValidatorUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/lambda/link" />
-        <option value="$PROJECT_DIR$/src/main/java/com/topcoder/problems/srm733/MinimizeAbsoluteDifferenceDiv2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/java8/lambda/LambdaTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/LevelOrderTraversalInTwolevels.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/MinPathSum.java" />
-        <option value="$PROJECT_DIR$/python/arr/CalculateMinPath" />
         <option value="$PROJECT_DIR$/python/arr/CalculateMinPath.py" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/PlusOne.java" />
         <option value="$PROJECT_DIR$/python/arr/CountPairsFromTwoSortedArraysWhoseSumIsEqualToX.py" />
@@ -165,6 +267,44 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion1.java" />
         <option value="$PROJECT_DIR$/python/arr/ZigZagCOnversion1.py" />
         <option value="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/FindMaxHeightAtEachNode.java" />
+        <option value="$PROJECT_DIR$/python/ntree/MaximumHeightOfTree.py" />
+        <option value="$PROJECT_DIR$/python/arr/lpthw3/ex39.py" />
+        <option value="$PROJECT_DIR$/python/arr/lpthw3/myStuff.py" />
+        <option value="$PROJECT_DIR$/python/arr/lpthw3/ex40a.py" />
+        <option value="$PROJECT_DIR$/python/arr/lpthw3/ex40.py" />
+        <option value="$PROJECT_DIR$/python/arr/lpthw3/ex44.py" />
+        <option value="$PROJECT_DIR$/python/projects/skeleton/NAME/__init__.py" />
+        <option value="$PROJECT_DIR$/python/projects/skeleton/setup.py" />
+        <option value="$PROJECT_DIR$/python/projects/skeleton/NAME/game.py" />
+        <option value="$PROJECT_DIR$/python/projects/skeleton/tests/NAME_tests.py" />
+        <option value="$PROJECT_DIR$/python/csvtutorial/numbers.csv" />
+        <option value="$PROJECT_DIR$/python/csvtutorial/ReadCsv.py" />
+        <option value="$PROJECT_DIR$/python/csvtutorial/items.csv" />
+        <option value="$PROJECT_DIR$/python/csvtutorial/items.py" />
+        <option value="$PROJECT_DIR$/python/csvtutorial/values.csv" />
+        <option value="$PROJECT_DIR$/python/csvtutorial/CsvDictReader.py" />
+        <option value="$PROJECT_DIR$/python/csvtutorial/CsvWriter.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/geeksforgeeks/dynamicprogramming/PrintLongestIncreasingConsecutiveSubsequence.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vmware/ComponentStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FlippingAnImage.java" />
+        <option value="$PROJECT_DIR$/python/arr/FlippingAnImage.py" />
+        <option value="$PROJECT_DIR$/python/arr/FlippingAnImageWithClass.py" />
+        <option value="$PROJECT_DIR$/python/arr/TransposeOfAMatrix.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JewelsAndStones.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/queue/CircularQueue.java" />
+        <option value="$PROJECT_DIR$/python/misc/JewelsAndStones.py" />
+        <option value="$PROJECT_DIR$/src/go/test.go" />
+        <option value="$PROJECT_DIR$/src/go/func.go" />
+        <option value="$PROJECT_DIR$/src/go/mutability.go" />
+        <option value="$PROJECT_DIR$/src/go/timegreetings.go" />
+        <option value="$PROJECT_DIR$/src/go/model/main.go" />
+        <option value="$PROJECT_DIR$/src/go/sliceliterals.go" />
+        <option value="$PROJECT_DIR$/src/go/model.go" />
+        <option value="$PROJECT_DIR$/python/restapi/rest.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/String/ToLowerCase.java" />
+        <option value="$PROJECT_DIR$/python/misc/ToLowerCase.py" />
       </list>
     </option>
   </component>
@@ -174,6 +314,13 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -181,9 +328,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="819" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -209,7 +355,7 @@
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="arr" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +390,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
@@ -253,28 +399,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="niary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="vmware" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,18 +410,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sshil/Downloads/code/TopCoder/TopCoder/src/com/leetcode/tree/RecoverBinarySearchTree.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/functionalprogramming" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sshil/Downloads/code/TopCoder/TopCoder/src/com/leetcode/tree/RecoverBinarySearchTree.java" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com/functionalprogramming" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vmware" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mycomp.rule" />
     </key>
@@ -312,17 +447,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindMaxHeightAtEachNode">
+  <component name="RunManager" selected="Python.ToLowerCase">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="FindMaxHeightAtEachNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geeksforgeeks.tree.niary.FindMaxHeightAtEachNode" />
+    <configuration name="ToLowerCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.String.ToLowerCase" />
       <module name="TopCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geeksforgeeks.tree.niary.*" />
+          <option name="PATTERN" value="com.leetcode.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,28 +469,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leetcode.array.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ZigZagConversion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.String.ZigZagConversion" />
-      <module name="TopCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ZigZagConversion1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.String.ZigZagConversion1" />
-      <module name="TopCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.String.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,6 +502,37 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="go build sliceliterals.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TopCoder" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/go/sliceliterals.go" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="go build timegreetings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="TopCoder" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/go/timegreetings.go" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <setting name="vmparams" value="" />
@@ -445,7 +589,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
     </configuration>
-    <configuration name="ZigZagCOnversion1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ToLowerCase" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TopCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -453,18 +597,18 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/arr" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/misc" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/arr/ZigZagCOnversion1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/misc/ToLowerCase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="ZigZagConversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TopCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -472,12 +616,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/arr" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/restapi" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/arr/ZigZagConversion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/restapi/rest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -504,34 +648,6 @@
       <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
-        <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
@@ -584,317 +700,6 @@
       </Profilers>
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TopCoder" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="TopCoder" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TopCoder" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TopCoder" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TopCoder" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="TopCoder" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TopCoder" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -919,19 +724,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UniquePaths" />
-      <item itemvalue="Application.ZigZagConversion" />
-      <item itemvalue="Python.ZigZagConversion" />
-      <item itemvalue="Application.ZigZagConversion1" />
-      <item itemvalue="Python.ZigZagCOnversion1" />
-      <item itemvalue="Application.FindMaxHeightAtEachNode" />
+      <item itemvalue="Python.rest" />
+      <item itemvalue="Go Build.go build timegreetings.go" />
+      <item itemvalue="Go Build.go build sliceliterals.go" />
+      <item itemvalue="Application.ToLowerCase" />
+      <item itemvalue="Python.ToLowerCase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FindMaxHeightAtEachNode" />
-        <item itemvalue="Python.ZigZagCOnversion1" />
-        <item itemvalue="Application.ZigZagConversion1" />
-        <item itemvalue="Python.ZigZagConversion" />
-        <item itemvalue="Application.ZigZagConversion" />
+        <item itemvalue="Python.ToLowerCase" />
+        <item itemvalue="Application.ToLowerCase" />
+        <item itemvalue="Python.rest" />
+        <item itemvalue="Go Build.go build sliceliterals.go" />
+        <item itemvalue="Go Build.go build timegreetings.go" />
       </list>
     </recent_temporary>
   </component>
@@ -1047,14 +852,32 @@
       <workItem from="1525276773539" duration="6653000" />
       <workItem from="1525394042558" duration="522000" />
       <workItem from="1525535750593" duration="8635000" />
-      <workItem from="1525739300265" duration="3194000" />
-    </task>
-    <task id="LOCAL-00003" summary="add file">
-      <created>1491083648394</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1491083648394</updated>
+      <workItem from="1525739300265" duration="3907000" />
+      <workItem from="1525828589747" duration="11713000" />
+      <workItem from="1526065389628" duration="1957000" />
+      <workItem from="1526491404911" duration="51000" />
+      <workItem from="1526501094148" duration="14961000" />
+      <workItem from="1526786745319" duration="7000" />
+      <workItem from="1531703455051" duration="6632000" />
+      <workItem from="1532998419937" duration="578000" />
+      <workItem from="1533009584124" duration="4000" />
+      <workItem from="1533058383215" duration="3487000" />
+      <workItem from="1533255472872" duration="8467000" />
+      <workItem from="1533366701845" duration="9501000" />
+      <workItem from="1533694981159" duration="496000" />
+      <workItem from="1533836593052" duration="5377000" />
+      <workItem from="1534180109191" duration="1687000" />
+      <workItem from="1534198838523" duration="2543000" />
+      <workItem from="1534357001580" duration="4801000" />
+      <workItem from="1534737861117" duration="4782000" />
+      <workItem from="1534887411775" duration="2405000" />
+      <workItem from="1534917776281" duration="4000" />
+      <workItem from="1534976216150" duration="9825000" />
+      <workItem from="1535335086590" duration="9295000" />
+      <workItem from="1535682917061" duration="872000" />
+      <workItem from="1535703790494" duration="8935000" />
+      <workItem from="1536300639589" duration="1927000" />
+      <workItem from="1536596410122" duration="1323000" />
     </task>
     <task id="LOCAL-00004" summary="add file">
       <created>1491096853743</created>
@@ -1392,7 +1215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525721738467</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add file">
+      <created>1525742751831</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1525742751832</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1410,7 +1240,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="748382000" />
+    <option name="totallyTimeSpent" value="860725000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1422,7 +1252,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="4" />
       <window_info anchor="right" id="Palette" order="6" />
@@ -1437,17 +1267,19 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48055556" weight="0.3767927" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48055556" weight="0.37617925" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.39243808" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.39150944" />
       <window_info id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="12" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="14" side_tool="true" weight="0.13055556" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32942554" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.48055556" visible="true" weight="0.26466754" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48055556" visible="true" weight="0.3573113" />
+      <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27152777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36041668" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -1459,7 +1291,6 @@
       <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.32941177" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32941177" />
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info id="Web" order="8" side_tool="true" />
@@ -1467,17 +1298,16 @@
       <window_info anchor="right" id="Data View" order="13" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.32941177" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="8" />
       <window_info anchor="right" id="Designer" order="8" />
       <window_info anchor="right" id="PlantUML" order="4" />
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.32941177" />
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info id="Image Layers" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.48055556" visible="true" weight="0.2659713" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48055556" weight="0.3573113" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="1" side_tool="true" weight="0.18125" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Web" order="8" side_tool="true" />
@@ -1488,7 +1318,8 @@
       <window_info anchor="right" id="Commander" order="2" weight="0.4" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51944447" side_tool="true" weight="0.24941176" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.39294118" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.39150944" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" order="14" side_tool="true" visible="true" weight="0.13055556" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
       <window_info anchor="right" id="Data View" order="13" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -1498,7 +1329,7 @@
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32941177" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27152777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36041668" />
       <window_info anchor="right" id="SciView" order="0" />
       <window_info anchor="right" id="Database" order="9" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -1507,7 +1338,8 @@
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48055556" weight="0.3773585" />
+      <window_info anchor="right" id="Coverage" order="1" side_tool="true" weight="0.18125" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.48055556" weight="0.37617925" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -3315,13 +3147,132 @@
           <properties />
           <option name="timeStamp" value="470" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/FindMaxHeightAtEachNode.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/dynamicprogramming/PrintLongestIncreasingConsecutiveSubsequence.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>259</line>
+          <properties />
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>277</line>
+          <properties />
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>322</line>
+          <properties />
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>266</line>
+          <properties />
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>271</line>
+          <properties />
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>201</line>
+          <properties />
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>188</line>
+          <properties />
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="491" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/python/arr/ZigZagConversion.py</url>
           <line>1</line>
           <option name="timeStamp" value="467" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/ntree/MaximumHeightOfTree.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/ntree/MaximumHeightOfTree.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/arr/FlippingAnImage.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/arr/FlippingAnImage.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="494" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/restapi/rest.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="496" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/restapi/rest.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="497" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/misc/ToLowerCase.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="498" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="471" />
+      <option name="time" value="499" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -3358,304 +3309,174 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FindAllDisappearedNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/python/projects/skeleton/NAME/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/MedianOfTwoSortedArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/distutils/core.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ArrayPairSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/IntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JumpGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FirstMissingPositive.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/SpiralMatrix2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UniquePaths.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UniquePaths2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/Lambda.java" />
-    <entry file="file://$PROJECT_DIR$/target/classes/com/java8/lambda/Closure.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" selection-start-line="7" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/lambda/Closure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" selection-start-line="2" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Development/lambda/Anony$2.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/groupby/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/groupby/PersonGroupByExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/AroundExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#1149#1150#0" />
-            <element signature="e#1191#1192#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/AfterExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#1018#1019#0" />
-            <element signature="e#1059#1060#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/Around.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/BeforeExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="72" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/Before.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/combinators/After.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/EmployeeValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/Validation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/ValidatorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="37" column="81" selection-start-line="37" selection-start-column="81" selection-end-line="37" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/GenericValidationResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/GenericValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/Java8Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/functionalprogramming/validation/link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/lambda/link">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="87" selection-start-column="87" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/topcoder/problems/srm733/MinimizeAbsoluteDifferenceDiv2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/lambda/MethodHandleTryOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/java8/lambda/LambdaTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29216">
-          <caret line="1399" column="11" selection-start-line="1399" selection-start-column="11" selection-end-line="1399" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/LevelOrderTraversalInTwolevels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/MinPathSum.java">
+    <entry file="file://$PROJECT_DIR$/python/projects/skeleton/NAME/game.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/PlusOne.java">
+    <entry file="file://$PROJECT_DIR$/python/projects/skeleton/tests/NAME_tests.py" />
+    <entry file="file://$PROJECT_DIR$/python/projects/skeleton/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="66">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/arr/CountPairsFromTwoSortedArraysWhoseSumIsEqualToX.py">
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/numbers.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/LongestPalindromicSubstring.java">
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/ReadCsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="176">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/arr/CalculateMinPath.py">
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/items.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/arr/PlusOne.py">
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="198">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/values.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/CsvDictReader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/CsvWriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/csvtutorial/numbers2.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/dynamicprogramming/PrintLongestIncreasingConsecutiveSubsequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/web/client/DefaultResponseErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/http/HttpEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/http/HttpHeaders.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6292">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/web/client/HttpMessageConverterExtractor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/http/converter/AbstractHttpMessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/http/client/SimpleClientHttpResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/http/converter/StringHttpMessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/3.0.2.RELEASE/spring-core-3.0.2.RELEASE.jar!/org/springframework/util/FileCopyUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.0.2.RELEASE/spring-web-3.0.2.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4488">
+          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vmware/DeleteVirtualWire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/vmware/ComponentStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -3666,34 +3487,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/arr/PrefixMatrix.py">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/FlippingAnImage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="141">
+          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion.java">
+    <entry file="file://$PROJECT_DIR$/python/arr/lpthw3/ex39.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="1298">
+          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/ZigZagConversion1.java">
+    <entry file="file://$PROJECT_DIR$/python/arr/PlusOne.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/arr/ZigZagConversion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -3704,27 +3515,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/DiameterOfANiaryTree.java">
+    <entry file="file://$PROJECT_DIR$/python/arr/ZigZagConversion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="682">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/LowestCommonAncestorInBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/python/arr/PrefixMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6776">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/LongestPalindrom.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/queue/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/JewelsAndStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/TransposeOfAMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go/mutability.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go/timegreetings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go/test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#14#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go/func.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/go/model.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/geeksforgeeks/tree/niary/FindMaxHeightAtEachNode.java">
+    <entry file="file://$PROJECT_DIR$/src/go/model/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        <state relative-caret-position="44">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/restapi/rest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="167" selection-start-line="167" selection-end-line="167" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/FlippingAnImage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" selection-start-line="27" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/FlippingAnImageWithClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/ToLowerCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="19" selection-start-line="7" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/misc/JewelsAndStones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/misc/ToLowerCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
