@@ -121,7 +121,7 @@ class VmcUtil:
                 return True
             else:
                 print('Current status is {}, task {}, progress {}'.format(data['status'], taskid, str(data['progress_percent'])))
-            time.sleep(60)
+            time.sleep(5)
             r = requests.get(url, headers=headers)
 
 
@@ -142,7 +142,7 @@ class VmcUtil:
             url = url.format(serverip, sddcid)
             r = requests.post(url, headers=headers)
             taskId = r.json()["id"]
-            taskstatus = self.getTaskStatus(taskId)
+            taskstatus = self.taskStatus(taskId)
 
             if taskstatus:
                 print('preparation succeeded')
@@ -158,34 +158,50 @@ class VmcUtil:
         r = requests.get(url, headers=headers)
 
         components = (r.json()["component_status"])
-        feedbackpresent = False
         prechecksuccessful = self.precheck(components, serverip, sddcid, headers)
-        if prechecksuccessful:
-            logicalsuccess = self.logical(components, serverip, sddcid, headers)
-        else:
+
+        if prechecksuccessful is False:
             feedbackpresent = self.checkfeedback(serverip, sddcid, headers)
+            if feedbackpresent is not None:
+                feedbackresponse = self.preparefeedbackresponse(feedbackpresent)
+                response = self.applyfeedback(feedbackresponse)
+                if response.status_code == 200 or response.status_code == 201:
+                    prechecksuccessful = self.precheck(components, serverip, sddcid, headers)
+            else:
+                print("Aborting migration as precheck failed and no feedback found")
 
-        while feedbackpresent:
-            rawinput = input("Apply feedback and press y to continue")
-            if rawinput == 'y':
-                prechecksuccessful = self.precheck(components, serverip, sddcid, headers)
-                if prechecksuccessful is False:
-                    feedbackpresent = self.checkfeedback(serverip, sddcid, headers)
-                else:
-                    feedbackpresent = False
-
+        if prechecksuccessful is False:
+            print("Precheck failed. Aborting migration")
         #if logicalsuccess:
 
+    def applyfeedback(self, serverip, sddcid, headers):
+        feedbackuri = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/feedback'.format(serverip, sddcid)
+        r = requests.post(feedbackuri, headers=headers)
+        return r
 
     def checkfeedback(self, serverip, sddcid, headers):
         feedbackuri = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/feedback'.format(serverip, sddcid)
         r = requests.get(feedbackuri, headers=headers)
-
+        results = []
         if r.status_code == 200:
-            print(r.json())
-            if len(r.json()) > 0:
-                return True
-        return False
+            results = r.json()["results"]
+            for r in results:
+                if r["vertical"] == "EDGE" and r["sub_vertical"] == "FIREWALL":
+                    results.append(r["id"])
+                else:
+                    return None
+        return results
+
+    def preparefeedbackresponse(self, ruleids):
+        response = []
+        response.append('{"response_list":[')
+        for id in ruleids:
+            ruleids.append('{"id":"'+id+'","action":"skip"}')
+            ruleids.append(',')
+        ruleids.remove(len(ruleids)-1)
+        ruleids.append(']}')
+        retval = ''.join(ruleids);
+        return retval
 
     def logical(self, components, serverip, sddcid, headers):
         logcaluri = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/logicalconstructs?action=start'.format(serverip, sddcid)
@@ -199,13 +215,13 @@ class VmcUtil:
             r = requests.post(logcaluri, headers=headers)
             taskId = r.json()["id"]
 
-            taskstatus = self.getTaskStatus(taskId)
+            taskstatus = self.taskStatus(taskId)
 
             if taskstatus:
                 print('logcal succeeded')
                 return True
             else:
-                print("logcal failed")
+                print("logical failed")
                 return False
 
 
@@ -217,22 +233,40 @@ class VmcUtil:
                 print("PRECHECK completed successfully. continue to next phase")
                 return True
             elif 'details' in component and component['details'] == 'Rollback done':
-                precheckurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/infrastructure?action=continue'.format(serverip, sddcid)
+                precheckurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/precheck?action=continue'.format(serverip, sddcid)
+                break
             else:
-                precheckurl ='http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/infrastructure?action=start'.format(serverip, sddcid)
+                precheckurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/precheck?action=start'.format(serverip, sddcid)
+                break
 
         if precheckurl is not None:
-            r = requests.post(precheckurl, headers=headers)
-            taskId = r.json()["id"]
+            requests.post(precheckurl, headers=headers)
+            return self.wait_till_success_or_failure(sddcid, serverip, 'precheck')
 
-            taskstatus = self.getTaskStatus(taskId)
-
-            if taskstatus:
-                print('precheck succeeded')
+    def wait_till_success_or_failure(self, sddcid, serverip, stage):
+        while True:
+            componentstatus = self.check_status(stage, serverip, sddcid)
+            if componentstatus == "SUCCESS":
+                print(stage + ' succeeded')
                 return True
-            else:
-                print("precheck failed")
+            elif componentstatus == "FAILED":
+                print(stage + ' failed')
                 return False
+            else:
+                print(stage + ' is still running')
+                continue
+
+    def check_status(self, stagename, serverip, sddcid):
+        url = self.getcomponentstatus.format(serverip, sddcid)
+        cspauthtoken = self.getOperatorToken()
+        headers = {'Content-type': 'application/json', 'csp-auth-token':cspauthtoken}
+        r = requests.get(url, headers=headers)
+
+        components = (r.json()["component_status"])
+        for component in components:
+            if component["component_type"] == stagename:
+                return component["status"]
+
 
 
 def showusage():
@@ -255,7 +289,7 @@ def main(argv):
 if __name__ == '__main__':
     main(sys.argv)
 
-#util = VmcUtil('10.33.79.115')
+#util = VmcUtil('10.2.44.233')
 ##util.getSddcsStatus()
 #util.getTaskStatus('f2b1330f-2745-4a5c-8cf0-5beddbd78d46')
 #util.startMigration()

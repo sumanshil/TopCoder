@@ -15,7 +15,7 @@ def decode(str):
         else :
             stack.append(c)
 
-    print stack.pop()
+    print(stack.pop())
 
 
 decode("3[b2[ca]]")
