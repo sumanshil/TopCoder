@@ -3,19 +3,33 @@ import json
 import time
 import sys,getopt
 import os
+import pprint
+
+class Feedbacks:
+    def __init__(self, feedbacks):
+        self.response_list = feedbacks
+
+class Feedback:
+    def __init__(self, id, action):
+        self.id = id
+        self.action = action
+    def toJSON(self):
+        return json.dumps(self, default=lambda o: o.__dict__,
+                          sort_keys=True, indent=4)
 
 class VmcUtil:
     def __init__(self, ip):
         self.ip = ip
         self.activeTaskUrl = 'http://{}:8080/vmc/api/operator/tasks?$filter=status%20eq%20%27STARTED%27'
-        self.taskurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/tasks/{}'
+        self.taskurl = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/tasks/{}'
         self.authurl = 'http://{}:8000/csp/am/api/login'
         self.sddcurl = 'http://{}:8080/vmc/api/operator/sddcs/'
         self.sddcspecificurl = 'http://{}:8080/vmc/api/operator/sddcs/{}'
-        self.v2tprepareurlmigration = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/prepare?mode=migration'
-        self.v2tprepareurlverification = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/prepare?mode=verification'
+        self.v2tprepareurlmigration = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/prepare?mode=migration'
+        self.v2tprepareurlverification = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/prepare?mode=verification'
         self.getprecheckstatus = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/precheck'
-        self.getcomponentstatus = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/migration/pop/networks/v1/migration/status-summary'
+        self.getcomponentstatus = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/migration/pop/networks/api/v1/migration/status-summary'
+        self.rollbackurl = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration?action=rollback'
 
 
     def getCspToken(self):
@@ -107,7 +121,7 @@ class VmcUtil:
         self.taskStatus(taskids[index])
 
     def taskStatus(self, taskid):
-        cspauthtoken = self.getCspToken()
+        cspauthtoken = self.getOperatorToken()
         url = self.taskurl.format(self.ip, taskid)
         headers = {'Content-type': 'application/json', 'csp-auth-token':cspauthtoken}
         r = requests.get(url, headers=headers)
@@ -157,91 +171,139 @@ class VmcUtil:
         headers = {'Content-type': 'application/json', 'csp-auth-token':cspauthtoken}
         r = requests.get(url, headers=headers)
 
+        action_dict = {1:'start', 2:'continue', 3:'rollback', 4: 'feedback', 5: 'next', 6: 'exit'}
+        stage_dict = {'PRECHECK': 'precheck', 'LOGICAL_CONSTRUCTS': 'logicalconstructs', 'EDGE': 'edge', 'INFRASTRUCTURE':'insfrastructure'}
+
+        print("current status")
+        pprint.pprint(r.json())
+        statuses = ['PRECHECK', 'LOGICAL_CONSTRUCTS', 'EDGE', 'INFRASTRUCTURE']
+        i = 0
+        while i < len(statuses):
+            status = statuses[i]
+            print('Current stage '+status)
+            currentstatus = self.check_status(status, serverip, sddcid);
+            if currentstatus == "SUCCESS":
+                print(status+" has completed successfully")
+            elif currentstatus == "IN_PROGRESS":
+                print('currenst status' + currentstatus + 'Waiting' )
+                time.sleep(10)
+                continue
+            else:
+                action = self.getActionFromUser(action_dict)
+                if action_dict.get(action) == 'exit':
+                    return
+                elif action_dict.get(action) == 'start' or action_dict.get(action) == 'continue':
+                    self.execute(serverip, sddcid, headers, stage_dict.get(status), action_dict.get(action))
+                elif action_dict.get(action) == 'rollback':
+                    self.applyrollback(serverip, sddcid, headers)
+                elif action_dict.get(action) == 'next':
+                    i = i + 1
+                elif action_dict.get(action) == 'feedback':
+                    feedbacks = self.checkfeedback(serverip, sddcid, headers)
+                    if len(feedbacks) > 0:
+                        response = self.preparefeedbackresponse(feedbacks)
+                        #feedbacklist = Feedbacks(response)
+                        #data = {}
+                        #data['response_list'] = response
+                        task = self.applyfeedback(serverip, sddcid, headers, json.loads(response))
+                        taskId = task.json()["id"]
+                        self.taskStatus(taskId)
+            url = self.getcomponentstatus.format(serverip, sddcid)
+            r = requests.get(url, headers=headers)
+            pprint.pprint(r.json())
+
+
+
+        """
         components = (r.json()["component_status"])
-        prechecksuccessful = self.precheck(components, serverip, sddcid, headers)
+        overall_status = (r.json()["overall_migration_status"])
+        prechecksuccessful = self.precheck(overall_status, serverip, sddcid, headers)
 
         if prechecksuccessful is False:
             feedbackpresent = self.checkfeedback(serverip, sddcid, headers)
-            if feedbackpresent is not None:
+            if len(feedbackpresent) > 0:
                 feedbackresponse = self.preparefeedbackresponse(feedbackpresent)
                 response = self.applyfeedback(feedbackresponse)
                 if response.status_code == 200 or response.status_code == 201:
-                    prechecksuccessful = self.precheck(components, serverip, sddcid, headers)
+                    prechecksuccessful = self.precheck(overall_status, serverip, sddcid, headers)
             else:
-                print("Aborting migration as precheck failed and no feedback found")
+                prechecksuccessful = self.precheck(overall_status, serverip, sddcid, headers)
 
         if prechecksuccessful is False:
             print("Precheck failed. Aborting migration")
         #if logicalsuccess:
+        """
+    def getActionFromUser(self, dict):
+        print(dict)
+        value = input("Enter action : ")
+        return int(value)
 
-    def applyfeedback(self, serverip, sddcid, headers):
-        feedbackuri = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/feedback'.format(serverip, sddcid)
-        r = requests.post(feedbackuri, headers=headers)
+    def applyfeedback(self, serverip, sddcid, headers, data):
+        feedbackuri = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/feedback'.format(serverip, sddcid)
+        r = requests.post(feedbackuri, json=data, headers=headers)
+        return r
+
+    def applyrollback(self, serverip, sddcid, headers):
+        rollbackuri = self.rollbackurl.format(serverip, sddcid)
+        r = requests.post(rollbackuri, headers=headers)
         return r
 
     def checkfeedback(self, serverip, sddcid, headers):
-        feedbackuri = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/feedback'.format(serverip, sddcid)
+        feedbackuri = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/feedback'.format(serverip, sddcid)
         r = requests.get(feedbackuri, headers=headers)
-        results = []
-        if r.status_code == 200:
+        retVal = []
+        if r.status_code == 200 and 'results' in r.json():
             results = r.json()["results"]
             for r in results:
-                if r["vertical"] == "EDGE" and r["sub_vertical"] == "FIREWALL":
-                    results.append(r["id"])
+                if r.get('vertical') == 'EDGE' and r.get('sub_vertical') == 'FIREWALL':
+                    retVal.append(r.get('id'))
                 else:
                     return None
-        return results
+        return retVal
 
+#{"response_list":[{"id":"143-9139137058749679128-edge-1:131074","action":"skip"},
+#                 > {  "id":"143-9139137058749679128-edge-1:131075","action":"skip"}]}
     def preparefeedbackresponse(self, ruleids):
         response = []
         response.append('{"response_list":[')
+        index = 0
         for id in ruleids:
-            ruleids.append('{"id":"'+id+'","action":"skip"}')
-            ruleids.append(',')
-        ruleids.remove(len(ruleids)-1)
-        ruleids.append(']}')
-        retval = ''.join(ruleids);
+            response.append('{"id":"'+id+'","action":"skip"}')
+            if index < len(ruleids)-1:
+                response.append(',')
+            index = index + 1
+        response.append(']}')
+        retval = ''.join(response)
         return retval
+        #feedbacks = []
+        #for id in ruleids:
+        #    feedback = Feedback(id, 'skip')
+        #    feedbacks.append(feedback)
+        #return feedbacks
 
-    def logical(self, components, serverip, sddcid, headers):
-        logcaluri = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/logicalconstructs?action=start'.format(serverip, sddcid)
-        for component in components:
-            print(component)
-            if component['component_type'] == 'LOGICAL_CONSTRUCTS' and component['status'] == 'SUCCESS':
-                print("LOGICAL_CONSTRUCTS completed successfully. continue to next phase")
-                return True
+    def execute(self, serverip, sddcid, headers, stage, action):
+        logcaluri = 'http://{}:8090/vmc/skynet/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/{}?action={}'.format(serverip, sddcid,stage, action)
+        r = requests.post(logcaluri, headers=headers)
+        taskId = r.json()["id"]
 
-        if logcaluri is not None:
-            r = requests.post(logcaluri, headers=headers)
-            taskId = r.json()["id"]
+        taskstatus = self.taskStatus(taskId)
 
-            taskstatus = self.taskStatus(taskId)
+        if taskstatus:
+            print(stage + 'succeeded')
+            return True
+        else:
+            print(stage+ 'failed')
+            return False
 
-            if taskstatus:
-                print('logcal succeeded')
-                return True
-            else:
-                print("logical failed")
-                return False
-
-
-    def precheck(self, components, serverip, sddcid, headers):
-        precheckurl = None
-        for component in components:
-            print(component)
-            if component['component_type'] == 'PRECHECK' and component['status'] == 'SUCCESS':
-                print("PRECHECK completed successfully. continue to next phase")
-                return True
-            elif 'details' in component and component['details'] == 'Rollback done':
-                precheckurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/precheck?action=continue'.format(serverip, sddcid)
-                break
-            else:
-                precheckurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/precheck?action=start'.format(serverip, sddcid)
-                break
+    def precheck(self, overall_status, serverip, sddcid, headers):
+        if overall_status == 'NOT_STARTED':
+            precheckurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/precheck?action=start'.format(serverip, sddcid)
+        else:
+            precheckurl = 'http://{}:8080/vmc/api/orgs/a67ba602-6689-450c-a743-8842ca6b032a/sddcs/{}/networking/migration/stages/precheck?action=continue'.format(serverip, sddcid)
 
         if precheckurl is not None:
             requests.post(precheckurl, headers=headers)
-            return self.wait_till_success_or_failure(sddcid, serverip, 'precheck')
+            return self.wait_till_success_or_failure(sddcid, serverip, 'PRECHECK')
 
     def wait_till_success_or_failure(self, sddcid, serverip, stage):
         while True:
@@ -250,6 +312,9 @@ class VmcUtil:
                 print(stage + ' succeeded')
                 return True
             elif componentstatus == "FAILED":
+                print(stage + ' failed')
+                return False
+            elif componentstatus == "NOT_STARTED":
                 print(stage + ' failed')
                 return False
             else:
@@ -279,18 +344,20 @@ def main(argv):
     server = os.environ['SERVER_HOST']
     print(server)
     print(choice)
+    util = VmcUtil(server)
     if choice == 1:
-        util = VmcUtil(server)
         util.getSddcsStatus()
     elif choice == 2:
-        util = VmcUtil(server)
         util.getTaskStatus()
+    elif choice == 3:
+        util.startMigration();
 
-if __name__ == '__main__':
-    main(sys.argv)
 
-#util = VmcUtil('10.2.44.233')
-##util.getSddcsStatus()
+#if __name__ == '__main__':
+#    main(sys.argv)
+
+util = VmcUtil('10.84.225.168')
+util.startMigration()
 #util.getTaskStatus('f2b1330f-2745-4a5c-8cf0-5beddbd78d46')
 #util.startMigration()
 
