@@ -4,66 +4,18 @@
     <bookmark url="file://$USER_HOME$/ss/ss-backend/services/src/main/java/com/vmware/skyscraper/sddc/SddcProvisioningServiceImpl.java" line="1352" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="140ec11d-3f08-4d29-9a92-144f7b40093d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/python/arr/DistributeCandies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/NextGreaterElements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/PalindromNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/SingleNumber.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/arr/Solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/functional.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/AddTwoNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/BaseballGame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/BinaryGap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/CloneAStackWithoutExtraSpace.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/FizzBuzz.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/GroupOfSpecialEquivalentString.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/IsAlienSorted.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/KeyboardRow.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/LeafSimilarTress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/LongestSubstringWithoutRepeating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/MedianOfTwoSortedArrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/PingCounter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/ReverseAString1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/ShortestDistanceToAChar.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/SortObjects.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/UncommonWordsFromTwoSentences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/dataclassestest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/func_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/func_reduce_example.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/func_refactor/func_remove_state.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/func_refactor/func_remove_state1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/func_refactor/imperative_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/misc/func_refactor/more_functions_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/ntree/IncreasingOrderSearchTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/ntree/IsIslandPerimiter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/ntree/MaxDepthOfTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python/ntree/TrimABinarySearchTree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/apas/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambdathrowingex/ThrowingFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lambdathrowingex/WebCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/String/KeyboardRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/String/LongestSubstringWithoutRepeatingCharacters1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/String/RegularExpressionMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/IslandPerimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/NextGreaterElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UncommonWordsFromTwoSentences.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UncommonWordsFromTwoSentences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/BinaryGap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/DistributeCandies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/MyAtoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/PalindromNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/SingleNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/TwoSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/VerifyingAnAlienDictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/BaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/tree/IncreasingOrderSearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/tree/MaximumDepthOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/tree/TrimABinarySearchTree1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/util/FizzBuzz.java" afterDir="false" />
+    <list default="true" id="140ec11d-3f08-4d29-9a92-144f7b40093d" name="Default" comment="add file">
+      <change afterPath="$PROJECT_DIR$/python/arr/ContainerWithMostWater.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/IntToROman.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/arr/ThreeSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/misc/LongestCommonPrefix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/misc/RegularExpressionMatching.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ContainerWithMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/leetcode/integer/RomanToInteger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TopCoder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TopCoder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python/restapi/rest.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/restapi/rest.py" afterDir="false" />
     </list>
     <ignored path="TopCoder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,7 +47,10 @@
     <SUITE FILE_PATH="coverage/TopCoder$CheckMirrorInNaryTree.coverage" NAME="CheckMirrorInNaryTree Coverage Results" MODIFIED="1502134291938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.geeksforgeeks.tree.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/TopCoder$IntToROman.coverage" NAME="IntToROman Coverage Results" MODIFIED="1550544020673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$NextGreaterElements.coverage" NAME="NextGreaterElements Coverage Results" MODIFIED="1547103429206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$LongestCommonPrefix.coverage" NAME="LongestCommonPrefix Coverage Results" MODIFIED="1550704821160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$ThreeSum.coverage" NAME="ThreeSum Coverage Results" MODIFIED="1550968456114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$DistributeCandies.coverage" NAME="DistributeCandies Coverage Results" MODIFIED="1545376816786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$SingleNumber.coverage" NAME="SingleNumber Coverage Results" MODIFIED="1547069256473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
     <SUITE FILE_PATH="coverage/TopCoder$MaxDepthOfTree.coverage" NAME="MaxDepthOfTree Coverage Results" MODIFIED="1547058212230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ntree" />
@@ -104,12 +59,14 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/TopCoder$FizzBuzz.coverage" NAME="FizzBuzz Coverage Results" MODIFIED="1545424680628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
     <SUITE FILE_PATH="coverage/TopCoder$LongestSubstringWithoutRepeating.coverage" NAME="LongestSubstringWithoutRepeating Coverage Results" MODIFIED="1549177530273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$RegularExpressionMatching.coverage" NAME="RegularExpressionMatching Coverage Results" MODIFIED="1550451992477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
     <SUITE FILE_PATH="coverage/TopCoder$TrimABinarySearchTree.coverage" NAME="TrimABinarySearchTree Coverage Results" MODIFIED="1544404383087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/ntree" />
     <SUITE FILE_PATH="coverage/TopCoder$RingLex.coverage" NAME="RingLex Coverage Results" MODIFIED="1521304344013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.topcoder.problems.srm731.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/TopCoder$MedianOfTwoSortedArrays.coverage" NAME="MedianOfTwoSortedArrays Coverage Results" MODIFIED="1549339340143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
     <SUITE FILE_PATH="coverage/TopCoder$AddTwoNumbers.coverage" NAME="AddTwoNumbers Coverage Results" MODIFIED="1548887301489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$ContainerWithMostWater.coverage" NAME="ContainerWithMostWater Coverage Results" MODIFIED="1550453160114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/arr" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="$PROJECT_DIR$" />
@@ -120,55 +77,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/integer/MyAtoi.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/integer/LongestCommonPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="266">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/integer/PalindromNumber.java">
+        <entry file="file://$PROJECT_DIR$/python/misc/LongestCommonPrefix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="2" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/arr/PalindromNumber.py">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="399">
+              <caret line="32" column="43" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/RegularExpressionMatching.java">
+        <entry file="file://$PROJECT_DIR$/python/arr/ThreeSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/NumberFormatException.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="35834">
+              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+        <entry file="file://$PROJECT_DIR$/python/misc/RegularExpressionMatching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="304">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -216,8 +176,8 @@
       <list>
         <option value="Interface" />
         <option value="Go File" />
-        <option value="Python Script" />
         <option value="Class" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -278,16 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lambdathrowingex/WebCrawler.java" />
-        <option value="$PROJECT_DIR$/python/misc/GroupOfSpecialEquivalentString.py" />
-        <option value="$PROJECT_DIR$/python/misc/dataclassestest.py" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UncommonWordsFromTwoSentences.java" />
-        <option value="$PROJECT_DIR$/python/misc/UncommonWordsFromTwoSentences.py" />
-        <option value="$PROJECT_DIR$/python/misc/SortObjects.py" />
-        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/UncommonWordsFromTwoSentences.py" />
-        <option value="$PROJECT_DIR$/python/misc/ReverseAString1.py" />
-        <option value="$PROJECT_DIR$/python/functional.py" />
-        <option value="$PROJECT_DIR$/python/misc/func_reduce_example.py" />
         <option value="$PROJECT_DIR$/python/misc/func_filter.py" />
         <option value="$PROJECT_DIR$/python/misc/func_refactor/imperative_car.py" />
         <option value="$PROJECT_DIR$/python/misc/func_refactor/more_functions_car.py" />
@@ -329,6 +279,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/integer/PalindromNumber.java" />
         <option value="$PROJECT_DIR$/python/arr/PalindromNumber.py" />
         <option value="$PROJECT_DIR$/src/main/java/com/leetcode/String/RegularExpressionMatching.java" />
+        <option value="$PROJECT_DIR$/python/misc/RegularExpressionMatching.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ContainerWithMostWater.java" />
+        <option value="$PROJECT_DIR$/python/arr/ContainerWithMostWater.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/integer/IntegerToRoman.java" />
+        <option value="$PROJECT_DIR$/python/arr/IntToROman.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/integer/RomanToInteger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/integer/LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/python/misc/LongestCommonPrefix.py" />
+        <option value="$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSum.java" />
+        <option value="$PROJECT_DIR$/python/arr/ThreeSum.py" />
       </list>
     </option>
   </component>
@@ -343,9 +303,8 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="833" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -369,7 +328,83 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="arr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
@@ -377,7 +412,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sshil/Downloads/code/TopCoder/TopCoder/src/com/leetcode/tree/RecoverBinarySearchTree.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550450513018" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550969605974" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
@@ -414,7 +449,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RegularExpressionMatching">
+  <component name="RunManager" selected="Python.ThreeSum">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -487,8 +522,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyAtoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.integer.MyAtoi" />
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.integer.LongestCommonPrefix" />
       <module name="TopCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -501,8 +536,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.integer.PalindromNumber" />
+    <configuration name="RomanToInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.integer.RomanToInteger" />
       <module name="TopCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -515,27 +550,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.String.RegularExpressionMatching" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.ThreeSum" />
       <module name="TopCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.leetcode.String.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.integer.ReverseInteger" />
-      <module name="TopCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.integer.*" />
+          <option name="PATTERN" value="com.leetcode.array.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -627,7 +648,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromNumber" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LongestCommonPrefix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TopCoder" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/misc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/misc/LongestCommonPrefix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreeSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TopCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -640,7 +683,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/arr/PalindromNumber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/arr/ThreeSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -683,19 +726,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.UniquePaths" />
-      <item itemvalue="Application.ReverseInteger" />
-      <item itemvalue="Application.MyAtoi" />
-      <item itemvalue="Application.PalindromNumber" />
-      <item itemvalue="Application.RegularExpressionMatching" />
-      <item itemvalue="Python.PalindromNumber" />
+      <item itemvalue="Application.RomanToInteger" />
+      <item itemvalue="Application.LongestCommonPrefix" />
+      <item itemvalue="Python.LongestCommonPrefix" />
+      <item itemvalue="Application.ThreeSum" />
+      <item itemvalue="Python.ThreeSum" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegularExpressionMatching" />
-        <item itemvalue="Python.PalindromNumber" />
-        <item itemvalue="Application.PalindromNumber" />
-        <item itemvalue="Application.MyAtoi" />
-        <item itemvalue="Application.ReverseInteger" />
+        <item itemvalue="Python.ThreeSum" />
+        <item itemvalue="Application.ThreeSum" />
+        <item itemvalue="Python.LongestCommonPrefix" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.RomanToInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -920,14 +963,9 @@
       <workItem from="1549832383034" duration="1427000" />
       <workItem from="1549948073379" duration="4325000" />
       <workItem from="1550099341336" duration="2709000" />
-      <workItem from="1550441414249" duration="926000" />
-    </task>
-    <task id="LOCAL-00008" summary="add file">
-      <created>1502137895792</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1502137895792</updated>
+      <workItem from="1550441414249" duration="5869000" />
+      <workItem from="1550551099283" duration="3430000" />
+      <workItem from="1550966283562" duration="2405000" />
     </task>
     <task id="LOCAL-00009" summary="add file">
       <created>1505952929156</created>
@@ -1265,7 +1303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541301421094</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add file">
+      <created>1550450541769</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1550450541771</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1283,7 +1328,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1152545000" />
+    <option name="totallyTimeSpent" value="1163323000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1297,7 +1342,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37339056" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3783977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1342,7 +1387,7 @@
       <window_info anchor="right" id="Maven" order="15" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37339056" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3783977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1354,8 +1399,8 @@
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32871288" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.48055556" weight="0.2433735" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.47997138" visible="true" weight="0.62650603" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.48055556" visible="true" weight="0.2433735" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.47997138" weight="0.53493977" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -3437,6 +3482,18 @@
           <properties />
           <option name="timeStamp" value="606" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/integer/LongestCommonPrefix.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="611" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSum.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="612" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/python/ntree/TrimABinarySearchTree.py</url>
           <line>28</line>
@@ -3512,6 +3569,21 @@
           <line>2</line>
           <option name="timeStamp" value="601" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/misc/RegularExpressionMatching.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="607" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/misc/RegularExpressionMatching.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="608" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python/arr/ThreeSum.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="613" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -3579,83 +3651,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/urllib/parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14668">
-          <caret line="774" selection-start-line="774" selection-end-line="774" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5567">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/misc/func_refactor/imperative_car.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/misc/func_refactor/more_functions_car.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/linkedlist/BaseballGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" selection-start-line="10" selection-end-line="43" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16682">
-          <caret line="880" column="33" selection-start-line="880" selection-start-column="33" selection-end-line="880" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/tree/IncreasingOrderSearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="42" column="12" selection-start-line="19" selection-end-line="42" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/IslandPerimiter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4009">
-          <caret line="277" column="53" selection-start-line="277" selection-start-column="53" selection-end-line="277" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/ntree/IsIslandPerimiter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/misc/func_refactor/func_remove_state.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/misc/func_refactor/func_remove_state1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -3918,6 +3913,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/RegularExpressionMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ContainerWithMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/ContainerWithMostWater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/integer/IntegerToRoman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/IntToROman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/integer/RomanToInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/integer/LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35834">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/misc/RegularExpressionMatching.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/ntree/MaxDepthOfTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -3946,10 +4010,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/String/RegularExpressionMatching.java">
+    <entry file="file://$PROJECT_DIR$/python/misc/LongestCommonPrefix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="34" column="44" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="2" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/leetcode/array/leetcode/ThreeSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="32" column="43" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/arr/ThreeSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
