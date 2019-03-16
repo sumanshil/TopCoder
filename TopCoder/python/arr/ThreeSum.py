@@ -5,7 +5,7 @@ class Solution:
 
         for i in range(len(nums)-2):
 
-            if  i > 0 and nums[i] == nums[i-1]:
+            if i > 0 and nums[i] == nums[i-1]:
                 continue
 
             target = 0 - nums[i]
