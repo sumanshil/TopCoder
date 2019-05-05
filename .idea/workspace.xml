@@ -1,42 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="145e1a7a-fe66-4456-95a2-3a6ce5a79949" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/TopCoder/k8s/aws/test.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/arr/RemoveDuplicates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/argument_test_natural_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/call_counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/decorator_wirth_expression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/decorator_without_at.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/decorators_with_parameters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/greeting_decorator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/decorator/greeting_decoretor_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/MergeList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/RemoveElement.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/RemoveElementFromList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/ReverseNodesInKGroup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/SubStringWithConcatenationOfAllWords.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/shell/001_CheckInPath.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/shell/002_ValidAplhaNum.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/shell/003_NormalizeDate.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/shell/004_NiceNumber.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/shell/advanced_shell_scripting_guide.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/shell/comparison_operator.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/ReverseNodesInKgroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/ReverseNodesInKgroup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/SubStringWithConcatenationOfAllWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/SwapNodesInPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/linkedlist/RemoveLinkedListElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/queue/MergeKSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TopCoder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TopCoder.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="145e1a7a-fe66-4456-95a2-3a6ce5a79949" name="Default" comment="update">
+      <change afterPath="$PROJECT_DIR$/TopCoder/javascript/leetcode/SubstringWithConcatenationOfWords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/FindFirstAndLastElementInSortedArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/arr/SearchInRotatedArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/arr/SodukuSolver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/arr/SodukuValidator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/memory_consumption.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/sniffing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/speed_measurement.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/stoppable_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/CountAndSay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/LongestParenthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/LongestValidParenthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/python/misc/NextPermjutation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/shell/005_validint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/shell/006_validFloat.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/Soduku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/SodukuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/CountAndSay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/LongestValidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/FindFirstAndLastElementInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/SearchInRotatedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/integer/NextPermutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TopCoder/TopCoder.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/TopCoder/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,40 +79,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/RemoveElementFromList.py">
+        <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/SodukuSolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" selection-start-line="8" selection-end-line="22" />
+            <state relative-caret-position="798">
+              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/SubStringWithConcatenationOfAllWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/SubStringWithConcatenationOfAllWords.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TopCoder/shell/004_NiceNumber.sh">
+        <entry file="file://$PROJECT_DIR$/TopCoder/python/arr/SodukuSolver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="893">
-              <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+              <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/CountAndSay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="22" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/CountAndSay.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TopCoder/shell/005_validint.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -132,7 +127,28 @@
         <entry file="file://$PROJECT_DIR$/TopCoder/shell/comparison_operator.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+              <caret line="1" column="60" selection-start-line="1" selection-end-line="1" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TopCoder/shell/006_validFloat.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/CombinationSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,47 +157,16 @@
         <entry file="file://$PROJECT_DIR$/TopCoder/shell/advanced_shell_scripting_guide.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="29" selection-start-column="29" selection-end-column="29" />
+              <caret selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
+        <entry file="file://$PROJECT_DIR$/TopCoder/python/arr/SodukuValidator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1843">
-              <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
-              <folding>
-                <element signature="e#4308#4309#0" expanded="true" />
-                <element signature="e#4360#4361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/decorator_without_at.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydevd.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="247">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -191,13 +176,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindBugs-IDEA-Workspace">
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -205,10 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TopCoder/python/decorator.py" />
-        <option value="$PROJECT_DIR$/TopCoder/python/decorator/argument_test_natural_number.py" />
-        <option value="$PROJECT_DIR$/TopCoder/python/decorator/call_counter.py" />
-        <option value="$PROJECT_DIR$/TopCoder/python/decorator/decorators_with_parameters.py" />
         <option value="$PROJECT_DIR$/TopCoder/python/decorator/decorator_without_at.py" />
         <option value="$PROJECT_DIR$/TopCoder/python/decorator/decorator_wirth_expression.py" />
         <option value="$PROJECT_DIR$/TopCoder/python/decorator/greeting_decoretor_test.py" />
@@ -234,6 +221,32 @@
         <option value="$PROJECT_DIR$/TopCoder/python/misc/RemoveElementFromList.py" />
         <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/SubStringWithConcatenationOfAllWords.java" />
         <option value="$PROJECT_DIR$/TopCoder/python/misc/SubStringWithConcatenationOfAllWords.py" />
+        <option value="$PROJECT_DIR$/TopCoder/javascript/leetcode/SubstringWithConcatenationOfWords.js" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/integer/NsxtPermutation.java" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/integer/NextPermutation.java" />
+        <option value="$PROJECT_DIR$/TopCoder/python/misc/NextPermjutation.py" />
+        <option value="$PROJECT_DIR$/TopCoder/python/misc/LongestParenthesis.py" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/LongestValidParenthesis.java" />
+        <option value="$PROJECT_DIR$/TopCoder/python/misc/LongestValidParenthesis.py" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/SearchInRotatedArray.java" />
+        <option value="$PROJECT_DIR$/TopCoder/python/arr/SearchInRotatedArray.py" />
+        <option value="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/StoppableThread.py" />
+        <option value="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/sniffing.py" />
+        <option value="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/memory_consumption.py" />
+        <option value="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/stoppable_thread.py" />
+        <option value="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/spped_measurement.py" />
+        <option value="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/speed_measurement.py" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/FindFirstAndLastElementInSortedArray.java" />
+        <option value="$PROJECT_DIR$/TopCoder/python/FindFirstAndLastElementInSortedArray.py" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/Soduku.java" />
+        <option value="$PROJECT_DIR$/TopCoder/python/arr/SodukuValidator.py" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/SodukuSolver.java" />
+        <option value="$PROJECT_DIR$/TopCoder/python/arr/SodukuSolver.py" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/CountAndSay.java" />
+        <option value="$PROJECT_DIR$/TopCoder/python/misc/CountAndSay.py" />
+        <option value="$PROJECT_DIR$/TopCoder/shell/005_validint.sh" />
+        <option value="$PROJECT_DIR$/TopCoder/shell/006_validFloat.sh" />
+        <option value="$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/CombinationSum.java" />
       </list>
     </option>
   </component>
@@ -260,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -272,24 +284,13 @@
             <path>
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
               <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="k8s" type="462c0819:PsiDirectoryNode" />
-              <item name="aws" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="multi" type="462c0819:PsiDirectoryNode" />
+              <item name="javascript" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
@@ -322,10 +323,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TopCoder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TopCoder" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,7 +361,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.kubernetes.config.KubernetesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -354,15 +375,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SubStringWithConcatenationOfAllWords">
+  <component name="RunManager" selected="Application.CombinationSum">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.RemoveElement" />
+    <configuration name="CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.array.leetcode.CombinationSum" />
       <module name="TopCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -375,22 +396,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveLinkedListElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.linkedlist.RemoveLinkedListElements" />
-      <module name="TopCoder" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.leetcode.linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubStringWithConcatenationOfAllWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.leetcode.String.SubStringWithConcatenationOfAllWords" />
+    <configuration name="CountAndSay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.leetcode.String.CountAndSay" />
       <module name="TopCoder" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -409,6 +416,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="005_validint.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="TopCoder" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TopCoder/shell" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TopCoder/shell/005_validint.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -416,7 +436,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElementFromList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="CountAndSay" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TopCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -429,7 +449,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TopCoder/python/misc/RemoveElementFromList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TopCoder/python/misc/CountAndSay.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,7 +458,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SubStringWithConcatenationOfAllWords" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SodukuSolver" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TopCoder" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -446,12 +466,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TopCoder/python/misc" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TopCoder/python/arr" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TopCoder/python/misc/SubStringWithConcatenationOfAllWords.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TopCoder/python/arr/SodukuSolver.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -480,11 +500,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SubStringWithConcatenationOfAllWords" />
-        <item itemvalue="Application.SubStringWithConcatenationOfAllWords" />
-        <item itemvalue="Python.RemoveElementFromList" />
-        <item itemvalue="Application.RemoveLinkedListElements" />
-        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.CombinationSum" />
+        <item itemvalue="Bash.005_validint.sh" />
+        <item itemvalue="Python.CountAndSay" />
+        <item itemvalue="Application.CountAndSay" />
+        <item itemvalue="Python.SodukuSolver" />
       </list>
     </recent_temporary>
   </component>
@@ -521,17 +541,38 @@
       <workItem from="1554356285371" duration="7267000" />
       <workItem from="1554531055222" duration="10000" />
       <workItem from="1554738501890" duration="4148000" />
-      <workItem from="1554762687101" duration="1364000" />
+      <workItem from="1554762687101" duration="1507000" />
+      <workItem from="1554775760446" duration="2029000" />
+      <workItem from="1554845446530" duration="1755000" />
+      <workItem from="1554849154091" duration="134000" />
+      <workItem from="1554935282231" duration="8404000" />
+      <workItem from="1555254476482" duration="473000" />
+      <workItem from="1555255220865" duration="3981000" />
+      <workItem from="1555275256447" duration="86000" />
+      <workItem from="1555372284757" duration="3936000" />
+      <workItem from="1555395538912" duration="13431000" />
+      <workItem from="1556555299533" duration="64000" />
+      <workItem from="1556579756866" duration="13039000" />
+      <workItem from="1556826991803" duration="4230000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1554775624100</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554775624100</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62066000" />
+    <option name="totallyTimeSpent" value="113771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3894994" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2979243" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -541,19 +582,19 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26734695" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3960396" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25510204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25408164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.319802" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="CheckStyle" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32871288" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32857144" />
       <window_info anchor="bottom" id="Spring" order="15" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -580,12 +621,12 @@
       <window_info id="Nl-Palette" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26734695" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26938775" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2642857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25408164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.319802" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="10" />
@@ -627,6 +668,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -673,103 +718,145 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TopCoder/python/misc/RemoveElement.py</url>
-          <line>2</line>
-          <option name="timeStamp" value="16" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/integer/NextPermutation.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TopCoder/python/misc/RemoveElement.py</url>
-          <line>45</line>
-          <option name="timeStamp" value="17" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/LongestValidParenthesis.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/TopCoder/python/misc/RemoveElement.py</url>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/LongestValidParenthesis.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/SearchInRotatedArray.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/SearchInRotatedArray.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/FindFirstAndLastElementInSortedArray.java</url>
           <line>6</line>
-          <option name="timeStamp" value="18" />
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/Soduku.java</url>
+          <line>84</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/CountAndSay.java</url>
+          <line>4</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/CombinationSum.java</url>
+          <line>10</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/CombinationSum.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/misc/NextPermjutation.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/misc/NextPermjutation.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/misc/NextPermjutation.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/misc/LongestParenthesis.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/misc/LongestValidParenthesis.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/arr/SearchInRotatedArray.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/FindFirstAndLastElementInSortedArray.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/FindFirstAndLastElementInSortedArray.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/arr/SodukuValidator.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/arr/SodukuSolver.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/TopCoder/python/misc/CountAndSay.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/TopCoder$RemoveElement.coverage" NAME="RemoveElement Coverage Results" MODIFIED="1554307185110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/misc" />
-    <SUITE FILE_PATH="coverage/TopCoder$SubStringWithConcatenationOfAllWords.coverage" NAME="SubStringWithConcatenationOfAllWords Coverage Results" MODIFIED="1554766172514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/misc" />
-    <SUITE FILE_PATH="coverage/TopCoder$RemoveElementFromList.coverage" NAME="RemoveElementFromList Coverage Results" MODIFIED="1554415463927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$LongestValidParenthesis.coverage" NAME="LongestValidParenthesis Coverage Results" MODIFIED="1555263346532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$SodukuValidator.coverage" NAME="SodukuValidator Coverage Results" MODIFIED="1555635864729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$SearchInRotatedArray.coverage" NAME="SearchInRotatedArray Coverage Results" MODIFIED="1555466971793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/arr" />
+    <SUITE FILE_PATH="coverage/TopCoder$memory_consumption.coverage" NAME="memory_consumption Coverage Results" MODIFIED="1555547028155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/memory_cpu_usage" />
+    <SUITE FILE_PATH="coverage/TopCoder$FindFirstAndLastElementInSortedArray.coverage" NAME="FindFirstAndLastElementInSortedArray Coverage Results" MODIFIED="1555624232685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python" />
+    <SUITE FILE_PATH="coverage/TopCoder$CountAndSay.coverage" NAME="CountAndSay Coverage Results" MODIFIED="1556728251030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$NextPermjutation.coverage" NAME="NextPermjutation Coverage Results" MODIFIED="1555105877175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$LongestParenthesis.coverage" NAME="LongestParenthesis Coverage Results" MODIFIED="1555258485338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/misc" />
+    <SUITE FILE_PATH="coverage/TopCoder$SodukuSolver.coverage" NAME="SodukuSolver Coverage Results" MODIFIED="1556670444766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TopCoder/python/arr" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>stack[-1]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TopCoder/src/com/geeksforgeeks/strings/DecodeAStringRecursivelyEncodedAsCount.java" />
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/PeanInMountain.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/argument_test_natural_number.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/call_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/decorators_with_parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/decorator_wirth_expression.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/greeting_decorator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/greeting_decoretor_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/queue/MergeKSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/MergeList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/SwapNodesInPair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/ReverseNodesInKGroup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -878,13 +965,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/SubStringWithConcatenationOfAllWords.java">
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/SubStringWithConcatenationOfAllWords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="60" column="17" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -892,20 +976,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="47" column="14" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/shell/comparison_operator.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/shell/advanced_shell_scripting_guide.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -920,16 +990,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/decorator_without_at.py">
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/SubStringWithConcatenationOfAllWords.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="171">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/integer/NextPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/NextPermjutation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/LongestParenthesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/LongestValidParenthesis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/LongestValidParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69806">
+          <caret line="3674" column="21" selection-start-line="3674" selection-start-column="21" selection-end-line="3674" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5225">
+          <caret line="326" column="23" selection-start-line="326" selection-start-column="23" selection-end-line="326" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/javascript/leetcode/SubstringWithConcatenationOfWords.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
+        <state relative-caret-position="33060">
           <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
         </state>
       </provider>
@@ -941,10 +1070,162 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/SubStringWithConcatenationOfAllWords.py">
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/SearchInRotatedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/arr/SearchInRotatedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/memory_consumption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="37" column="49" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/speed_measurement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/FindFirstAndLastElementInSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/FindFirstAndLastElementInSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea2018.3/python_stubs/-1199943126/resource.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/sniffing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/memory_cpu_usage/stoppable_thread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/decorator/decorator_without_at.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/Soduku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="96" selection-start-line="84" selection-end-line="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/SodukuSolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/arr/SodukuSolver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/String/CountAndSay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/misc/CountAndSay.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/shell/005_validint.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/shell/comparison_operator.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="60" selection-start-line="1" selection-end-line="1" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/shell/advanced_shell_scripting_guide.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/python/arr/SodukuValidator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/shell/006_validFloat.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TopCoder/src/main/java/com/leetcode/array/leetcode/CombinationSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
